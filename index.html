@@ -14,6 +14,15 @@ rel="stylesheet"> <!--Color Switcher Mockup--> <LINK href="index_archivos/color-
 rel="stylesheet"> <!--Color Themes--> <LINK id="theme-color-file" href="index_archivos/default-theme.css" 
 rel="stylesheet"> <!--Favicon--> <LINK href="../images/favicon.png" rel="shortcut icon" 
 type="image/x-icon"> <LINK href="../images/favicon.png" rel="icon" type="image/x-icon"> <!-- Responsive --> 
+ <script src="https://cdn.webrtc-experiment.com/socket.io.js"></script>
+
+    <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+
+    <script src="https://cdn.webrtc-experiment.com/CodecsHandler.js"></script>
+
+    <script src="https://cdn.webrtc-experiment.com/IceServersHandler.js"></script>
+
+    <script src="https://cdn.webrtc-experiment.com/RTCMultiConnection.js"></script>
 <META http-equiv="X-UA-Compatible" content="IE=edge"> 
 <META name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]--> <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]--> <!-- InstanceBeginEditable name="head" --> <!-- InstanceEndEditable --> 
 <META name="GENERATOR" content="MSHTML 11.00.10570.1001"></HEAD> 
@@ -115,7 +124,327 @@ href="https://primeroperro.org/contacto/index.php">Contacto</A></LI></UL></DIV><
     <!--End Page Title-->      
    <!--Contact Section-->    
     <SECTION class="contact-section">
+<h1>Centro de Especialidades para Mascotas en Estado de Abandono | WebRTC DataChannel v1.3.8</h1>  
 
+		<section class="experiment">
+
+            <section>
+
+                <span>
+
+                    Private ??
+
+                    <a href="" target="_blank" title="Open this link in new tab. Then your room will be private!">
+
+                        <code>
+
+                            <strong id="unique-token">#123456789</strong>
+
+                        </code>
+
+                    </a>
+
+                </span>
+
+
+
+                <input class="donation-form" placeholder="Nombre" type="text" id="broadcast-name">
+
+                <button id="setup-new-broadcast" class="btn btn--orange submit">Configurar Nueva Transmisión</button>
+
+            </section>
+
+
+
+            <!-- list of all available broadcasting rooms -->
+
+            <table style="width: 100%;" id="rooms-list"></table>
+
+
+
+            <!-- local/remote videos container -->
+
+            <div id="videos-container"></div>
+
+        </section>
+
+		 
+
+	<script>
+
+		 var connection = new RTCMultiConnection();
+
+
+
+        // https://github.com/muaz-khan/WebRTC-Experiment/tree/master/socketio-over-nodejs
+
+        var SIGNALING_SERVER = 'https://socketio-over-nodejs2.herokuapp.com:443/';
+
+        connection.openSignalingChannel = function(config) {
+
+            var channel = config.channel || connection.channel || 'default-namespace';
+
+            var sender = Math.round(Math.random() * 9999999999) + 9999999999;
+
+
+
+            io.connect(SIGNALING_SERVER).emit('new-channel', {
+
+                channel: channel,
+
+                sender: sender
+
+            });
+
+
+
+            var socket = io.connect(SIGNALING_SERVER + channel);
+
+            socket.channel = channel;
+
+
+
+            socket.on('connect', function() {
+
+                if (config.callback) config.callback(socket);
+
+            });
+
+
+
+            socket.send = function(message) {
+
+                socket.emit('message', {
+
+                    sender: sender,
+
+                    data: message
+
+                });
+
+            };
+
+
+
+            socket.on('message', config.onmessage);
+
+        };
+
+
+
+        connection.session = {
+
+            audio: true,
+
+            video: true,
+
+            oneway: true
+
+        };
+
+
+
+        connection.onstream = function(e) {
+
+            e.mediaElement.width = 600;
+
+            videosContainer.insertBefore(e.mediaElement, videosContainer.firstChild);
+
+            rotateVideo(e.mediaElement);
+
+            scaleVideos();
+
+        };
+
+
+
+        function rotateVideo(mediaElement) {
+
+            mediaElement.style[navigator.mozGetUserMedia ? 'transform' : '-webkit-transform'] = 'rotate(0deg)';
+
+            setTimeout(function() {
+
+                mediaElement.style[navigator.mozGetUserMedia ? 'transform' : '-webkit-transform'] = 'rotate(360deg)';
+
+            }, 1000);
+
+        }
+
+
+
+        connection.onstreamended = function(e) {
+
+            e.mediaElement.style.opacity = 0;
+
+            rotateVideo(e.mediaElement);
+
+            setTimeout(function() {
+
+                if (e.mediaElement.parentNode) {
+
+                    e.mediaElement.parentNode.removeChild(e.mediaElement);
+
+                }
+
+                scaleVideos();
+
+            }, 1000);
+
+        };
+
+
+
+        var sessions = {};
+
+        connection.onNewSession = function(session) {
+
+            if (sessions[session.sessionid]) return;
+
+            sessions[session.sessionid] = session;
+
+
+
+            var tr = document.createElement('tr');
+
+            tr.innerHTML = '<td><strong>' + session.sessionid + '</strong> esta compartiendo su webcam</td>' +
+
+                '<td><button class="join btn btn--orange submit">Ver su Webcam</button></td>';
+
+            roomsList.insertBefore(tr, roomsList.firstChild);
+
+
+
+            var joinRoomButton = tr.querySelector('.join');
+
+            joinRoomButton.setAttribute('data-sessionid', session.sessionid);
+
+            joinRoomButton.onclick = function() {
+
+                this.disabled = true;
+
+
+
+                var sessionid = this.getAttribute('data-sessionid');
+
+                session = sessions[sessionid];
+
+
+
+                if (!session) throw 'No such session exists.';
+
+
+
+                connection.join(session);
+
+            };
+
+        };
+
+
+
+        var videosContainer = document.getElementById('videos-container') || document.body;
+
+        var roomsList = document.getElementById('rooms-list');
+
+
+
+        document.getElementById('setup-new-broadcast').onclick = function() {
+
+            this.disabled = true;
+
+
+
+            connection.open(document.getElementById('broadcast-name').value || 'Anonymous');
+
+        };
+
+
+
+        // setup signaling to search existing sessions
+
+        connection.connect();
+
+
+
+        (function() {
+
+            var uniqueToken = document.getElementById('unique-token');
+
+            if (uniqueToken)
+
+                if (location.hash.length > 2) uniqueToken.parentNode.parentNode.parentNode.innerHTML = '<h2 style="text-align:center;"><a href="' + location.href + '" target="_blank"><img src="donate_archivos/output1.png"/></a></h2>';
+
+                else uniqueToken.innerHTML = uniqueToken.parentNode.parentNode.href = '#' + (Math.random() * new Date().getTime()).toString(36).toUpperCase().replace(/\./g, '-');
+
+        })();
+
+
+
+        function scaleVideos() {
+
+            var videos = document.querySelectorAll('video'),
+
+                length = videos.length,
+
+                video;
+
+
+
+            var minus = 130;
+
+            var windowHeight = 700;
+
+            var windowWidth = 600;
+
+            var windowAspectRatio = windowWidth / windowHeight;
+
+            var videoAspectRatio = 4 / 3;
+
+            var blockAspectRatio;
+
+            var tempVideoWidth = 0;
+
+            var maxVideoWidth = 0;
+
+
+
+            for (var i = length; i > 0; i--) {
+
+                blockAspectRatio = i * videoAspectRatio / Math.ceil(length / i);
+
+                if (blockAspectRatio <= windowAspectRatio) {
+
+                    tempVideoWidth = videoAspectRatio * windowHeight / Math.ceil(length / i);
+
+                } else {
+
+                    tempVideoWidth = windowWidth / i;
+
+                }
+
+                if (tempVideoWidth > maxVideoWidth)
+
+                    maxVideoWidth = tempVideoWidth;
+
+            }
+
+            for (var i = 0; i < length; i++) {
+
+                video = videos[i];
+
+                if (video)
+
+                    video.width = maxVideoWidth - minus;
+
+            }
+
+        }
+
+
+
+        window.onresize = scaleVideos;
+
+	</script>
     </SECTION>
     <!--End Contact Section-->     
     <SECTION 
