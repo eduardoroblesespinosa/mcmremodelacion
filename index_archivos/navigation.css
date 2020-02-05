@@ -1,0 +1,1011 @@
+.ares.tparrows {
+	background: rgb(255, 255, 255); border-radius: 50%; display: block; position: absolute; z-index: 100; cursor: pointer; min-height: 60px; min-width: 60px;
+}
+.ares.tparrows:hover {
+	
+}
+.ares.tparrows::before {
+	transition:color 0.3s; text-align: center; color: rgb(170, 170, 170); line-height: 60px; font-family: "revicons"; font-size: 25px; display: block; position: relative; z-index: 2; -webkit-transition: color 0.3s; -moz-transition: color 0.3s;
+}
+.ares.tparrows.tp-leftarrow::before {
+	content: "\e81f";
+}
+.ares.tparrows.tp-rightarrow::before {
+	content: "\e81e";
+}
+.ares.tparrows:hover::before {
+	color: rgb(0, 0, 0);
+}
+.ares .tp-title-wrap {
+	background: rgb(255, 255, 255); transform-origin: 0% 50%; border-radius: 0px 30px 30px 0px; transition:transform 0.3s; top: 0px; line-height: 60px; overflow: hidden; margin-left: 30px; display: inline-block; position: absolute; z-index: 1; min-height: 60px; transform: scaleX(0); -webkit-transition: -webkit-transform 0.3s; -webkit-transform: scaleX(0); -webkit-transform-origin: 0% 50%;
+}
+.ares.tp-rightarrow .tp-title-wrap {
+	border-radius: 30px 0px 0px 30px; right: 0px; margin-right: 30px; margin-left: 0px; -webkit-transform-origin: 100% 50%;
+}
+.ares.tparrows:hover .tp-title-wrap {
+	transform: scaleX(1) scaleY(1); -webkit-transform: scaleX(1) scaleY(1);
+}
+.ares .tp-arr-titleholder {
+	padding: 0px 20px; transition:transform 0.3s; color: rgb(0, 0, 0); text-transform: uppercase; line-height: 60px; font-size: 14px; font-weight: 400; margin-left: 10px; white-space: nowrap; position: relative; opacity: 0; transform: translateX(200px); -webkit-transition: -webkit-transform 0.3s;
+}
+.ares.tp-rightarrow .tp-arr-titleholder {
+	margin-right: 10px; margin-left: 0px; transform: translateX(-200px);
+}
+.ares.tparrows:hover .tp-arr-titleholder {
+	opacity: 1; transform: translateX(0px); transition-delay: 0.1s; -webkit-transform: translateX(0px);
+}
+.ares.tp-bullets {
+	
+}
+.ares.tp-bullets::before {
+	background: none; padding: 10px; width: 100%; height: 100%; margin-top: -10px; margin-left: -10px; position: absolute; content: " "; box-sizing: content-box;
+}
+.ares .tp-bullet {
+	background: rgb(229, 229, 229); border-radius: 50%; width: 13px; height: 13px; position: absolute; cursor: pointer; box-sizing: content-box;
+}
+.ares .tp-bullet:hover {
+	background: rgb(255, 255, 255);
+}
+.ares .tp-bullet.selected {
+	background: rgb(255, 255, 255);
+}
+.ares .tp-bullet-title {
+	background: rgba(255, 255, 255, 0.75); padding: 0px 10px; transition:transform 0.3s; top: -4px; right: 27px; color: rgb(136, 136, 136); line-height: 20px; font-size: 12px; font-weight: 600; white-space: nowrap; visibility: hidden; position: absolute; transform: translateX(-20px); -webkit-transition: transform 0.3s; -webkit-transform: translateX(-20px);
+}
+.ares .tp-bullet-title::after {
+	border-width: 10px 0px 10px 10px; border-style: solid; border-color: transparent transparent transparent rgba(255, 255, 255, 0.75); top: 0px; width: 0px; height: 0px; right: -10px; position: absolute; content: " ";
+}
+.ares .tp-bullet:hover .tp-bullet-title {
+	visibility: visible; transform: translateX(0px); -webkit-transform: translateX(0px);
+}
+.ares .tp-bullet.selected:hover .tp-bullet-title {
+	background: rgb(255, 255, 255);
+}
+.ares .tp-bullet.selected:hover .tp-bullet-title::after {
+	border-color: transparent transparent transparent rgb(255, 255, 255);
+}
+.ares.tp-bullets:hover .tp-bullet-title {
+	visibility: hidden;
+}
+.ares.tp-bullets:hover .tp-bullet:hover .tp-bullet-title {
+	visibility: visible;
+}
+.ares .tp-tab {
+	padding: 10px; font-family: "Roboto", sans-serif; border-bottom-color: rgb(229, 229, 229); border-bottom-width: 1px; border-bottom-style: solid; box-sizing: border-box; opacity: 1;
+}
+.ares .tp-tab-image {
+	width: 60px; height: 60px; float: left; display: inline-block; position: relative; max-height: 100%; max-width: 100%;
+}
+.ares .tp-tab-content {
+	background: rgba(0, 0, 0, 0); padding: 15px 15px 15px 85px; left: 0px; width: 100%; height: 100%; color: rgb(51, 51, 51); overflow: hidden; margin-top: -15px; display: inline-block; position: absolute; box-sizing: border-box;
+}
+.ares .tp-tab-date {
+	color: rgb(170, 170, 170); font-size: 12px; font-weight: 500; margin-bottom: 0px; display: block;
+}
+.ares .tp-tab-title {
+	text-align: left; color: rgb(51, 51, 51); text-transform: none; line-height: 17px; font-size: 14px; font-weight: 500; display: block;
+}
+.ares .tp-tab:hover {
+	background: rgb(238, 238, 238);
+}
+.ares .tp-tab.selected {
+	background: rgb(238, 238, 238);
+}
+.ares .tp-tab-mask {
+	
+}
+.custom.tparrows {
+	background: rgba(0, 0, 0, 0.5); width: 40px; height: 40px; display: block; position: absolute; z-index: 10000; cursor: pointer;
+}
+.custom.tparrows:hover {
+	background: rgb(0, 0, 0);
+}
+.custom.tparrows::before {
+	text-align: center; color: rgb(255, 255, 255); line-height: 40px; font-family: "revicons"; font-size: 15px; display: block;
+}
+.custom.tparrows.tp-leftarrow::before {
+	content: "\e824";
+}
+.custom.tparrows.tp-rightarrow::before {
+	content: "\e825";
+}
+.custom.tp-bullets {
+	
+}
+.custom.tp-bullets::before {
+	background: none; padding: 10px; width: 100%; height: 100%; margin-top: -10px; margin-left: -10px; position: absolute; content: " "; box-sizing: content-box;
+}
+.custom .tp-bullet {
+	background: rgba(125, 125, 125, 0.5); width: 12px; height: 12px; position: absolute; cursor: pointer; box-sizing: content-box;
+}
+.custom .tp-bullet:hover {
+	background: rgb(125, 125, 125);
+}
+.custom .tp-bullet.selected {
+	background: rgb(125, 125, 125);
+}
+.custom .tp-bullet-image {
+	
+}
+.custom .tp-bullet-title {
+	
+}
+.dione.tparrows {
+	background: rgba(0, 0, 0, 0); transition:0.3s; width: 100px; height: 100%; line-height: 100%; -webkit-transition: all 0.3s;
+}
+.dione.tparrows:hover {
+	background: rgba(0, 0, 0, 0.45);
+}
+.dione .tp-arr-imgwrapper {
+	left: 0px; top: 0px; width: 100px; height: 100%; overflow: hidden; position: absolute;
+}
+.dione.tp-rightarrow .tp-arr-imgwrapper {
+	left: auto; right: 0px;
+}
+.dione .tp-arr-imgholder {
+	background-position: center; transition:0.3s; left: 0px; top: 0px; width: 100px; height: 100%; visibility: hidden; opacity: 0; transform: translateX(-50px); background-size: cover; -webkit-transition: all 0.3s; -webkit-transform: translateX(-50px);
+}
+.dione.tparrows.tp-rightarrow .tp-arr-imgholder {
+	left: auto; right: 0px; transform: translateX(50px); -webkit-transform: translateX(50px);
+}
+.dione.tparrows::before {
+	transition:0.3s; left: 50%; top: 50%; line-height: 30px; font-size: 30px; margin-top: -15px; margin-left: -22px; position: absolute; -webkit-transition: all 0.3s;
+}
+.dione.tparrows.tp-rightarrow::before {
+	margin-left: 6px;
+}
+.dione.tparrows:hover::before {
+	opacity: 0; transform: translateX(-20px); -webkit-transform: translateX(-20px);
+}
+.dione.tparrows.tp-rightarrow:hover::before {
+	transform: translateX(20px); -webkit-transform: translateX(20px);
+}
+.dione.tparrows:hover .tp-arr-imgholder {
+	visibility: visible; opacity: 1; transform: translateX(0px); -webkit-transform: translateX(0px);
+}
+.dione .tp-bullet {
+	background: rgba(0, 0, 0, 0.25); margin: 0px; padding: 3px; transition:0.3s; width: 50px; height: 50px; box-sizing: border-box; opacity: 1; -webkit-transition: all 0.3s;
+}
+.dione .tp-bullet-image {
+	background-position: center; width: 44px; height: 44px; display: block; position: relative; box-sizing: border-box; box-shadow: inset 5px 5px 10px 0px rgba(0,0,0,0.25); background-size: cover; -webkit-box-shadow: inset 5px 5px 10px 0px rgba(0, 0, 0, 0.25); -moz-box-shadow: inset 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
+}
+.dione .tp-bullet-title {
+	background: rgba(0, 0, 0, 0.75); padding: 10px 30px; transform-origin: 50% 100%; border-radius: 4px; transition:0.3s; left: 50%; bottom: 65px; color: rgb(255, 255, 255); display: inline-block; white-space: nowrap; position: absolute; opacity: 0; transform: translateZ(0.001px) translateX(-50%) translateY(14px); -webkit-transition: all 0.3s; -webkit-transform: translateZ(0.001px) translateX(-50%) translateY(14px); -webkit-border-radius: 4px; -webkit-transform-origin: 50% 100%;
+}
+.dione .tp-bullet:hover .tp-bullet-title {
+	opacity: 1; transform: rotateX(0deg) translateX(-50%); -webkit-transform: rotateX(0deg) translateX(-50%);
+}
+.dione .tp-bullet.selected {
+	background: linear-gradient(rgba(255, 255, 255, 1) 0%, rgba(119, 119, 119, 1) 100%);
+}
+.dione .tp-bullet:hover {
+	background: linear-gradient(rgba(255, 255, 255, 1) 0%, rgba(119, 119, 119, 1) 100%);
+}
+.dione .tp-bullet-title::after {
+	border-width: 8px 8px 0px; border-style: solid; border-color: rgba(0, 0, 0, 0.75) transparent transparent; left: 50%; width: 0px; height: 0px; bottom: -8px; margin-left: -8px; position: absolute; content: " ";
+}
+.erinyen.tparrows {
+	background: rgba(0, 0, 0, 0.5); border-radius: 35px; display: block; position: absolute; z-index: 1000; cursor: pointer; min-height: 70px; min-width: 70px;
+}
+.erinyen.tparrows::before {
+	text-align: center; color: rgb(255, 255, 255); line-height: 70px; font-family: "revicons"; font-size: 20px; display: block; position: relative; z-index: 2;
+}
+.erinyen.tparrows.tp-leftarrow::before {
+	content: "\e824";
+}
+.erinyen.tparrows.tp-rightarrow::before {
+	content: "\e825";
+}
+.erinyen .tp-title-wrap {
+	background: rgba(0, 0, 0, 0.5); border-radius: 35px; transition:opacity 0.3s; top: 0px; line-height: 70px; overflow: hidden; margin-left: 0px; display: inline-block; visibility: hidden; position: absolute; z-index: 1; min-height: 70px; opacity: 0; transform: scale(0); -webkit-transition: opacity 0.3s; -webkit-transform: scale(0); -moz-transition: opacity 0.3s; -moz-transform: scale(0);
+}
+.erinyen.tparrows:hover .tp-title-wrap {
+	visibility: visible; opacity: 1; transform: scale(1); -webkit-transform: scale(1); -moz-transform: scale(1);
+}
+.erinyen.tp-rightarrow .tp-title-wrap {
+	border-radius: 35px; right: 0px; padding-right: 20px; padding-left: 10px; margin-right: 0px; margin-left: 0px; -webkit-transform-origin: 100% 50%;
+}
+.erinyen.tp-leftarrow .tp-title-wrap {
+	padding-right: 10px; padding-left: 20px;
+}
+.erinyen .tp-arr-titleholder {
+	padding: 0px 20px; transition:transform 0.3s; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 70px; letter-spacing: 3px; font-size: 13px; font-weight: 600; margin-left: 11px; white-space: nowrap; position: relative; opacity: 0; transform: translateX(200px); -webkit-transition: -webkit-transform 0.3s;
+}
+.erinyen .tp-arr-imgholder {
+	background-position: center; left: 0px; top: 0px; width: 100%; height: 100%; position: absolute; background-size: cover;
+}
+.erinyen .tp-arr-img-over {
+	background: rgba(0, 0, 0, 0.5); left: 0px; top: 0px; width: 100%; height: 100%; position: absolute;
+}
+.erinyen.tp-rightarrow .tp-arr-titleholder {
+	margin-right: 11px; margin-left: 0px; transform: translateX(-200px);
+}
+.erinyen.tparrows:hover .tp-arr-titleholder {
+	opacity: 1; transform: translateX(0px); transition-delay: 0.1s; -webkit-transform: translateX(0px);
+}
+.erinyen.tp-bullets {
+	
+}
+.erinyen.tp-bullets::before {
+	background: linear-gradient(rgb(85, 85, 85) 0%, rgb(34, 34, 34) 100%); padding: 10px 15px; border-radius: 10px; width: 100%; height: 100%; margin-top: -10px; margin-left: -15px; position: absolute; content: " "; box-sizing: content-box; box-shadow: 0px 0px 2px 1px rgba(33,33,33,0.3);
+}
+.erinyen .tp-bullet {
+	background: rgb(17, 17, 17); border-radius: 50%; width: 13px; height: 13px; position: absolute; cursor: pointer; box-sizing: content-box;
+}
+.erinyen .tp-bullet:hover {
+	background: linear-gradient(rgb(229, 229, 229) 0%, rgb(153, 153, 153) 100%); border: 1px solid rgb(85, 85, 85); border-image: none; width: 12px; height: 12px;
+}
+.erinyen .tp-bullet.selected {
+	background: linear-gradient(rgb(229, 229, 229) 0%, rgb(153, 153, 153) 100%); border: 1px solid rgb(85, 85, 85); border-image: none; width: 12px; height: 12px;
+}
+.erinyen .tp-bullet-image {
+	
+}
+.erinyen .tp-bullet-title {
+	
+}
+.erinyen .tp-thumb {
+	opacity: 1;
+}
+.erinyen .tp-thumb-over {
+	background: rgba(0, 0, 0, 0.25); transition:0.3s; left: 0px; top: 0px; width: 100%; height: 100%; position: absolute; z-index: 1; -webkit-transition: all 0.3s;
+}
+.erinyen .tp-thumb-more::before {
+	top: 20px; text-align: left; right: 20px; color: rgba(255, 255, 255, 0.75); line-height: 12px; font-family: "revicons"; font-size: 12px; display: block; position: absolute; z-index: 2;
+}
+.erinyen .tp-thumb-more::before {
+	content: "\e825";
+}
+.erinyen .tp-thumb-title {
+	padding: 20px 35px 20px 20px; transition:0.3s; left: 0px; top: 0px; width: 100%; height: 100%; text-align: left; color: rgb(255, 255, 255); line-height: 15px; letter-spacing: 1px; font-family: "Raleway"; font-size: 12px; font-weight: 500; display: block; position: absolute; z-index: 2; box-sizing: border-box; -webkit-transition: all 0.3s;
+}
+.erinyen .tp-thumb.selected .tp-thumb-more::before {
+	color: rgb(170, 170, 170);
+}
+.erinyen .tp-thumb:hover .tp-thumb-more::before {
+	color: rgb(170, 170, 170);
+}
+.erinyen .tp-thumb.selected .tp-thumb-over {
+	background: rgb(255, 255, 255);
+}
+.erinyen .tp-thumb:hover .tp-thumb-over {
+	background: rgb(255, 255, 255);
+}
+.erinyen .tp-thumb.selected .tp-thumb-title {
+	color: rgb(0, 0, 0);
+}
+.erinyen .tp-thumb:hover .tp-thumb-title {
+	color: rgb(0, 0, 0);
+}
+.erinyen .tp-tab-title {
+	color: rgb(168, 216, 238); text-transform: uppercase; font-size: 13px; font-weight: 700;
+}
+.erinyen .tp-tab-desc {
+	color: rgb(255, 255, 255); line-height: 25px; font-family: "Roboto Slab"; font-size: 18px; font-weight: 400;
+}
+.gyges.tp-bullets {
+	
+}
+.gyges.tp-bullets::before {
+	background: linear-gradient(rgb(119, 119, 119) 0%, rgb(102, 102, 102) 100%); padding: 10px; border-radius: 10px; width: 100%; height: 100%; margin-top: -10px; margin-left: -10px; position: absolute; content: " "; box-sizing: content-box;
+}
+.gyges .tp-bullet {
+	background: rgb(51, 51, 51); border-radius: 50%; border: 3px solid rgb(68, 68, 68); border-image: none; width: 12px; height: 12px; position: absolute; cursor: pointer; box-sizing: content-box;
+}
+.gyges .tp-bullet:hover {
+	background: linear-gradient(rgb(255, 255, 255) 0%, rgb(225, 225, 225) 100%);
+}
+.gyges .tp-bullet.selected {
+	background: linear-gradient(rgb(255, 255, 255) 0%, rgb(225, 225, 225) 100%);
+}
+.gyges .tp-bullet-image {
+	
+}
+.gyges .tp-bullet-title {
+	
+}
+.gyges .tp-thumb {
+	opacity: 1;
+}
+.gyges .tp-thumb-img-wrap {
+	background: rgba(0, 0, 0, 0.25); margin: 0px; padding: 3px; transition:0.3s; width: 100%; height: 100%; display: inline-block; position: relative; box-sizing: border-box; -webkit-transition: all 0.3s;
+}
+.gyges .tp-thumb-image {
+	padding: 3px; display: block; position: relative; box-sizing: border-box; box-shadow: inset 5px 5px 10px 0px rgba(0,0,0,0.25); -webkit-box-shadow: inset 5px 5px 10px 0px rgba(0, 0, 0, 0.25); -moz-box-shadow: inset 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
+}
+.gyges .tp-thumb-title {
+	background: rgba(255, 255, 255, 0.8); padding: 10px 30px; transform-origin: 50% 100%; border-radius: 4px; transition:0.3s; left: 50%; bottom: 100%; margin-bottom: 20px; display: inline-block; white-space: nowrap; position: absolute; opacity: 0; transform: translateZ(0.001px) translateX(-50%) translateY(14px); -webkit-transition: all 0.3s; -webkit-transform: translateZ(0.001px) translateX(-50%) translateY(14px); -webkit-border-radius: 4px; -webkit-transform-origin: 50% 100%;
+}
+.gyges .tp-thumb:hover .tp-thumb-title {
+	opacity: 1; transform: rotateX(0deg) translateX(-50%); -webkit-transform: rotateX(0deg) translateX(-50%);
+}
+.gyges .tp-thumb:hover .tp-thumb-img-wrap {
+	background: linear-gradient(rgba(255, 255, 255, 1) 0%, rgba(119, 119, 119, 1) 100%);
+}
+.gyges .tp-thumb.selected .tp-thumb-img-wrap {
+	background: linear-gradient(rgba(255, 255, 255, 1) 0%, rgba(119, 119, 119, 1) 100%);
+}
+.gyges .tp-thumb-title::after {
+	border-width: 8px 8px 0px; border-style: solid; border-color: rgba(255, 255, 255, 0.8) transparent transparent; left: 50%; width: 0px; height: 0px; bottom: -8px; margin-left: -8px; position: absolute; content: " ";
+}
+.gyges .tp-tab {
+	padding: 10px; font-family: "Roboto", sans-serif; border-bottom-color: rgba(255, 255, 255, 0.15); border-bottom-width: 1px; border-bottom-style: solid; box-sizing: border-box; opacity: 1;
+}
+.gyges .tp-tab-image {
+	width: 60px; height: 60px; float: left; display: inline-block; position: relative; max-height: 100%; max-width: 100%;
+}
+.gyges .tp-tab-content {
+	background: rgba(0, 0, 0, 0); padding: 15px 15px 15px 85px; left: 0px; width: 100%; height: 100%; color: rgb(51, 51, 51); overflow: hidden; margin-top: -15px; display: inline-block; position: absolute; box-sizing: border-box;
+}
+.gyges .tp-tab-date {
+	color: rgba(255, 255, 255, 0.25); font-size: 12px; font-weight: 500; margin-bottom: 0px; display: block;
+}
+.gyges .tp-tab-title {
+	text-align: left; color: rgb(255, 255, 255); text-transform: none; line-height: 17px; font-size: 14px; font-weight: 500; display: block;
+}
+.gyges .tp-tab:hover {
+	background: rgba(0, 0, 0, 0.5);
+}
+.gyges .tp-tab.selected {
+	background: rgba(0, 0, 0, 0.5);
+}
+.gyges .tp-tab-mask {
+	
+}
+.hades.tparrows {
+	background: rgba(0, 0, 0, 0.15); width: 100px; height: 100px; display: block; position: absolute; z-index: 1000; cursor: pointer;
+}
+.hades.tparrows::before {
+	transition:background 0.3s, color 0.3s; text-align: center; color: rgb(255, 255, 255); line-height: 100px; font-family: "revicons"; font-size: 30px; display: block;
+}
+.hades.tparrows.tp-leftarrow::before {
+	content: "\e824";
+}
+.hades.tparrows.tp-rightarrow::before {
+	content: "\e825";
+}
+.hades.tparrows:hover::before {
+	background: rgba(255, 255, 255, 1); color: rgb(170, 170, 170);
+}
+.hades .tp-arr-allwrapper {
+	background: rgb(136, 136, 136); transform-origin: 0% 50%; transition:0.3s; left: 100%; top: 0px; width: 100px; height: 100px; position: absolute; opacity: 0; transform: rotateY(-90deg); -webkit-transition: all 0.3s; -webkit-transform: rotatey(-90deg); -webkit-transform-origin: 0% 50%; -moz-opacity: 0.0; -khtml-opacity: 0.0;
+}
+.hades.tp-rightarrow .tp-arr-allwrapper {
+	transform-origin: 100% 50%; left: auto; right: 100%; transform: rotateY(90deg); -webkit-transform: rotatey(90deg); -webkit-transform-origin: 100% 50%;
+}
+.hades:hover .tp-arr-allwrapper {
+	opacity: 1; transform: rotateY(0deg); -webkit-transform: rotatey(0deg); -moz-opacity: 1; -khtml-opacity: 1;
+}
+.hades .tp-arr-iwrapper {
+	
+}
+.hades .tp-arr-imgholder {
+	left: 0px; top: 0px; width: 100%; height: 100%; position: absolute; background-size: cover;
+}
+.hades .tp-arr-titleholder {
+	
+}
+.hades .tp-arr-subtitleholder {
+	
+}
+.hades.tp-bullets {
+	
+}
+.hades.tp-bullets::before {
+	background: none; padding: 10px; width: 100%; height: 100%; margin-top: -10px; margin-left: -10px; position: absolute; content: " "; box-sizing: content-box;
+}
+.hades .tp-bullet {
+	background: rgb(136, 136, 136); border: 5px solid rgb(255, 255, 255); border-image: none; width: 3px; height: 3px; position: absolute; cursor: pointer; box-sizing: content-box; box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.2); transform: translateZ(0.01px); -webkit-transform: translatez(0.01px); -webkit-perspective: 400;
+}
+.hades .tp-bullet:hover {
+	background: rgb(85, 85, 85);
+}
+.hades .tp-bullet.selected {
+	background: rgb(85, 85, 85);
+}
+.hades .tp-bullet-image {
+	background-position: center; transform-origin: 50% 100%; transition:0.3s; left: -60px; top: -80px; width: 120px; height: 60px; visibility: hidden; position: absolute; opacity: 0; box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.2); transform: rotateX(-90deg); transform-style: flat; background-size: cover; -webkit-transform: rotatex(-90deg); -webkit-perspective: 600; -webkit-transform-origin: 50% 100%; -webkit-transform-style: flat;
+}
+.hades .tp-bullet:hover .tp-bullet-image {
+	display: block; visibility: visible; opacity: 1; transform: rotateX(0deg); -webkit-transform: rotatex(0deg);
+}
+.hades .tp-bullet-title {
+	
+}
+.hades .tp-thumb {
+	opacity: 1;
+}
+.hades .tp-thumb-img-wrap {
+	background: rgba(0, 0, 0, 0.25); margin: 0px; padding: 3px; border-radius: 50%; transition:0.3s; width: 100%; height: 100%; display: inline-block; position: relative; box-sizing: border-box; -webkit-transition: all 0.3s;
+}
+.hades .tp-thumb-image {
+	padding: 3px; border-radius: 50%; display: block; position: relative; box-sizing: border-box; box-shadow: inset 5px 5px 10px 0px rgba(0,0,0,0.25); -webkit-box-shadow: inset 5px 5px 10px 0px rgba(0, 0, 0, 0.25); -moz-box-shadow: inset 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
+}
+.hades .tp-thumb:hover .tp-thumb-img-wrap {
+	background: linear-gradient(rgba(255, 255, 255, 1) 0%, rgba(119, 119, 119, 1) 100%);
+}
+.hades .tp-thumb.selected .tp-thumb-img-wrap {
+	background: linear-gradient(rgba(255, 255, 255, 1) 0%, rgba(119, 119, 119, 1) 100%);
+}
+.hades .tp-thumb-title::after {
+	border-width: 8px 8px 0px; border-style: solid; border-color: rgba(0, 0, 0, 0.75) transparent transparent; left: 50%; width: 0px; height: 0px; bottom: -8px; margin-left: -8px; position: absolute; content: " ";
+}
+.hades .tp-tab {
+	opacity: 1;
+}
+.hades .tp-tab-title {
+	text-align: center; color: rgb(51, 51, 51); line-height: 25px; font-size: 18px; font-weight: 600; display: block;
+}
+.hades .tp-tab-price {
+	text-align: center; color: rgb(153, 153, 153); line-height: 20px; font-size: 16px; margin-top: 10px; display: block;
+}
+.hades .tp-tab-button {
+	background: rgb(33, 155, 215); padding: 5px 15px; border-radius: 4px; text-align: center; color: rgb(255, 255, 255); font-size: 14px; font-weight: 400; margin-top: 15px; display: inline-block;
+}
+.hades .tp-tab-inner {
+	text-align: center;
+}
+.hebe.tparrows {
+	background: rgb(255, 255, 255); display: block; position: absolute; z-index: 1000; cursor: pointer; min-height: 70px; min-width: 70px;
+}
+.hebe.tparrows:hover {
+	
+}
+.hebe.tparrows::before {
+	background: rgb(255, 255, 255); transition:color 0.3s; text-align: center; color: rgb(170, 170, 170); line-height: 70px; font-family: "revicons"; font-size: 30px; display: block; position: relative; z-index: 2; min-height: 70px; min-width: 70px; -webkit-transition: color 0.3s; -moz-transition: color 0.3s;
+}
+.hebe.tparrows.tp-leftarrow::before {
+	content: "\e824";
+}
+.hebe.tparrows.tp-rightarrow::before {
+	content: "\e825";
+}
+.hebe.tparrows:hover::before {
+	color: rgb(0, 0, 0);
+}
+.hebe .tp-title-wrap {
+	background: rgba(0, 0, 0, 0.75); transform-origin: 0% 50%; transition:transform 0.3s; top: -10px; line-height: 60px; margin-left: 0px; display: inline-block; position: absolute; z-index: 0; min-height: 60px; transform: scaleX(0); -webkit-transition: -webkit-transform 0.3s; -webkit-transform: scaleX(0); -webkit-transform-origin: 0% 50%;
+}
+.hebe.tp-rightarrow .tp-title-wrap {
+	right: 0px; -webkit-transform-origin: 100% 50%;
+}
+.hebe.tparrows:hover .tp-title-wrap {
+	transform: scaleX(1); -webkit-transform: scaleX(1);
+}
+.hebe .tp-arr-titleholder {
+	padding: 0px 20px 0px 90px; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 90px; font-size: 12px; font-weight: 600; white-space: nowrap; position: relative;
+}
+.hebe.tp-rightarrow .tp-arr-titleholder {
+	padding: 0px 90px 0px 20px; margin-left: 0px;
+}
+.hebe.tparrows:hover .tp-arr-titleholder {
+	opacity: 1; transform: translateX(0px); transition-delay: 0.1s; -webkit-transform: translateX(0px);
+}
+.hebe .tp-arr-imgholder {
+	background-position: center; left: 100%; top: 0px; width: 90px; height: 90px; right: -90px; display: block; position: absolute; background-size: cover;
+}
+.hebe.tp-rightarrow .tp-arr-imgholder {
+	left: -90px; right: auto;
+}
+.hebe.tp-bullets {
+	
+}
+.hebe.tp-bullets::before {
+	background: none; padding: 10px; width: 100%; height: 100%; margin-top: -10px; margin-left: -10px; position: absolute; content: " "; box-sizing: content-box;
+}
+.hebe .tp-bullet {
+	background: rgb(255, 255, 255); border-radius: 50%; border: 5px solid rgb(34, 34, 34); transition:0.3s; border-image: none; width: 3px; height: 3px; position: absolute; cursor: pointer; box-sizing: content-box; transform: translateZ(0.01px); -webkit-transform: translateZ(0.01px); -webkit-perspective: 400;
+}
+.hebe .tp-bullet:hover {
+	background: rgb(34, 34, 34); border-color: rgb(255, 255, 255);
+}
+.hebe .tp-bullet.selected {
+	background: rgb(34, 34, 34); border-color: rgb(255, 255, 255);
+}
+.hebe .tp-bullet-image {
+	background-position: center; transform-origin: 50% 100%; border-radius: 6px; transition:0.3s; left: -40px; top: -90px; width: 70px; height: 70px; visibility: hidden; position: absolute; opacity: 0; transform: scale(0); transform-style: flat; background-size: cover; -webkit-transform: scale(0); -webkit-perspective: 600; -webkit-transform-origin: 50% 100%; -webkit-transform-style: flat;
+}
+.hebe .tp-bullet:hover .tp-bullet-image {
+	display: block; visibility: visible; opacity: 1; transform: scale(1); -webkit-transform: scale(1);
+}
+.hebe .tp-bullet-title {
+	
+}
+.hebe .tp-tab-title {
+	color: rgb(168, 216, 238); text-transform: uppercase; font-size: 13px; font-weight: 700;
+}
+.hebe .tp-tab-desc {
+	color: rgb(255, 255, 255); line-height: 25px; font-family: "Roboto Slab"; font-size: 18px; font-weight: 400;
+}
+.hephaistos.tparrows {
+	background: rgba(0, 0, 0, 0.5); border-radius: 50%; width: 40px; height: 40px; display: block; position: absolute; z-index: 1000; cursor: pointer;
+}
+.hephaistos.tparrows:hover {
+	background: rgb(0, 0, 0);
+}
+.hephaistos.tparrows::before {
+	text-align: center; color: rgb(255, 255, 255); line-height: 40px; font-family: "revicons"; font-size: 18px; display: block;
+}
+.hephaistos.tparrows.tp-leftarrow::before {
+	margin-left: -2px; content: "\e82c";
+}
+.hephaistos.tparrows.tp-rightarrow::before {
+	margin-right: -2px; content: "\e82d";
+}
+.hephaistos.tp-bullets {
+	
+}
+.hephaistos.tp-bullets::before {
+	background: none; padding: 10px; width: 100%; height: 100%; margin-top: -10px; margin-left: -10px; position: absolute; content: " "; box-sizing: content-box;
+}
+.hephaistos .tp-bullet {
+	background: rgb(153, 153, 153); border-radius: 50%; border: 3px solid rgb(245, 245, 245); border-image: none; width: 12px; height: 12px; position: absolute; cursor: pointer; box-sizing: content-box; box-shadow: 0px 0px 2px 1px rgba(130,130,130,0.3);
+}
+.hephaistos .tp-bullet:hover {
+	background: rgb(255, 255, 255); border-color: rgb(0, 0, 0);
+}
+.hephaistos .tp-bullet.selected {
+	background: rgb(255, 255, 255); border-color: rgb(0, 0, 0);
+}
+.hephaistos .tp-bullet-image {
+	
+}
+.hephaistos .tp-bullet-title {
+	
+}
+.hermes.tparrows {
+	background: rgba(0, 0, 0, 0.5); width: 30px; height: 110px; display: block; position: absolute; z-index: 1000; cursor: pointer;
+}
+.hermes.tparrows::before {
+	transition:0.3s; text-align: center; color: rgb(255, 255, 255); line-height: 110px; font-family: "revicons"; font-size: 15px; display: block; transform: translateX(0px); -webkit-transition: all 0.3s; -webkit-transform: translateX(0px);
+}
+.hermes.tparrows.tp-leftarrow::before {
+	content: "\e824";
+}
+.hermes.tparrows.tp-rightarrow::before {
+	content: "\e825";
+}
+.hermes.tparrows.tp-leftarrow:hover::before {
+	opacity: 0; transform: translateX(-20px); -webkit-transform: translateX(-20px);
+}
+.hermes.tparrows.tp-rightarrow:hover::before {
+	opacity: 0; transform: translateX(20px); -webkit-transform: translateX(20px);
+}
+.hermes .tp-arr-allwrapper {
+	transition:transform 0.3s 0.3s; left: 0px; top: 0px; width: 180px; height: 140px; overflow: hidden; visibility: hidden; position: absolute; perspective: 1000px; -webkit-transition: -webkit-transform 0.3s 0.3s; -webkit-perspective: 1000px;
+}
+.hermes.tp-rightarrow .tp-arr-allwrapper {
+	left: auto; right: 0px;
+}
+.hermes.tparrows:hover .tp-arr-allwrapper {
+	visibility: visible;
+}
+.hermes .tp-arr-imgholder {
+	transition:0.3s 0.3s; left: 0px; top: 0px; width: 180px; height: 110px; position: absolute; transform: translateX(-180px); -webkit-transform: translateX(-180px);
+}
+.hermes.tp-rightarrow .tp-arr-imgholder {
+	transform: translateX(180px); -webkit-transform: translateX(180px);
+}
+.hermes.tparrows:hover .tp-arr-imgholder {
+	transform: translateX(0px); -webkit-transform: translateX(0px);
+}
+.hermes .tp-arr-titleholder {
+	background: rgba(0, 0, 0, 0.75); padding: 0px 10px; transform-origin: 50% 0%; transition:0.3s; top: 110px; width: 180px; text-align: left; color: rgb(255, 255, 255); line-height: 30px; letter-spacing: 1px; font-size: 12px; font-weight: 600; display: block; white-space: nowrap; position: absolute; box-sizing: border-box; transform: rotateX(-90deg); -webkit-transition: all 0.3s; -webkit-transform: rotateX(-90deg); -webkit-transform-origin: 50% 0;
+}
+.hermes.tparrows:hover .tp-arr-titleholder {
+	transform: rotateX(0deg); transition-delay: 0.6s; -webkit-transform: rotateX(0deg); -webkit-transition-delay: 0.6s;
+}
+.hermes.tp-bullets {
+	
+}
+.hermes .tp-bullet {
+	border-radius: 50%; transition:background 0.3s; width: 16px; height: 16px; overflow: hidden; position: absolute; box-shadow: inset 0px 0px 0px 2px #fff; background-color: rgba(0, 0, 0, 0); -webkit-transition: background 0.3s ease;
+}
+.hermes .tp-bullet:hover {
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.hermes .tp-bullet::after {
+	transition:height 0.3s; left: 0px; width: 100%; height: 0px; bottom: 0px; position: absolute; content: " "; box-shadow: 0px 0px 1px #fff; background-color: rgb(255, 255, 255); -webkit-transition: height 0.3s ease;
+}
+.hermes .tp-bullet.selected::after {
+	height: 100%;
+}
+.hermes .tp-tab {
+	padding-right: 10px; box-sizing: border-box; opacity: 1;
+}
+.hermes .tp-tab-image {
+	width: 100%; height: 60%; position: relative;
+}
+.hermes .tp-tab-content {
+	background: rgb(54, 54, 54); padding: 20px 20px 20px 30px; left: -10px; width: 100%; bottom: 0px; color: rgb(255, 255, 255); display: block; position: absolute; min-height: 40%; box-sizing: border-box;
+}
+.hermes .tp-tab-date {
+	color: rgb(136, 136, 136); font-size: 12px; font-weight: 600; margin-bottom: 10px; display: block;
+}
+.hermes .tp-tab-title {
+	color: rgb(255, 255, 255); text-transform: uppercase; line-height: 19px; font-size: 16px; font-weight: 800; display: block;
+}
+.hermes .tp-tab.selected .tp-tab-title::after {
+	border-width: 30px 0px 30px 10px; border-style: solid; border-color: transparent transparent transparent rgb(54, 54, 54); width: 0px; height: 0px; right: -9px; bottom: 50%; margin-bottom: -30px; position: absolute; content: " ";
+}
+.hermes .tp-tab-mask {
+	padding-right: 10px !important;
+}
+@media only screen and (max-width:960px)
+{
+.hermes .tp-tab .tp-tab-title {
+	line-height: 16px; font-size: 14px;
+}
+.hermes .tp-tab-date {
+	line-height: 13px; font-size: 11px; margin-bottom: 10px;
+}
+.hermes .tp-tab-content {
+	padding: 15px 15px 15px 25px;
+}
+}
+@media only screen and (max-width:768px)
+{
+.hermes .tp-tab .tp-tab-title {
+	line-height: 14px; font-size: 12px;
+}
+.hermes .tp-tab-date {
+	line-height: 12px; font-size: 10px; margin-bottom: 5px;
+}
+.hermes .tp-tab-content {
+	padding: 10px 10px 10px 20px;
+}
+}
+.hesperiden.tparrows {
+	background: rgba(0, 0, 0, 0.5); border-radius: 50%; width: 40px; height: 40px; display: block; position: absolute; z-index: 1000; cursor: pointer;
+}
+.hesperiden.tparrows:hover {
+	background: rgb(0, 0, 0);
+}
+.hesperiden.tparrows::before {
+	text-align: center; color: rgb(255, 255, 255); line-height: 40px; font-family: "revicons"; font-size: 20px; display: block;
+}
+.hesperiden.tparrows.tp-leftarrow::before {
+	margin-left: -3px; content: "\e82c";
+}
+.hesperiden.tparrows.tp-rightarrow::before {
+	margin-right: -3px; content: "\e82d";
+}
+.hesperiden.tp-bullets {
+	
+}
+.hesperiden.tp-bullets::before {
+	background: none; padding: 10px; border-radius: 8px; width: 100%; height: 100%; margin-top: -10px; margin-left: -10px; position: absolute; content: " "; box-sizing: content-box;
+}
+.hesperiden .tp-bullet {
+	background: linear-gradient(rgb(153, 153, 153) 0%, rgb(225, 225, 225) 100%); border-radius: 50%; border: 3px solid rgb(229, 229, 229); border-image: none; width: 12px; height: 12px; position: absolute; cursor: pointer; box-sizing: content-box;
+}
+.hesperiden .tp-bullet:hover {
+	background: rgb(102, 102, 102);
+}
+.hesperiden .tp-bullet.selected {
+	background: rgb(102, 102, 102);
+}
+.hesperiden .tp-bullet-image {
+	
+}
+.hesperiden .tp-bullet-title {
+	
+}
+.hesperiden .tp-thumb {
+	opacity: 1; perspective: 600px; -webkit-perspective: 600px;
+}
+.hesperiden .tp-thumb .tp-thumb-title {
+	padding: 5px 10px; transform-origin: 50% 100%; transition:0.3s; left: 0px; width: 100%; text-align: center; bottom: 0px; color: rgb(255, 255, 255); overflow: hidden; font-size: 12px; margin-top: -10px; display: block; white-space: nowrap; position: absolute; z-index: 10000; box-sizing: border-box; opacity: 0; transform: rotateX(90deg) translateZ(0.001px); background-color: rgb(0, 0, 0); -webkit-transition: all 0.3s; -webkit-transform: rotatex(90deg) translatez(0.001px); -webkit-transform-origin: 50% 100%;
+}
+.hesperiden .tp-thumb:hover .tp-thumb-title {
+	opacity: 1; transform: rotateX(0deg); -webkit-transform: rotatex(0deg);
+}
+.hesperiden .tp-tab {
+	padding: 10px; font-family: "Roboto", sans-serif; border-bottom-color: rgb(229, 229, 229); border-bottom-width: 1px; border-bottom-style: solid; box-sizing: border-box; opacity: 1;
+}
+.hesperiden .tp-tab-image {
+	width: 60px; height: 60px; float: left; display: inline-block; position: relative; max-height: 100%; max-width: 100%;
+}
+.hesperiden .tp-tab-content {
+	background: rgba(0, 0, 0, 0); padding: 15px 15px 15px 85px; left: 0px; width: 100%; height: 100%; color: rgb(51, 51, 51); overflow: hidden; margin-top: -15px; display: inline-block; position: absolute; box-sizing: border-box;
+}
+.hesperiden .tp-tab-date {
+	color: rgb(170, 170, 170); font-size: 12px; font-weight: 500; margin-bottom: 0px; display: block;
+}
+.hesperiden .tp-tab-title {
+	text-align: left; color: rgb(51, 51, 51); text-transform: none; line-height: 17px; font-size: 14px; font-weight: 500; display: block;
+}
+.hesperiden .tp-tab:hover {
+	background: rgb(238, 238, 238);
+}
+.hesperiden .tp-tab.selected {
+	background: rgb(238, 238, 238);
+}
+.hesperiden .tp-tab-mask {
+	
+}
+.metis.tparrows {
+	background: rgb(255, 255, 255); padding: 10px; transition:0.3s; width: 60px; height: 60px; box-sizing: border-box; -webkit-transition: all 0.3s;
+}
+.metis.tparrows:hover {
+	background: rgba(255, 255, 255, 0.75);
+}
+.metis.tparrows::before {
+	transition:0.3s; color: rgb(0, 0, 0); -webkit-transition: all 0.3s;
+}
+.metis.tparrows:hover::before {
+	transform: scale(1.5);
+}
+.metis .tp-bullet {
+	background: rgba(0, 0, 0, 0.25); margin: 0px; padding: 3px; border-radius: 50%; transition:0.3s; width: 50px; height: 50px; box-sizing: border-box; opacity: 1; -webkit-transition: all 0.3s;
+}
+.metis .tp-bullet-image {
+	background-position: center; border-radius: 50%; width: 44px; height: 44px; display: block; position: relative; box-sizing: border-box; box-shadow: inset 5px 5px 10px 0px rgba(0,0,0,0.25); background-size: cover; -webkit-box-shadow: inset 5px 5px 10px 0px rgba(0, 0, 0, 0.25); -moz-box-shadow: inset 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
+}
+.metis .tp-bullet-title {
+	background: rgba(0, 0, 0, 0.75); padding: 10px 30px; transform-origin: 50% 100%; border-radius: 4px; transition:0.3s; left: 50%; bottom: 65px; color: rgb(255, 255, 255); display: inline-block; white-space: nowrap; position: absolute; opacity: 0; transform: translateZ(0.001px) translateX(-50%) translateY(14px); -webkit-transition: all 0.3s; -webkit-transform: translateZ(0.001px) translateX(-50%) translateY(14px); -webkit-border-radius: 4px; -webkit-transform-origin: 50% 100%;
+}
+.metis .tp-bullet:hover .tp-bullet-title {
+	opacity: 1; transform: rotateX(0deg) translateX(-50%); -webkit-transform: rotateX(0deg) translateX(-50%);
+}
+.metis .tp-bullet.selected {
+	background: linear-gradient(rgba(255, 255, 255, 1) 0%, rgba(119, 119, 119, 1) 100%);
+}
+.metis .tp-bullet:hover {
+	background: linear-gradient(rgba(255, 255, 255, 1) 0%, rgba(119, 119, 119, 1) 100%);
+}
+.metis .tp-bullet-title::after {
+	border-width: 8px 8px 0px; border-style: solid; border-color: rgba(0, 0, 0, 0.75) transparent transparent; left: 50%; width: 0px; height: 0px; bottom: -8px; margin-left: -8px; position: absolute; content: " ";
+}
+.metis .tp-tab-number {
+	width: 50px; color: rgb(255, 255, 255); line-height: 30px; font-family: "Playfair Display"; font-size: 40px; font-weight: 400; margin-right: 17px; float: left; display: inline-block;
+}
+.metis .tp-tab-mask {
+	transition:padding-left 0.4s, left 0.4s, max-width 0.4s; left: 0px; padding-left: 20px; max-width: 90px !important;
+}
+.metis:hover .tp-tab-mask {
+	left: 50px; padding-left: 0px; max-width: 500px !important;
+}
+.metis .tp-tab-divider {
+	width: 1px; height: 30px; margin-top: 5px; border-right-color: transparent; border-right-width: 1px; border-right-style: solid; float: left; display: inline-block;
+}
+.metis .tp-tab-title {
+	transition:0.4s; color: rgb(255, 255, 255); line-height: 20px; padding-top: 10px; padding-left: 30px; font-family: "Playfair Display"; font-size: 20px; font-weight: 400; display: inline-block; position: relative; transform: translateX(-100%);
+}
+.metis .tp-tab-title-mask {
+	left: 67px; overflow: hidden; position: absolute;
+}
+.metis:hover .tp-tab-title {
+	transform: translateX(0px);
+}
+.metis .tp-tab {
+	transition:0.4s; opacity: 0.15;
+}
+.metis .tp-tab:hover {
+	opacity: 1;
+}
+.metis .tp-tab.selected {
+	opacity: 1;
+}
+.metis .tp-tab.selected .tp-tab-divider {
+	border-right-color: rgb(205, 176, 131); border-right-width: 1px; border-right-style: solid;
+}
+.metis.tp-tabs {
+	padding-left: 50px; max-width: 118px !important;
+}
+.metis.tp-tabs::before {
+	background: rgba(0, 0, 0, 0.15); transition:0.4s; left: 0px; top: 0px; width: 88px; height: 100%; border-right-color: rgba(255, 255, 255, 0.1); border-right-width: 1px; border-right-style: solid; position: absolute; content: " ";
+}
+.metis.tp-tabs:hover::before {
+	width: 118px;
+}
+@media all and (max-width:499px)
+{
+.metis.tp-tabs::before {
+	background: rgba(0, 0, 0, 0.75);
+}
+}
+.persephone.tparrows {
+	background: rgba(200, 200, 200, 0.5); border: 1px solid rgb(245, 245, 245); border-image: none; width: 40px; height: 40px; display: block; position: absolute; z-index: 100; cursor: pointer;
+}
+.persephone.tparrows:hover {
+	background: rgb(51, 51, 51);
+}
+.persephone.tparrows::before {
+	text-align: center; color: rgb(255, 255, 255); line-height: 40px; font-family: "revicons"; font-size: 15px; display: block;
+}
+.persephone.tparrows.tp-leftarrow::before {
+	content: "\e824";
+}
+.persephone.tparrows.tp-rightarrow::before {
+	content: "\e825";
+}
+.persephone.tp-bullets {
+	
+}
+.persephone.tp-bullets::before {
+	padding: 10px; width: 100%; height: 100%; margin-top: -10px; margin-left: -10px; position: absolute; content: " "; box-sizing: content-box;
+}
+.persephone .tp-bullet {
+	background: rgb(170, 170, 170); border: 1px solid rgb(229, 229, 229); border-image: none; width: 12px; height: 12px; position: absolute; cursor: pointer; box-sizing: content-box;
+}
+.persephone .tp-bullet:hover {
+	background: rgb(34, 34, 34);
+}
+.persephone .tp-bullet.selected {
+	background: rgb(34, 34, 34);
+}
+.persephone .tp-bullet-image {
+	
+}
+.persephone .tp-bullet-title {
+	
+}
+.uranus.tparrows {
+	background: none; width: 50px; height: 50px;
+}
+.uranus.tparrows::before {
+	transition:0.3s; width: 50px; height: 50px; line-height: 50px; font-size: 40px; -webkit-transition: all 0.3s;
+}
+.uranus.tparrows:hover::before {
+	opacity: 0.75;
+}
+.uranus .tp-bullet {
+	background: none; border-radius: 50%; transition:box-shadow 0.3s; box-shadow: 0px 0px 0px 2px rgba(255,255,255,0); -webkit-transition: box-shadow 0.3s ease;
+}
+.uranus .tp-bullet.selected {
+	background: none; border-radius: 50%; border: currentColor; border-image: none; box-shadow: 0px 0px 0px 2px #fff;
+}
+.uranus .tp-bullet:hover {
+	background: none; border-radius: 50%; border: currentColor; border-image: none; box-shadow: 0px 0px 0px 2px #fff;
+}
+.uranus .tp-bullet-inner {
+	border-radius: 50%; transition:background-color 0.3s, transform 0.3s; left: 0px; top: 0px; width: 100%; height: 100%; text-indent: -999em; position: absolute; cursor: pointer; background-color: rgba(255, 255, 255, 0.3); -webkit-transition: background-color 0.3s ease, -webkit-transform 0.3s ease;
+}
+.uranus .tp-bullet.selected .tp-bullet-inner {
+	transform: scale(0.4); background-color: rgb(255, 255, 255); -webkit-transform: scale(0.4);
+}
+.uranus .tp-bullet:hover .tp-bullet-inner {
+	transform: scale(0.4); background-color: rgb(255, 255, 255); -webkit-transform: scale(0.4);
+}
+.zeus.tparrows {
+	background: rgba(0, 0, 0, 0.1); border-radius: 35px; overflow: hidden; display: block; position: absolute; z-index: 100; cursor: pointer; min-height: 70px; min-width: 70px;
+}
+.zeus.tparrows::before {
+	text-align: center; color: rgb(255, 255, 255); line-height: 70px; font-family: "revicons"; font-size: 20px; display: block; position: relative; z-index: 2;
+}
+.zeus.tparrows.tp-leftarrow::before {
+	content: "\e824";
+}
+.zeus.tparrows.tp-rightarrow::before {
+	content: "\e825";
+}
+.zeus .tp-title-wrap {
+	background: rgba(0, 0, 0, 0.5); border-radius: 50%; transition:0.3s; left: 0px; top: 0px; width: 100%; height: 100%; position: absolute; opacity: 0; transform: scale(0); -webkit-transition: all 0.3s; -webkit-transform: scale(0); -moz-transition: all 0.3s;
+}
+.zeus .tp-arr-imgholder {
+	background-position: center; border-radius: 50%; transition:0.3s; left: 0px; top: 0px; width: 100%; height: 100%; position: absolute; transform: translateX(-100%); background-size: cover; -webkit-transition: all 0.3s; -webkit-transform: translateX(-100%); -moz-transition: all 0.3s;
+}
+.zeus.tp-rightarrow .tp-arr-imgholder {
+	transform: translateX(100%); -webkit-transform: translateX(100%);
+}
+.zeus.tparrows:hover .tp-arr-imgholder {
+	opacity: 1; transform: translateX(0px); -webkit-transform: translateX(0);
+}
+.zeus.tparrows:hover .tp-title-wrap {
+	opacity: 1; transform: scale(1); -webkit-transform: scale(1);
+}
+.zeus .tp-bullet {
+	border-radius: 50%; border: 2px solid rgb(255, 255, 255); transition:opacity 0.3s; border-image: none; width: 13px; height: 13px; box-sizing: content-box; background-color: rgba(0, 0, 0, 0); -webkit-box-sizing: content-box; -webkit-transition: opacity 0.3s ease;
+}
+.zeus .tp-bullet::after {
+	transform-origin: 50% 50%; border-radius: 50%; transition:transform 0.3s; left: 0px; width: 100%; height: 100%; position: absolute; content: ""; transform: scale(0); background-color: rgb(255, 255, 255); -webkit-transition: -webkit-transform 0.3s ease; -webkit-transform: scale(0); -webkit-transform-origin: 50% 50%;
+}
+.zeus .tp-bullet:hover::after {
+	transform: scale(1.2); -webkit-transform: scale(1.2);
+}
+.zeus .tp-bullet.selected::after {
+	transform: scale(1.2); -webkit-transform: scale(1.2);
+}
+.zeus .tp-bullet-image {
+	background: center / cover rgba(0, 0, 0, 0.5); transform-origin: 50% 50%; border-radius: 4px; transition:0.3s; left: 50%; width: 135px; height: 60px; bottom: 25px; margin-left: -65px; visibility: hidden; position: absolute; box-sizing: border-box; opacity: 0; backface-visibility: hidden; -webkit-transition: all 0.3s ease; -webkit-backface-visibility: hidden; -webkit-transform-origin: 50% 50%;
+}
+.zeus .tp-bullet-imageoverlay {
+	background: center / cover rgba(0, 0, 0, 0.5); transform-origin: 50% 50%; border-radius: 4px; transition:0.3s; left: 50%; width: 135px; height: 60px; bottom: 25px; margin-left: -65px; visibility: hidden; position: absolute; box-sizing: border-box; opacity: 0; backface-visibility: hidden; -webkit-transition: all 0.3s ease; -webkit-backface-visibility: hidden; -webkit-transform-origin: 50% 50%;
+}
+.zeus .tp-bullet-title {
+	transition:0.5s; z-index: 2; -webkit-transition: all 0.5s ease;
+}
+.zeus .tp-bullet-imageoverlay {
+	transition:0.5s; z-index: 2; -webkit-transition: all 0.5s ease;
+}
+.zeus .tp-bullet-title {
+	transform-origin: 50% 50%; transition:0.3s; left: -57px; width: 135px; text-align: center; bottom: 45px; color: rgb(255, 255, 255); line-height: 15px; font-size: 13px; font-weight: 600; vertical-align: middle; visibility: hidden; position: absolute; z-index: 3; opacity: 0; backface-visibility: hidden; -webkit-transition: all 0.3s ease; -webkit-backface-visibility: hidden; -webkit-transform-origin: 50% 50%;
+}
+.zeus .tp-bullet:hover .tp-bullet-title {
+	visibility: visible; opacity: 1; transform: translateY(0px); -webkit-transform: translateY(0px);
+}
+.zeus .tp-bullet:hover .tp-bullet-image {
+	visibility: visible; opacity: 1; transform: translateY(0px); -webkit-transform: translateY(0px);
+}
+.zeus .tp-bullet:hover .tp-bullet-imageoverlay {
+	visibility: visible; opacity: 1; transform: translateY(0px); -webkit-transform: translateY(0px);
+}
+.zeus .tp-thumb {
+	opacity: 1;
+}
+.zeus .tp-thumb-over {
+	background: rgba(0, 0, 0, 0.25); transition:0.3s; left: 0px; top: 0px; width: 100%; height: 100%; position: absolute; z-index: 1; -webkit-transition: all 0.3s;
+}
+.zeus .tp-thumb-more::before {
+	top: 20px; text-align: left; right: 20px; color: rgba(255, 255, 255, 0.75); line-height: 12px; font-family: "revicons"; font-size: 12px; display: block; position: absolute; z-index: 2;
+}
+.zeus .tp-thumb-more::before {
+	content: "\e825";
+}
+.zeus .tp-thumb-title {
+	padding: 20px 35px 20px 20px; transition:0.3s; left: 0px; top: 0px; width: 100%; height: 100%; text-align: left; color: rgb(255, 255, 255); line-height: 15px; letter-spacing: 1px; font-family: "Raleway"; font-size: 12px; font-weight: 500; display: block; position: absolute; z-index: 2; box-sizing: border-box; -webkit-transition: all 0.3s;
+}
+.zeus .tp-thumb.selected .tp-thumb-more::before {
+	color: rgb(170, 170, 170);
+}
+.zeus .tp-thumb:hover .tp-thumb-more::before {
+	color: rgb(170, 170, 170);
+}
+.zeus .tp-thumb.selected .tp-thumb-over {
+	background: rgb(0, 0, 0);
+}
+.zeus .tp-thumb:hover .tp-thumb-over {
+	background: rgb(0, 0, 0);
+}
+.zeus .tp-thumb.selected .tp-thumb-title {
+	color: rgb(255, 255, 255);
+}
+.zeus .tp-thumb:hover .tp-thumb-title {
+	color: rgb(255, 255, 255);
+}
+.zeus .tp-tab {
+	box-sizing: border-box; opacity: 1;
+}
+.zeus .tp-tab-title {
+	background: rgba(0, 0, 0, 0.25); padding: 9px 10px; text-align: center; color: rgb(255, 255, 255); line-height: 13px; font-family: "Roboto Slab", serif; font-size: 13px; font-weight: 700; display: block;
+}
+.zeus .tp-tab:hover .tp-tab-title {
+	background: rgba(255, 255, 255, 1); color: rgb(0, 0, 0);
+}
+.zeus .tp-tab.selected .tp-tab-title {
+	background: rgba(255, 255, 255, 1); color: rgb(0, 0, 0);
+}
+.post-tabs .tp-thumb {
+	opacity: 1;
+}
+.post-tabs .tp-thumb-over {
+	background: rgb(37, 37, 37); transition:0.3s; left: 0px; top: 0px; width: 100%; height: 100%; position: absolute; z-index: 1; -webkit-transition: all 0.3s;
+}
+.post-tabs .tp-thumb-more::before {
+	top: 15px; text-align: left; right: 15px; color: rgba(255, 255, 255, 0.75); line-height: 12px; font-family: "revicons"; font-size: 12px; display: block; position: absolute; z-index: 2;
+}
+.post-tabs .tp-thumb-more::before {
+	content: "\e825";
+}
+.post-tabs .tp-thumb-title {
+	padding: 15px 30px 15px 15px; transition:0.3s; left: 0px; top: 0px; width: 100%; height: 100%; text-align: left; color: rgb(255, 255, 255); line-height: 15px; letter-spacing: 1px; font-family: "raleway"; font-size: 12px; font-weight: 500; display: block; position: absolute; z-index: 2; box-sizing: border-box; -webkit-transition: all 0.3s;
+}
+.post-tabs .tp-thumb.selected .tp-thumb-more::before {
+	color: rgb(170, 170, 170);
+}
+.post-tabs .tp-thumb:hover .tp-thumb-more::before {
+	color: rgb(170, 170, 170);
+}
+.post-tabs .tp-thumb.selected .tp-thumb-over {
+	background: rgb(255, 255, 255);
+}
+.post-tabs .tp-thumb:hover .tp-thumb-over {
+	background: rgb(255, 255, 255);
+}
+.post-tabs .tp-thumb.selected .tp-thumb-title {
+	color: rgb(0, 0, 0);
+}
+.post-tabs .tp-thumb:hover .tp-thumb-title {
+	color: rgb(0, 0, 0);
+}

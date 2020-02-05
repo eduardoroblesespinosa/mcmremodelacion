@@ -1,0 +1,2328 @@
+* {
+	box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box;
+}
+.tp-caption.Twitter-Content a {
+	color: rgb(0, 132, 180) !important;
+}
+.tp-caption.Twitter-Content a:visited {
+	color: rgb(0, 132, 180) !important;
+}
+.tp-caption.Twitter-Content a:hover {
+	color: rgb(0, 132, 180) !important; text-decoration: underline !important;
+}
+.tp-caption.medium_grey {
+	border-width: 0px; margin: 0px; padding: 2px 4px; color: rgb(255, 255, 255); line-height: 20px; font-family: Arial; font-size: 20px; font-weight: 700; white-space: nowrap; position: absolute; text-shadow: 0px 2px 5px rgba(0,0,0,0.5); background-color: rgb(136, 136, 136);
+}
+.medium_grey {
+	border-width: 0px; margin: 0px; padding: 2px 4px; color: rgb(255, 255, 255); line-height: 20px; font-family: Arial; font-size: 20px; font-weight: 700; white-space: nowrap; position: absolute; text-shadow: 0px 2px 5px rgba(0,0,0,0.5); background-color: rgb(136, 136, 136);
+}
+.tp-caption.small_text {
+	border-width: 0px; margin: 0px; color: rgb(255, 255, 255); line-height: 20px; font-family: Arial; font-size: 14px; font-weight: 700; white-space: nowrap; position: absolute; text-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+}
+.small_text {
+	border-width: 0px; margin: 0px; color: rgb(255, 255, 255); line-height: 20px; font-family: Arial; font-size: 14px; font-weight: 700; white-space: nowrap; position: absolute; text-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+}
+.tp-caption.medium_text {
+	border-width: 0px; margin: 0px; color: rgb(255, 255, 255); line-height: 20px; font-family: Arial; font-size: 20px; font-weight: 700; white-space: nowrap; position: absolute; text-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+}
+.medium_text {
+	border-width: 0px; margin: 0px; color: rgb(255, 255, 255); line-height: 20px; font-family: Arial; font-size: 20px; font-weight: 700; white-space: nowrap; position: absolute; text-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+}
+.tp-caption.large_text {
+	border-width: 0px; margin: 0px; color: rgb(255, 255, 255); line-height: 40px; font-family: Arial; font-size: 40px; font-weight: 700; white-space: nowrap; position: absolute; text-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+}
+.large_text {
+	border-width: 0px; margin: 0px; color: rgb(255, 255, 255); line-height: 40px; font-family: Arial; font-size: 40px; font-weight: 700; white-space: nowrap; position: absolute; text-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+}
+.tp-caption.very_large_text {
+	border-width: 0px; margin: 0px; color: rgb(255, 255, 255); line-height: 60px; letter-spacing: -2px; font-family: Arial; font-size: 60px; font-weight: 700; white-space: nowrap; position: absolute; text-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+}
+.very_large_text {
+	border-width: 0px; margin: 0px; color: rgb(255, 255, 255); line-height: 60px; letter-spacing: -2px; font-family: Arial; font-size: 60px; font-weight: 700; white-space: nowrap; position: absolute; text-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+}
+.tp-caption.very_big_white {
+	border-width: 0px; margin: 0px; padding: 1px 4px 0px; color: rgb(255, 255, 255); line-height: 60px; font-family: Arial; font-size: 60px; font-weight: 800; white-space: nowrap; position: absolute; text-shadow: none; background-color: rgb(0, 0, 0);
+}
+.very_big_white {
+	border-width: 0px; margin: 0px; padding: 1px 4px 0px; color: rgb(255, 255, 255); line-height: 60px; font-family: Arial; font-size: 60px; font-weight: 800; white-space: nowrap; position: absolute; text-shadow: none; background-color: rgb(0, 0, 0);
+}
+.tp-caption.very_big_black {
+	border-width: 0px; margin: 0px; padding: 1px 4px 0px; color: rgb(0, 0, 0); line-height: 60px; font-family: Arial; font-size: 60px; font-weight: 700; white-space: nowrap; position: absolute; text-shadow: none; background-color: rgb(255, 255, 255);
+}
+.very_big_black {
+	border-width: 0px; margin: 0px; padding: 1px 4px 0px; color: rgb(0, 0, 0); line-height: 60px; font-family: Arial; font-size: 60px; font-weight: 700; white-space: nowrap; position: absolute; text-shadow: none; background-color: rgb(255, 255, 255);
+}
+.tp-caption.modern_medium_fat {
+	border-width: 0px; margin: 0px; color: rgb(0, 0, 0); line-height: 20px; font-family: "Open Sans", sans-serif; font-size: 24px; font-weight: 800; white-space: nowrap; position: absolute; text-shadow: none;
+}
+.modern_medium_fat {
+	border-width: 0px; margin: 0px; color: rgb(0, 0, 0); line-height: 20px; font-family: "Open Sans", sans-serif; font-size: 24px; font-weight: 800; white-space: nowrap; position: absolute; text-shadow: none;
+}
+.tp-caption.modern_medium_fat_white {
+	border-width: 0px; margin: 0px; color: rgb(255, 255, 255); line-height: 20px; font-family: "Open Sans", sans-serif; font-size: 24px; font-weight: 800; white-space: nowrap; position: absolute; text-shadow: none;
+}
+.modern_medium_fat_white {
+	border-width: 0px; margin: 0px; color: rgb(255, 255, 255); line-height: 20px; font-family: "Open Sans", sans-serif; font-size: 24px; font-weight: 800; white-space: nowrap; position: absolute; text-shadow: none;
+}
+.tp-caption.modern_medium_light {
+	border-width: 0px; margin: 0px; color: rgb(0, 0, 0); line-height: 20px; font-family: "Open Sans", sans-serif; font-size: 24px; font-weight: 300; white-space: nowrap; position: absolute; text-shadow: none;
+}
+.modern_medium_light {
+	border-width: 0px; margin: 0px; color: rgb(0, 0, 0); line-height: 20px; font-family: "Open Sans", sans-serif; font-size: 24px; font-weight: 300; white-space: nowrap; position: absolute; text-shadow: none;
+}
+.tp-caption.modern_big_bluebg {
+	border-width: 0px; margin: 0px; padding: 3px 10px; color: rgb(255, 255, 255); line-height: 36px; letter-spacing: 0px; font-family: "Open Sans", sans-serif; font-size: 30px; font-weight: 800; position: absolute; text-shadow: none; background-color: rgb(78, 91, 108);
+}
+.modern_big_bluebg {
+	border-width: 0px; margin: 0px; padding: 3px 10px; color: rgb(255, 255, 255); line-height: 36px; letter-spacing: 0px; font-family: "Open Sans", sans-serif; font-size: 30px; font-weight: 800; position: absolute; text-shadow: none; background-color: rgb(78, 91, 108);
+}
+.tp-caption.modern_big_redbg {
+	border-width: 0px; margin: 0px; padding: 1px 10px 3px; color: rgb(255, 255, 255); line-height: 36px; letter-spacing: 0px; font-family: "Open Sans", sans-serif; font-size: 30px; font-weight: 300; position: absolute; text-shadow: none; background-color: rgb(222, 84, 62);
+}
+.modern_big_redbg {
+	border-width: 0px; margin: 0px; padding: 1px 10px 3px; color: rgb(255, 255, 255); line-height: 36px; letter-spacing: 0px; font-family: "Open Sans", sans-serif; font-size: 30px; font-weight: 300; position: absolute; text-shadow: none; background-color: rgb(222, 84, 62);
+}
+.tp-caption.modern_small_text_dark {
+	border-width: 0px; margin: 0px; color: rgb(85, 85, 85); line-height: 22px; font-family: Arial; font-size: 14px; white-space: nowrap; position: absolute; text-shadow: none;
+}
+.modern_small_text_dark {
+	border-width: 0px; margin: 0px; color: rgb(85, 85, 85); line-height: 22px; font-family: Arial; font-size: 14px; white-space: nowrap; position: absolute; text-shadow: none;
+}
+.tp-caption.boxshadow {
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+}
+.boxshadow {
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+}
+.tp-caption.black {
+	color: rgb(0, 0, 0); text-shadow: none;
+}
+.black {
+	color: rgb(0, 0, 0); text-shadow: none;
+}
+.tp-caption.noshadow {
+	text-shadow: none;
+}
+.noshadow {
+	text-shadow: none;
+}
+.tp-caption.thinheadline_dark {
+	color: rgba(0, 0, 0, 0.85); line-height: 30px; font-family: "Open Sans"; font-size: 30px; font-weight: 300; position: absolute; text-shadow: none; background-color: transparent;
+}
+.thinheadline_dark {
+	color: rgba(0, 0, 0, 0.85); line-height: 30px; font-family: "Open Sans"; font-size: 30px; font-weight: 300; position: absolute; text-shadow: none; background-color: transparent;
+}
+.tp-caption.thintext_dark {
+	color: rgba(0, 0, 0, 0.85); line-height: 26px; font-family: "Open Sans"; font-size: 16px; font-weight: 300; position: absolute; text-shadow: none; background-color: transparent;
+}
+.thintext_dark {
+	color: rgba(0, 0, 0, 0.85); line-height: 26px; font-family: "Open Sans"; font-size: 16px; font-weight: 300; position: absolute; text-shadow: none; background-color: transparent;
+}
+.tp-caption.largeblackbg {
+	padding: 0px 20px; border-radius: 0px; color: rgb(255, 255, 255); line-height: 70px; font-family: "Open Sans"; font-size: 50px; font-weight: 300; position: absolute; text-shadow: none; background-color: rgb(0, 0, 0);
+}
+.largeblackbg {
+	padding: 0px 20px; border-radius: 0px; color: rgb(255, 255, 255); line-height: 70px; font-family: "Open Sans"; font-size: 50px; font-weight: 300; position: absolute; text-shadow: none; background-color: rgb(0, 0, 0);
+}
+.tp-caption.largepinkbg {
+	padding: 0px 20px; border-radius: 0px; color: rgb(255, 255, 255); line-height: 70px; font-family: "Open Sans"; font-size: 50px; font-weight: 300; position: absolute; text-shadow: none; background-color: rgb(219, 67, 96);
+}
+.largepinkbg {
+	padding: 0px 20px; border-radius: 0px; color: rgb(255, 255, 255); line-height: 70px; font-family: "Open Sans"; font-size: 50px; font-weight: 300; position: absolute; text-shadow: none; background-color: rgb(219, 67, 96);
+}
+.tp-caption.largewhitebg {
+	padding: 0px 20px; border-radius: 0px; color: rgb(0, 0, 0); line-height: 70px; font-family: "Open Sans"; font-size: 50px; font-weight: 300; position: absolute; text-shadow: none; background-color: rgb(255, 255, 255);
+}
+.largewhitebg {
+	padding: 0px 20px; border-radius: 0px; color: rgb(0, 0, 0); line-height: 70px; font-family: "Open Sans"; font-size: 50px; font-weight: 300; position: absolute; text-shadow: none; background-color: rgb(255, 255, 255);
+}
+.tp-caption.largegreenbg {
+	padding: 0px 20px; border-radius: 0px; color: rgb(255, 255, 255); line-height: 70px; font-family: "Open Sans"; font-size: 50px; font-weight: 300; position: absolute; text-shadow: none; background-color: rgb(103, 174, 115);
+}
+.largegreenbg {
+	padding: 0px 20px; border-radius: 0px; color: rgb(255, 255, 255); line-height: 70px; font-family: "Open Sans"; font-size: 50px; font-weight: 300; position: absolute; text-shadow: none; background-color: rgb(103, 174, 115);
+}
+.tp-caption.excerpt {
+	margin: 0px; padding: 1px 4px 0px; border: 0px rgb(255, 255, 255); width: 150px; height: auto; color: rgb(255, 255, 255); line-height: 36px; letter-spacing: -1.5px; font-family: Arial; font-size: 36px; font-weight: 700; text-decoration: none; white-space: normal !important; text-shadow: none; background-color: rgba(0, 0, 0, 1);
+}
+.excerpt {
+	margin: 0px; padding: 1px 4px 0px; border: 0px rgb(255, 255, 255); width: 150px; height: auto; color: rgb(255, 255, 255); line-height: 36px; letter-spacing: -1.5px; font-family: Arial; font-size: 36px; font-weight: 700; text-decoration: none; white-space: normal !important; text-shadow: none; background-color: rgba(0, 0, 0, 1);
+}
+.tp-caption.large_bold_grey {
+	margin: 0px; padding: 1px 4px 0px; border: 0px rgb(255, 214, 88); color: rgb(102, 102, 102); line-height: 60px; font-family: "Open Sans"; font-size: 60px; font-weight: 800; text-decoration: none; text-shadow: none; background-color: transparent;
+}
+.large_bold_grey {
+	margin: 0px; padding: 1px 4px 0px; border: 0px rgb(255, 214, 88); color: rgb(102, 102, 102); line-height: 60px; font-family: "Open Sans"; font-size: 60px; font-weight: 800; text-decoration: none; text-shadow: none; background-color: transparent;
+}
+.tp-caption.medium_thin_grey {
+	margin: 0px; padding: 1px 4px 0px; border: 0px rgb(255, 214, 88); color: rgb(102, 102, 102); line-height: 30px; font-family: "Open Sans"; font-size: 34px; font-weight: 300; text-decoration: none; text-shadow: none; background-color: transparent;
+}
+.medium_thin_grey {
+	margin: 0px; padding: 1px 4px 0px; border: 0px rgb(255, 214, 88); color: rgb(102, 102, 102); line-height: 30px; font-family: "Open Sans"; font-size: 34px; font-weight: 300; text-decoration: none; text-shadow: none; background-color: transparent;
+}
+.tp-caption.small_thin_grey {
+	margin: 0px; padding: 1px 4px 0px; border: 0px rgb(255, 214, 88); color: rgb(117, 117, 117); line-height: 26px; font-family: "Open Sans"; font-size: 18px; font-weight: 300; text-decoration: none; text-shadow: none; background-color: transparent;
+}
+.small_thin_grey {
+	margin: 0px; padding: 1px 4px 0px; border: 0px rgb(255, 214, 88); color: rgb(117, 117, 117); line-height: 26px; font-family: "Open Sans"; font-size: 18px; font-weight: 300; text-decoration: none; text-shadow: none; background-color: transparent;
+}
+.tp-caption.lightgrey_divider {
+	border: 0px rgb(34, 34, 34); width: 370px; height: 3px; text-decoration: none; background-color: rgba(235, 235, 235, 1);
+}
+.lightgrey_divider {
+	border: 0px rgb(34, 34, 34); width: 370px; height: 3px; text-decoration: none; background-color: rgba(235, 235, 235, 1);
+}
+.tp-caption.large_bold_darkblue {
+	border: 0px rgb(255, 214, 88); color: rgb(52, 73, 94); line-height: 60px; font-family: "Open Sans"; font-size: 58px; font-weight: 800; text-decoration: none; background-color: transparent;
+}
+.large_bold_darkblue {
+	border: 0px rgb(255, 214, 88); color: rgb(52, 73, 94); line-height: 60px; font-family: "Open Sans"; font-size: 58px; font-weight: 800; text-decoration: none; background-color: transparent;
+}
+.tp-caption.medium_bg_darkblue {
+	padding: 10px; border: 0px rgb(255, 214, 88); color: rgb(255, 255, 255); line-height: 20px; font-family: "Open Sans"; font-size: 20px; font-weight: 800; text-decoration: none; background-color: rgb(52, 73, 94);
+}
+.medium_bg_darkblue {
+	padding: 10px; border: 0px rgb(255, 214, 88); color: rgb(255, 255, 255); line-height: 20px; font-family: "Open Sans"; font-size: 20px; font-weight: 800; text-decoration: none; background-color: rgb(52, 73, 94);
+}
+.tp-caption.medium_bold_red {
+	padding: 0px; border: 0px rgb(255, 214, 88); color: rgb(227, 58, 12); line-height: 30px; font-family: "Open Sans"; font-size: 24px; font-weight: 800; text-decoration: none; background-color: transparent;
+}
+.medium_bold_red {
+	padding: 0px; border: 0px rgb(255, 214, 88); color: rgb(227, 58, 12); line-height: 30px; font-family: "Open Sans"; font-size: 24px; font-weight: 800; text-decoration: none; background-color: transparent;
+}
+.tp-caption.medium_light_red {
+	padding: 0px; border: 0px rgb(255, 214, 88); color: rgb(227, 58, 12); line-height: 26px; font-family: "Open Sans"; font-size: 21px; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.medium_light_red {
+	padding: 0px; border: 0px rgb(255, 214, 88); color: rgb(227, 58, 12); line-height: 26px; font-family: "Open Sans"; font-size: 21px; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.tp-caption.medium_bg_red {
+	padding: 10px; border: 0px rgb(255, 214, 88); color: rgb(255, 255, 255); line-height: 20px; font-family: "Open Sans"; font-size: 20px; font-weight: 800; text-decoration: none; background-color: rgb(227, 58, 12);
+}
+.medium_bg_red {
+	padding: 10px; border: 0px rgb(255, 214, 88); color: rgb(255, 255, 255); line-height: 20px; font-family: "Open Sans"; font-size: 20px; font-weight: 800; text-decoration: none; background-color: rgb(227, 58, 12);
+}
+.tp-caption.medium_bold_orange {
+	border: 0px rgb(255, 214, 88); color: rgb(243, 156, 18); line-height: 30px; font-family: "Open Sans"; font-size: 24px; font-weight: 800; text-decoration: none; background-color: transparent;
+}
+.medium_bold_orange {
+	border: 0px rgb(255, 214, 88); color: rgb(243, 156, 18); line-height: 30px; font-family: "Open Sans"; font-size: 24px; font-weight: 800; text-decoration: none; background-color: transparent;
+}
+.tp-caption.medium_bg_orange {
+	padding: 10px; border: 0px rgb(255, 214, 88); color: rgb(255, 255, 255); line-height: 20px; font-family: "Open Sans"; font-size: 20px; font-weight: 800; text-decoration: none; background-color: rgb(243, 156, 18);
+}
+.medium_bg_orange {
+	padding: 10px; border: 0px rgb(255, 214, 88); color: rgb(255, 255, 255); line-height: 20px; font-family: "Open Sans"; font-size: 20px; font-weight: 800; text-decoration: none; background-color: rgb(243, 156, 18);
+}
+.tp-caption.grassfloor {
+	border: 0px rgb(34, 34, 34); width: 4000px; height: 150px; text-decoration: none; background-color: rgba(160, 179, 151, 1);
+}
+.grassfloor {
+	border: 0px rgb(34, 34, 34); width: 4000px; height: 150px; text-decoration: none; background-color: rgba(160, 179, 151, 1);
+}
+.tp-caption.large_bold_white {
+	border: 0px rgb(255, 214, 88); color: rgb(255, 255, 255); line-height: 60px; font-family: "Open Sans"; font-size: 58px; font-weight: 800; text-decoration: none; background-color: transparent;
+}
+.large_bold_white {
+	border: 0px rgb(255, 214, 88); color: rgb(255, 255, 255); line-height: 60px; font-family: "Open Sans"; font-size: 58px; font-weight: 800; text-decoration: none; background-color: transparent;
+}
+.tp-caption.medium_light_white {
+	padding: 0px; border: 0px rgb(255, 214, 88); color: rgb(255, 255, 255); line-height: 36px; font-family: "Open Sans"; font-size: 30px; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.medium_light_white {
+	padding: 0px; border: 0px rgb(255, 214, 88); color: rgb(255, 255, 255); line-height: 36px; font-family: "Open Sans"; font-size: 30px; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.tp-caption.mediumlarge_light_white {
+	padding: 0px; border: 0px rgb(255, 214, 88); color: rgb(255, 255, 255); line-height: 40px; font-family: "Open Sans"; font-size: 34px; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.mediumlarge_light_white {
+	padding: 0px; border: 0px rgb(255, 214, 88); color: rgb(255, 255, 255); line-height: 40px; font-family: "Open Sans"; font-size: 34px; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.tp-caption.mediumlarge_light_white_center {
+	padding: 0px; border: 0px rgb(255, 214, 88); text-align: center; color: rgb(255, 255, 255); line-height: 40px; font-family: "Open Sans"; font-size: 34px; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.mediumlarge_light_white_center {
+	padding: 0px; border: 0px rgb(255, 214, 88); text-align: center; color: rgb(255, 255, 255); line-height: 40px; font-family: "Open Sans"; font-size: 34px; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.tp-caption.medium_bg_asbestos {
+	padding: 10px; border: 0px rgb(255, 214, 88); color: rgb(255, 255, 255); line-height: 20px; font-family: "Open Sans"; font-size: 20px; font-weight: 800; text-decoration: none; background-color: rgb(127, 140, 141);
+}
+.medium_bg_asbestos {
+	padding: 10px; border: 0px rgb(255, 214, 88); color: rgb(255, 255, 255); line-height: 20px; font-family: "Open Sans"; font-size: 20px; font-weight: 800; text-decoration: none; background-color: rgb(127, 140, 141);
+}
+.tp-caption.medium_light_black {
+	padding: 0px; border: 0px rgb(255, 214, 88); color: rgb(0, 0, 0); line-height: 36px; font-family: "Open Sans"; font-size: 30px; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.medium_light_black {
+	padding: 0px; border: 0px rgb(255, 214, 88); color: rgb(0, 0, 0); line-height: 36px; font-family: "Open Sans"; font-size: 30px; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.tp-caption.large_bold_black {
+	border: 0px rgb(255, 214, 88); color: rgb(0, 0, 0); line-height: 60px; font-family: "Open Sans"; font-size: 58px; font-weight: 800; text-decoration: none; background-color: transparent;
+}
+.large_bold_black {
+	border: 0px rgb(255, 214, 88); color: rgb(0, 0, 0); line-height: 60px; font-family: "Open Sans"; font-size: 58px; font-weight: 800; text-decoration: none; background-color: transparent;
+}
+.tp-caption.mediumlarge_light_darkblue {
+	padding: 0px; border: 0px rgb(255, 214, 88); color: rgb(52, 73, 94); line-height: 40px; font-family: "Open Sans"; font-size: 34px; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.mediumlarge_light_darkblue {
+	padding: 0px; border: 0px rgb(255, 214, 88); color: rgb(52, 73, 94); line-height: 40px; font-family: "Open Sans"; font-size: 34px; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.tp-caption.small_light_white {
+	padding: 0px; border: 0px rgb(255, 214, 88); color: rgb(255, 255, 255); line-height: 28px; font-family: "Open Sans"; font-size: 17px; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.small_light_white {
+	padding: 0px; border: 0px rgb(255, 214, 88); color: rgb(255, 255, 255); line-height: 28px; font-family: "Open Sans"; font-size: 17px; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.tp-caption.roundedimage {
+	border: 0px rgb(34, 34, 34);
+}
+.roundedimage {
+	border: 0px rgb(34, 34, 34);
+}
+.tp-caption.large_bg_black {
+	padding: 10px 20px 15px; border: 0px rgb(255, 214, 88); color: rgb(255, 255, 255); line-height: 40px; font-family: "Open Sans"; font-size: 40px; font-weight: 800; text-decoration: none; background-color: rgb(0, 0, 0);
+}
+.large_bg_black {
+	padding: 10px 20px 15px; border: 0px rgb(255, 214, 88); color: rgb(255, 255, 255); line-height: 40px; font-family: "Open Sans"; font-size: 40px; font-weight: 800; text-decoration: none; background-color: rgb(0, 0, 0);
+}
+.tp-caption.mediumwhitebg {
+	padding: 5px 15px 10px; border: 0px rgb(0, 0, 0); color: rgb(0, 0, 0); line-height: 30px; font-family: "Open Sans"; font-size: 30px; font-weight: 300; text-decoration: none; text-shadow: none; background-color: rgb(255, 255, 255);
+}
+.mediumwhitebg {
+	padding: 5px 15px 10px; border: 0px rgb(0, 0, 0); color: rgb(0, 0, 0); line-height: 30px; font-family: "Open Sans"; font-size: 30px; font-weight: 300; text-decoration: none; text-shadow: none; background-color: rgb(255, 255, 255);
+}
+.tp-caption.maincaption {
+	border: 0px rgb(0, 0, 0); color: rgb(33, 42, 64); line-height: 43px; font-family: roboto; font-size: 33px; font-weight: 500; text-decoration: none; text-shadow: none; background-color: transparent;
+}
+.maincaption {
+	border: 0px rgb(0, 0, 0); color: rgb(33, 42, 64); line-height: 43px; font-family: roboto; font-size: 33px; font-weight: 500; text-decoration: none; text-shadow: none; background-color: transparent;
+}
+.tp-caption.miami_title_60px {
+	border: 0px rgb(0, 0, 0); color: rgb(255, 255, 255); line-height: 60px; letter-spacing: 1px; font-family: "Source Sans Pro"; font-size: 60px; font-weight: 700; text-decoration: none; text-shadow: none; background-color: transparent;
+}
+.miami_title_60px {
+	border: 0px rgb(0, 0, 0); color: rgb(255, 255, 255); line-height: 60px; letter-spacing: 1px; font-family: "Source Sans Pro"; font-size: 60px; font-weight: 700; text-decoration: none; text-shadow: none; background-color: transparent;
+}
+.tp-caption.miami_subtitle {
+	border: 0px rgb(0, 0, 0); color: rgba(255, 255, 255, 0.65); line-height: 24px; letter-spacing: 2px; font-family: "Source Sans Pro"; font-size: 17px; font-weight: 400; text-decoration: none; text-shadow: none; background-color: transparent;
+}
+.miami_subtitle {
+	border: 0px rgb(0, 0, 0); color: rgba(255, 255, 255, 0.65); line-height: 24px; letter-spacing: 2px; font-family: "Source Sans Pro"; font-size: 17px; font-weight: 400; text-decoration: none; text-shadow: none; background-color: transparent;
+}
+.tp-caption.divideline30px {
+	background: rgb(255, 255, 255); border: 0px rgb(34, 34, 34); height: 2px; text-decoration: none; min-width: 30px;
+}
+.divideline30px {
+	background: rgb(255, 255, 255); border: 0px rgb(34, 34, 34); height: 2px; text-decoration: none; min-width: 30px;
+}
+.tp-caption.Miami_nostyle {
+	border: 0px rgb(34, 34, 34);
+}
+.Miami_nostyle {
+	border: 0px rgb(34, 34, 34);
+}
+.tp-caption.miami_content_light {
+	border: 0px rgb(0, 0, 0); color: rgb(255, 255, 255); line-height: 28px; letter-spacing: 0px; font-family: "Source Sans Pro"; font-size: 22px; font-weight: 400; text-decoration: none; text-shadow: none; background-color: transparent;
+}
+.miami_content_light {
+	border: 0px rgb(0, 0, 0); color: rgb(255, 255, 255); line-height: 28px; letter-spacing: 0px; font-family: "Source Sans Pro"; font-size: 22px; font-weight: 400; text-decoration: none; text-shadow: none; background-color: transparent;
+}
+.tp-caption.miami_title_60px_dark {
+	border: 0px rgb(0, 0, 0); color: rgb(51, 51, 51); line-height: 60px; letter-spacing: 1px; font-family: "Source Sans Pro"; font-size: 60px; font-weight: 700; text-decoration: none; text-shadow: none; background-color: transparent;
+}
+.miami_title_60px_dark {
+	border: 0px rgb(0, 0, 0); color: rgb(51, 51, 51); line-height: 60px; letter-spacing: 1px; font-family: "Source Sans Pro"; font-size: 60px; font-weight: 700; text-decoration: none; text-shadow: none; background-color: transparent;
+}
+.tp-caption.miami_content_dark {
+	border: 0px rgb(0, 0, 0); color: rgb(102, 102, 102); line-height: 28px; letter-spacing: 0px; font-family: "Source Sans Pro"; font-size: 22px; font-weight: 400; text-decoration: none; text-shadow: none; background-color: transparent;
+}
+.miami_content_dark {
+	border: 0px rgb(0, 0, 0); color: rgb(102, 102, 102); line-height: 28px; letter-spacing: 0px; font-family: "Source Sans Pro"; font-size: 22px; font-weight: 400; text-decoration: none; text-shadow: none; background-color: transparent;
+}
+.tp-caption.divideline30px_dark {
+	border: 0px rgb(34, 34, 34); height: 2px; text-decoration: none; min-width: 30px; background-color: rgb(51, 51, 51);
+}
+.divideline30px_dark {
+	border: 0px rgb(34, 34, 34); height: 2px; text-decoration: none; min-width: 30px; background-color: rgb(51, 51, 51);
+}
+.tp-caption.ellipse70px {
+	border-radius: 50px; border: 0px rgb(34, 34, 34); line-height: 1px; text-decoration: none; cursor: pointer; min-height: 70px; min-width: 70px; background-color: rgba(0, 0, 0, 0.14902);
+}
+.ellipse70px {
+	border-radius: 50px; border: 0px rgb(34, 34, 34); line-height: 1px; text-decoration: none; cursor: pointer; min-height: 70px; min-width: 70px; background-color: rgba(0, 0, 0, 0.14902);
+}
+.tp-caption.arrowicon {
+	border: 0px rgb(34, 34, 34); line-height: 1px;
+}
+.arrowicon {
+	border: 0px rgb(34, 34, 34); line-height: 1px;
+}
+.tp-caption.MarkerDisplay {
+	padding: 0px; border-radius: 0px; border: 0px rgb(0, 0, 0); font-family: "Permanent Marker"; font-style: normal; text-decoration: none; text-shadow: none; background-color: transparent;
+}
+.MarkerDisplay {
+	padding: 0px; border-radius: 0px; border: 0px rgb(0, 0, 0); font-family: "Permanent Marker"; font-style: normal; text-decoration: none; text-shadow: none; background-color: transparent;
+}
+.tp-caption.Restaurant-Display {
+	padding: 0px; border-radius: 0px; border: 0px transparent; color: rgb(255, 255, 255); line-height: 120px; font-family: Roboto; font-size: 120px; font-style: normal; font-weight: 700; text-decoration: none; background-color: transparent;
+}
+.Restaurant-Display {
+	padding: 0px; border-radius: 0px; border: 0px transparent; color: rgb(255, 255, 255); line-height: 120px; font-family: Roboto; font-size: 120px; font-style: normal; font-weight: 700; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Restaurant-Cursive {
+	padding: 0px; border-radius: 0px; border: 0px transparent; color: rgb(255, 255, 255); line-height: 30px; letter-spacing: 2px; font-family: "Nothing you could do"; font-size: 30px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.Restaurant-Cursive {
+	padding: 0px; border-radius: 0px; border: 0px transparent; color: rgb(255, 255, 255); line-height: 30px; letter-spacing: 2px; font-family: "Nothing you could do"; font-size: 30px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Restaurant-ScrollDownText {
+	padding: 0px; border-radius: 0px; border: 0px transparent; color: rgb(255, 255, 255); line-height: 17px; letter-spacing: 2px; font-family: Roboto; font-size: 17px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.Restaurant-ScrollDownText {
+	padding: 0px; border-radius: 0px; border: 0px transparent; color: rgb(255, 255, 255); line-height: 17px; letter-spacing: 2px; font-family: Roboto; font-size: 17px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Restaurant-Description {
+	padding: 0px; border-radius: 0px; border: 0px transparent; color: rgb(255, 255, 255); line-height: 30px; letter-spacing: 3px; font-family: Roboto; font-size: 20px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.Restaurant-Description {
+	padding: 0px; border-radius: 0px; border: 0px transparent; color: rgb(255, 255, 255); line-height: 30px; letter-spacing: 3px; font-family: Roboto; font-size: 20px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Restaurant-Price {
+	padding: 0px; border-radius: 0px; border: 0px transparent; color: rgb(255, 255, 255); line-height: 30px; letter-spacing: 3px; font-family: Roboto; font-size: 30px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.Restaurant-Price {
+	padding: 0px; border-radius: 0px; border: 0px transparent; color: rgb(255, 255, 255); line-height: 30px; letter-spacing: 3px; font-family: Roboto; font-size: 30px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Restaurant-Menuitem {
+	padding: 10px 30px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 17px; letter-spacing: 2px; font-family: Roboto; font-size: 17px; font-style: normal; font-weight: 400; text-decoration: none; background-color: rgba(0, 0, 0, 1);
+}
+.Restaurant-Menuitem {
+	padding: 10px 30px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 17px; letter-spacing: 2px; font-family: Roboto; font-size: 17px; font-style: normal; font-weight: 400; text-decoration: none; background-color: rgba(0, 0, 0, 1);
+}
+.tp-caption.Furniture-LogoText {
+	padding: 0px; border-radius: 0px; border: 0px transparent; color: rgba(230, 207, 163, 1); line-height: 150px; font-family: Raleway; font-size: 160px; font-style: normal; font-weight: 300; text-decoration: none; text-shadow: none; background-color: transparent;
+}
+.Furniture-LogoText {
+	padding: 0px; border-radius: 0px; border: 0px transparent; color: rgba(230, 207, 163, 1); line-height: 150px; font-family: Raleway; font-size: 160px; font-style: normal; font-weight: 300; text-decoration: none; text-shadow: none; background-color: transparent;
+}
+.tp-caption.Furniture-Plus {
+	padding: 6px 7px 4px; border-radius: 30px; border: 0px transparent; color: rgba(230, 207, 163, 1); line-height: 20px; font-family: Raleway; font-size: 20px; font-style: normal; font-weight: 400; text-decoration: none; box-shadow: 0px 1px 3px rgba(0,0,0,0.1); text-shadow: none; background-color: rgba(255, 255, 255, 1);
+}
+.Furniture-Plus {
+	padding: 6px 7px 4px; border-radius: 30px; border: 0px transparent; color: rgba(230, 207, 163, 1); line-height: 20px; font-family: Raleway; font-size: 20px; font-style: normal; font-weight: 400; text-decoration: none; box-shadow: 0px 1px 3px rgba(0,0,0,0.1); text-shadow: none; background-color: rgba(255, 255, 255, 1);
+}
+.tp-caption.Furniture-Title {
+	padding: 0px; border-radius: 0px; border: 0px transparent; color: rgba(0, 0, 0, 1); line-height: 20px; letter-spacing: 3px; font-family: Raleway; font-size: 20px; font-style: normal; font-weight: 700; text-decoration: none; text-shadow: none; background-color: transparent;
+}
+.Furniture-Title {
+	padding: 0px; border-radius: 0px; border: 0px transparent; color: rgba(0, 0, 0, 1); line-height: 20px; letter-spacing: 3px; font-family: Raleway; font-size: 20px; font-style: normal; font-weight: 700; text-decoration: none; text-shadow: none; background-color: transparent;
+}
+.tp-caption.Furniture-Subtitle {
+	padding: 0px; border-radius: 0px; border: 0px transparent; color: rgba(0, 0, 0, 1); line-height: 20px; font-family: Raleway; font-size: 17px; font-style: normal; font-weight: 300; text-decoration: none; text-shadow: none; background-color: transparent;
+}
+.Furniture-Subtitle {
+	padding: 0px; border-radius: 0px; border: 0px transparent; color: rgba(0, 0, 0, 1); line-height: 20px; font-family: Raleway; font-size: 17px; font-style: normal; font-weight: 300; text-decoration: none; text-shadow: none; background-color: transparent;
+}
+.tp-caption.Gym-Display {
+	padding: 0px; border-radius: 0px; border: 0px transparent; color: rgba(255, 255, 255, 1); line-height: 70px; font-family: Raleway; font-size: 80px; font-style: normal; font-weight: 900; text-decoration: none; background-color: transparent;
+}
+.Gym-Display {
+	padding: 0px; border-radius: 0px; border: 0px transparent; color: rgba(255, 255, 255, 1); line-height: 70px; font-family: Raleway; font-size: 80px; font-style: normal; font-weight: 900; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Gym-Subline {
+	padding: 0px; border-radius: 0px; border: 0px transparent; color: rgba(255, 255, 255, 1); line-height: 30px; letter-spacing: 5px; font-family: Raleway; font-size: 30px; font-style: normal; font-weight: 100; text-decoration: none; background-color: transparent;
+}
+.Gym-Subline {
+	padding: 0px; border-radius: 0px; border: 0px transparent; color: rgba(255, 255, 255, 1); line-height: 30px; letter-spacing: 5px; font-family: Raleway; font-size: 30px; font-style: normal; font-weight: 100; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Gym-SmallText {
+	padding: 0px; border-radius: 0px; border: 0px transparent; color: rgba(255, 255, 255, 1); line-height: 22; font-family: Raleway; font-size: 17px; font-style: normal; font-weight: 300; text-decoration: none; text-shadow: none; background-color: transparent;
+}
+.Gym-SmallText {
+	padding: 0px; border-radius: 0px; border: 0px transparent; color: rgba(255, 255, 255, 1); line-height: 22; font-family: Raleway; font-size: 17px; font-style: normal; font-weight: 300; text-decoration: none; text-shadow: none; background-color: transparent;
+}
+.tp-caption.Fashion-SmallText {
+	padding: 0px; border-radius: 0px; border: 0px transparent; color: rgba(255, 255, 255, 1); line-height: 20px; letter-spacing: 2px; font-family: Raleway; font-size: 12px; font-style: normal; font-weight: 600; text-decoration: none; background-color: transparent;
+}
+.Fashion-SmallText {
+	padding: 0px; border-radius: 0px; border: 0px transparent; color: rgba(255, 255, 255, 1); line-height: 20px; letter-spacing: 2px; font-family: Raleway; font-size: 12px; font-style: normal; font-weight: 600; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Fashion-BigDisplay {
+	padding: 0px; border-radius: 0px; border: 0px transparent; color: rgba(0, 0, 0, 1); line-height: 60px; letter-spacing: 2px; font-family: Raleway; font-size: 60px; font-style: normal; font-weight: 900; text-decoration: none; background-color: transparent;
+}
+.Fashion-BigDisplay {
+	padding: 0px; border-radius: 0px; border: 0px transparent; color: rgba(0, 0, 0, 1); line-height: 60px; letter-spacing: 2px; font-family: Raleway; font-size: 60px; font-style: normal; font-weight: 900; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Fashion-TextBlock {
+	padding: 0px; border-radius: 0px; border: 0px transparent; color: rgba(0, 0, 0, 1); line-height: 40px; letter-spacing: 2px; font-family: Raleway; font-size: 20px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.Fashion-TextBlock {
+	padding: 0px; border-radius: 0px; border: 0px transparent; color: rgba(0, 0, 0, 1); line-height: 40px; letter-spacing: 2px; font-family: Raleway; font-size: 20px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Sports-Display {
+	padding: 0px; border-radius: 0px; border: 0px transparent; color: rgba(255, 255, 255, 1); line-height: 130px; letter-spacing: 13px; font-family: Raleway; font-size: 130px; font-style: normal; font-weight: 100; text-decoration: none; background-color: transparent;
+}
+.Sports-Display {
+	padding: 0px; border-radius: 0px; border: 0px transparent; color: rgba(255, 255, 255, 1); line-height: 130px; letter-spacing: 13px; font-family: Raleway; font-size: 130px; font-style: normal; font-weight: 100; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Sports-DisplayFat {
+	padding: 0px; border-radius: 0px; border: 0px transparent; color: rgba(255, 255, 255, 1); line-height: 130px; font-family: Raleway; font-size: 130px; font-style: normal; font-weight: 900; text-decoration: none; background-color: transparent;
+}
+.Sports-DisplayFat {
+	padding: 0px; border-radius: 0px; border: 0px transparent; color: rgba(255, 255, 255, 1); line-height: 130px; font-family: Raleway; font-size: 130px; font-style: normal; font-weight: 900; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Sports-Subline {
+	padding: 0px; border-radius: 0px; border: 0px transparent; color: rgba(0, 0, 0, 1); line-height: 32px; letter-spacing: 4px; font-family: Raleway; font-size: 32px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.Sports-Subline {
+	padding: 0px; border-radius: 0px; border: 0px transparent; color: rgba(0, 0, 0, 1); line-height: 32px; letter-spacing: 4px; font-family: Raleway; font-size: 32px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Instagram-Caption {
+	padding: 0px; border-radius: 0px; border: 0px transparent; color: rgba(255, 255, 255, 1); line-height: 20px; font-family: Roboto; font-size: 20px; font-style: normal; font-weight: 900; text-decoration: none; background-color: transparent;
+}
+.Instagram-Caption {
+	padding: 0px; border-radius: 0px; border: 0px transparent; color: rgba(255, 255, 255, 1); line-height: 20px; font-family: Roboto; font-size: 20px; font-style: normal; font-weight: 900; text-decoration: none; background-color: transparent;
+}
+.tp-caption.News-Title {
+	padding: 0px; border-radius: 0px; border: 0px transparent; color: rgba(255, 255, 255, 1); line-height: 60px; font-family: "Roboto Slab"; font-size: 70px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.News-Title {
+	padding: 0px; border-radius: 0px; border: 0px transparent; color: rgba(255, 255, 255, 1); line-height: 60px; font-family: "Roboto Slab"; font-size: 70px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.tp-caption.News-Subtitle {
+	padding: 0px; border-radius: 0px; border: 0px transparent; color: rgba(255, 255, 255, 1); line-height: 24px; font-family: "Roboto Slab"; font-size: 15px; font-style: normal; font-weight: 300; text-decoration: none; background-color: rgba(255, 255, 255, 0);
+}
+.News-Subtitle {
+	padding: 0px; border-radius: 0px; border: 0px transparent; color: rgba(255, 255, 255, 1); line-height: 24px; font-family: "Roboto Slab"; font-size: 15px; font-style: normal; font-weight: 300; text-decoration: none; background-color: rgba(255, 255, 255, 0);
+}
+.tp-caption.News-Subtitle:hover {
+	border-radius: 0px; border: 0px solid transparent; color: rgba(255, 255, 255, 0.65); text-decoration: none; background-color: rgba(255, 255, 255, 0);
+}
+.News-Subtitle:hover {
+	border-radius: 0px; border: 0px solid transparent; color: rgba(255, 255, 255, 0.65); text-decoration: none; background-color: rgba(255, 255, 255, 0);
+}
+.tp-caption.Photography-Display {
+	padding: 0px; border-radius: 0px; border: 0px transparent; color: rgba(255, 255, 255, 1); line-height: 70px; letter-spacing: 5px; font-family: Raleway; font-size: 80px; font-style: normal; font-weight: 100; text-decoration: none; background-color: transparent;
+}
+.Photography-Display {
+	padding: 0px; border-radius: 0px; border: 0px transparent; color: rgba(255, 255, 255, 1); line-height: 70px; letter-spacing: 5px; font-family: Raleway; font-size: 80px; font-style: normal; font-weight: 100; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Photography-Subline {
+	padding: 0px; border-radius: 0px; border: 0px transparent; color: rgba(119, 119, 119, 1); line-height: 30px; letter-spacing: 3px; font-family: Raleway; font-size: 20px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.Photography-Subline {
+	padding: 0px; border-radius: 0px; border: 0px transparent; color: rgba(119, 119, 119, 1); line-height: 30px; letter-spacing: 3px; font-family: Raleway; font-size: 20px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Photography-ImageHover {
+	padding: 0px; border-radius: 0px; border: 0px rgba(255, 255, 255, 0); color: rgba(255, 255, 255, 1); line-height: 22; font-size: 20px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.Photography-ImageHover {
+	padding: 0px; border-radius: 0px; border: 0px rgba(255, 255, 255, 0); color: rgba(255, 255, 255, 1); line-height: 22; font-size: 20px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Photography-ImageHover:hover {
+	border-radius: 0px; border: 0px transparent; color: rgba(255, 255, 255, 1); text-decoration: none; background-color: transparent;
+}
+.Photography-ImageHover:hover {
+	border-radius: 0px; border: 0px transparent; color: rgba(255, 255, 255, 1); text-decoration: none; background-color: transparent;
+}
+.tp-caption.Photography-Menuitem {
+	padding: 3px 5px 3px 8px; border-radius: 0px; border: 0px transparent; color: rgba(255, 255, 255, 1); line-height: 20px; letter-spacing: 2px; font-family: Raleway; font-size: 20px; font-style: normal; font-weight: 300; text-decoration: none; background-color: rgba(0, 0, 0, 0.65);
+}
+.Photography-Menuitem {
+	padding: 3px 5px 3px 8px; border-radius: 0px; border: 0px transparent; color: rgba(255, 255, 255, 1); line-height: 20px; letter-spacing: 2px; font-family: Raleway; font-size: 20px; font-style: normal; font-weight: 300; text-decoration: none; background-color: rgba(0, 0, 0, 0.65);
+}
+.tp-caption.Photography-Menuitem:hover {
+	border-radius: 0px; border: 0px transparent; color: rgba(255, 255, 255, 1); text-decoration: none; background-color: rgba(0, 255, 222, 0.65);
+}
+.Photography-Menuitem:hover {
+	border-radius: 0px; border: 0px transparent; color: rgba(255, 255, 255, 1); text-decoration: none; background-color: rgba(0, 255, 222, 0.65);
+}
+.tp-caption.Photography-Textblock {
+	padding: 0px; border-radius: 0px; border: 0px transparent; color: rgba(255, 255, 255, 1); line-height: 30px; letter-spacing: 2px; font-family: Raleway; font-size: 17px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.Photography-Textblock {
+	padding: 0px; border-radius: 0px; border: 0px transparent; color: rgba(255, 255, 255, 1); line-height: 30px; letter-spacing: 2px; font-family: Raleway; font-size: 17px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Photography-Subline-2 {
+	padding: 0px; border-radius: 0px; border: 0px transparent; color: rgba(255, 255, 255, 0.35); line-height: 30px; letter-spacing: 3px; font-family: Raleway; font-size: 20px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.Photography-Subline-2 {
+	padding: 0px; border-radius: 0px; border: 0px transparent; color: rgba(255, 255, 255, 0.35); line-height: 30px; letter-spacing: 3px; font-family: Raleway; font-size: 20px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Photography-ImageHover2 {
+	padding: 0px; border-radius: 0px; border: 0px rgba(255, 255, 255, 0); color: rgba(255, 255, 255, 1); line-height: 22; font-family: Arial; font-size: 20px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.Photography-ImageHover2 {
+	padding: 0px; border-radius: 0px; border: 0px rgba(255, 255, 255, 0); color: rgba(255, 255, 255, 1); line-height: 22; font-family: Arial; font-size: 20px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Photography-ImageHover2:hover {
+	border-radius: 0px; border: 0px transparent; color: rgba(255, 255, 255, 1); text-decoration: none; background-color: transparent;
+}
+.Photography-ImageHover2:hover {
+	border-radius: 0px; border: 0px transparent; color: rgba(255, 255, 255, 1); text-decoration: none; background-color: transparent;
+}
+.tp-caption.WebProduct-Title {
+	padding: 0px; border-radius: 0px; border: 0px transparent; color: rgba(51, 51, 51, 1); line-height: 90px; font-family: Raleway; font-size: 90px; font-style: normal; font-weight: 100; text-decoration: none; background-color: transparent;
+}
+.WebProduct-Title {
+	padding: 0px; border-radius: 0px; border: 0px transparent; color: rgba(51, 51, 51, 1); line-height: 90px; font-family: Raleway; font-size: 90px; font-style: normal; font-weight: 100; text-decoration: none; background-color: transparent;
+}
+.tp-caption.WebProduct-SubTitle {
+	padding: 0px; border-radius: 0px; border: 0px transparent; color: rgba(153, 153, 153, 1); line-height: 20px; font-family: Raleway; font-size: 15px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.WebProduct-SubTitle {
+	padding: 0px; border-radius: 0px; border: 0px transparent; color: rgba(153, 153, 153, 1); line-height: 20px; font-family: Raleway; font-size: 15px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.tp-caption.WebProduct-Content {
+	padding: 0px; border-radius: 0px; border: 0px transparent; color: rgba(153, 153, 153, 1); line-height: 24px; font-family: Raleway; font-size: 16px; font-style: normal; font-weight: 600; text-decoration: none; background-color: transparent;
+}
+.WebProduct-Content {
+	padding: 0px; border-radius: 0px; border: 0px transparent; color: rgba(153, 153, 153, 1); line-height: 24px; font-family: Raleway; font-size: 16px; font-style: normal; font-weight: 600; text-decoration: none; background-color: transparent;
+}
+.tp-caption.WebProduct-Menuitem {
+	padding: 3px 5px 3px 8px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 20px; letter-spacing: 2px; font-family: Raleway; font-size: 15px; font-style: normal; font-weight: 500; text-decoration: none; background-color: rgba(51, 51, 51, 1);
+}
+.WebProduct-Menuitem {
+	padding: 3px 5px 3px 8px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 20px; letter-spacing: 2px; font-family: Raleway; font-size: 15px; font-style: normal; font-weight: 500; text-decoration: none; background-color: rgba(51, 51, 51, 1);
+}
+.tp-caption.WebProduct-Menuitem:hover {
+	border-radius: 0px; border: 0px transparent; color: rgba(153, 153, 153, 1); text-decoration: none; background-color: rgba(255, 255, 255, 1);
+}
+.WebProduct-Menuitem:hover {
+	border-radius: 0px; border: 0px transparent; color: rgba(153, 153, 153, 1); text-decoration: none; background-color: rgba(255, 255, 255, 1);
+}
+.tp-caption.WebProduct-Title-Light {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 90px; font-family: Raleway; font-size: 90px; font-style: normal; font-weight: 100; text-decoration: none; background-color: transparent;
+}
+.WebProduct-Title-Light {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 90px; font-family: Raleway; font-size: 90px; font-style: normal; font-weight: 100; text-decoration: none; background-color: transparent;
+}
+.tp-caption.WebProduct-SubTitle-Light {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 0.35); line-height: 20px; font-family: Raleway; font-size: 15px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.WebProduct-SubTitle-Light {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 0.35); line-height: 20px; font-family: Raleway; font-size: 15px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.tp-caption.WebProduct-Content-Light {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 0.65); line-height: 24px; font-family: Raleway; font-size: 16px; font-style: normal; font-weight: 600; text-decoration: none; background-color: transparent;
+}
+.WebProduct-Content-Light {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 0.65); line-height: 24px; font-family: Raleway; font-size: 16px; font-style: normal; font-weight: 600; text-decoration: none; background-color: transparent;
+}
+.tp-caption.FatRounded {
+	padding: 20px 22px 20px 25px; border-radius: 50px; border: 0px rgba(211, 211, 211, 1); text-align: left; color: rgba(255, 255, 255, 1); line-height: 30px; font-family: Raleway; font-size: 30px; font-style: normal; font-weight: 900; text-decoration: none; text-shadow: none; background-color: rgba(0, 0, 0, 0.5);
+}
+.FatRounded {
+	padding: 20px 22px 20px 25px; border-radius: 50px; border: 0px rgba(211, 211, 211, 1); text-align: left; color: rgba(255, 255, 255, 1); line-height: 30px; font-family: Raleway; font-size: 30px; font-style: normal; font-weight: 900; text-decoration: none; text-shadow: none; background-color: rgba(0, 0, 0, 0.5);
+}
+.tp-caption.FatRounded:hover {
+	border-radius: 50px; border: 0px rgba(211, 211, 211, 1); color: rgba(255, 255, 255, 1); text-decoration: none; background-color: rgba(0, 0, 0, 1);
+}
+.FatRounded:hover {
+	border-radius: 50px; border: 0px rgba(211, 211, 211, 1); color: rgba(255, 255, 255, 1); text-decoration: none; background-color: rgba(0, 0, 0, 1);
+}
+.tp-caption.NotGeneric-Title {
+	padding: 10px 0px; border-radius: 0px; border: 0px transparent; color: rgba(255, 255, 255, 1); line-height: 70px; font-family: Raleway; font-size: 70px; font-style: normal; font-weight: 800; text-decoration: none; background-color: transparent;
+}
+.NotGeneric-Title {
+	padding: 10px 0px; border-radius: 0px; border: 0px transparent; color: rgba(255, 255, 255, 1); line-height: 70px; font-family: Raleway; font-size: 70px; font-style: normal; font-weight: 800; text-decoration: none; background-color: transparent;
+}
+.tp-caption.NotGeneric-SubTitle {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 20px; letter-spacing: 4px; font-family: Raleway; font-size: 13px; font-style: normal; font-weight: 500; text-decoration: none; background-color: transparent;
+}
+.NotGeneric-SubTitle {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 20px; letter-spacing: 4px; font-family: Raleway; font-size: 13px; font-style: normal; font-weight: 500; text-decoration: none; background-color: transparent;
+}
+.tp-caption.NotGeneric-CallToAction {
+	padding: 10px 30px; border-radius: 0px; border: 1px solid rgba(255, 255, 255, 0.5); text-align: left; color: rgba(255, 255, 255, 1); line-height: 14px; letter-spacing: 3px; font-family: Raleway; font-size: 14px; font-style: normal; font-weight: 500; text-decoration: none; background-color: rgba(0, 0, 0, 0);
+}
+.NotGeneric-CallToAction {
+	padding: 10px 30px; border-radius: 0px; border: 1px solid rgba(255, 255, 255, 0.5); text-align: left; color: rgba(255, 255, 255, 1); line-height: 14px; letter-spacing: 3px; font-family: Raleway; font-size: 14px; font-style: normal; font-weight: 500; text-decoration: none; background-color: rgba(0, 0, 0, 0);
+}
+.tp-caption.NotGeneric-CallToAction:hover {
+	border-radius: 0px; border: 1px solid rgba(255, 255, 255, 1); color: rgba(255, 255, 255, 1); text-decoration: none; background-color: transparent;
+}
+.NotGeneric-CallToAction:hover {
+	border-radius: 0px; border: 1px solid rgba(255, 255, 255, 1); color: rgba(255, 255, 255, 1); text-decoration: none; background-color: transparent;
+}
+.tp-caption.NotGeneric-Icon {
+	padding: 0px; border-radius: 0px; border: 0px solid rgba(255, 255, 255, 0); text-align: left; color: rgba(255, 255, 255, 1); line-height: 30px; letter-spacing: 3px; font-family: Raleway; font-size: 30px; font-style: normal; font-weight: 400; text-decoration: none; background-color: rgba(0, 0, 0, 0);
+}
+.NotGeneric-Icon {
+	padding: 0px; border-radius: 0px; border: 0px solid rgba(255, 255, 255, 0); text-align: left; color: rgba(255, 255, 255, 1); line-height: 30px; letter-spacing: 3px; font-family: Raleway; font-size: 30px; font-style: normal; font-weight: 400; text-decoration: none; background-color: rgba(0, 0, 0, 0);
+}
+.tp-caption.NotGeneric-Menuitem {
+	padding: 27px 30px; border-radius: 0px; border: 1px solid rgba(255, 255, 255, 0.15); text-align: left; color: rgba(255, 255, 255, 1); line-height: 14px; letter-spacing: 3px; font-family: Raleway; font-size: 14px; font-style: normal; font-weight: 500; text-decoration: none; background-color: rgba(0, 0, 0, 0);
+}
+.NotGeneric-Menuitem {
+	padding: 27px 30px; border-radius: 0px; border: 1px solid rgba(255, 255, 255, 0.15); text-align: left; color: rgba(255, 255, 255, 1); line-height: 14px; letter-spacing: 3px; font-family: Raleway; font-size: 14px; font-style: normal; font-weight: 500; text-decoration: none; background-color: rgba(0, 0, 0, 0);
+}
+.tp-caption.NotGeneric-Menuitem:hover {
+	border-radius: 0px; border: 1px solid rgba(255, 255, 255, 1); color: rgba(255, 255, 255, 1); text-decoration: none; background-color: rgba(0, 0, 0, 0);
+}
+.NotGeneric-Menuitem:hover {
+	border-radius: 0px; border: 1px solid rgba(255, 255, 255, 1); color: rgba(255, 255, 255, 1); text-decoration: none; background-color: rgba(0, 0, 0, 0);
+}
+.tp-caption.MarkerStyle {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 30px; font-family: "Permanent Marker"; font-size: 17px; font-style: normal; font-weight: 100; text-decoration: none; background-color: transparent;
+}
+.MarkerStyle {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 30px; font-family: "Permanent Marker"; font-size: 17px; font-style: normal; font-weight: 100; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Gym-Menuitem {
+	padding: 3px 5px 3px 8px; border-radius: 3px; border: 2px solid rgba(255, 255, 255, 0); text-align: left; color: rgba(255, 255, 255, 1); line-height: 20px; letter-spacing: 2px; font-family: Raleway; font-size: 20px; font-style: normal; font-weight: 300; text-decoration: none; background-color: rgba(0, 0, 0, 1);
+}
+.Gym-Menuitem {
+	padding: 3px 5px 3px 8px; border-radius: 3px; border: 2px solid rgba(255, 255, 255, 0); text-align: left; color: rgba(255, 255, 255, 1); line-height: 20px; letter-spacing: 2px; font-family: Raleway; font-size: 20px; font-style: normal; font-weight: 300; text-decoration: none; background-color: rgba(0, 0, 0, 1);
+}
+.tp-caption.Gym-Menuitem:hover {
+	border-radius: 3px; border: 2px solid rgba(255, 255, 255, 0.25); color: rgba(255, 255, 255, 1); text-decoration: none; background-color: rgba(0, 0, 0, 1);
+}
+.Gym-Menuitem:hover {
+	border-radius: 3px; border: 2px solid rgba(255, 255, 255, 0.25); color: rgba(255, 255, 255, 1); text-decoration: none; background-color: rgba(0, 0, 0, 1);
+}
+.tp-caption.Newspaper-Button {
+	padding: 12px 35px; border-radius: 0px; border: 1px solid rgba(255, 255, 255, 0.25); text-align: left; color: rgba(255, 255, 255, 1); line-height: 17px; letter-spacing: 2px; font-family: Roboto; font-size: 13px; font-style: normal; font-weight: 700; text-decoration: none; background-color: rgba(255, 255, 255, 0);
+}
+.Newspaper-Button {
+	padding: 12px 35px; border-radius: 0px; border: 1px solid rgba(255, 255, 255, 0.25); text-align: left; color: rgba(255, 255, 255, 1); line-height: 17px; letter-spacing: 2px; font-family: Roboto; font-size: 13px; font-style: normal; font-weight: 700; text-decoration: none; background-color: rgba(255, 255, 255, 0);
+}
+.tp-caption.Newspaper-Button:hover {
+	border-radius: 0px; border: 1px solid rgba(255, 255, 255, 1); color: rgba(0, 0, 0, 1); text-decoration: none; background-color: rgba(255, 255, 255, 1);
+}
+.Newspaper-Button:hover {
+	border-radius: 0px; border: 1px solid rgba(255, 255, 255, 1); color: rgba(0, 0, 0, 1); text-decoration: none; background-color: rgba(255, 255, 255, 1);
+}
+.tp-caption.Newspaper-Subtitle {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(168, 216, 238, 1); line-height: 20px; font-family: Roboto; font-size: 15px; font-style: normal; font-weight: 900; text-decoration: none; background-color: transparent;
+}
+.Newspaper-Subtitle {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(168, 216, 238, 1); line-height: 20px; font-family: Roboto; font-size: 15px; font-style: normal; font-weight: 900; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Newspaper-Title {
+	padding: 0px 0px 10px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 55px; font-family: "Roboto Slab"; font-size: 50px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.Newspaper-Title {
+	padding: 0px 0px 10px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 55px; font-family: "Roboto Slab"; font-size: 50px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Newspaper-Title-Centered {
+	padding: 0px 0px 10px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(255, 255, 255, 1); line-height: 55px; font-family: "Roboto Slab"; font-size: 50px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.Newspaper-Title-Centered {
+	padding: 0px 0px 10px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(255, 255, 255, 1); line-height: 55px; font-family: "Roboto Slab"; font-size: 50px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Hero-Button {
+	padding: 10px 30px; border-radius: 0px; border: 1px solid rgba(255, 255, 255, 0.5); text-align: left; color: rgba(255, 255, 255, 1); line-height: 14px; letter-spacing: 3px; font-family: Raleway; font-size: 14px; font-style: normal; font-weight: 500; text-decoration: none; background-color: rgba(0, 0, 0, 0);
+}
+.Hero-Button {
+	padding: 10px 30px; border-radius: 0px; border: 1px solid rgba(255, 255, 255, 0.5); text-align: left; color: rgba(255, 255, 255, 1); line-height: 14px; letter-spacing: 3px; font-family: Raleway; font-size: 14px; font-style: normal; font-weight: 500; text-decoration: none; background-color: rgba(0, 0, 0, 0);
+}
+.tp-caption.Hero-Button:hover {
+	border-radius: 0px; border: 1px solid rgba(255, 255, 255, 1); color: rgba(0, 0, 0, 1); text-decoration: none; background-color: rgba(255, 255, 255, 1);
+}
+.Hero-Button:hover {
+	border-radius: 0px; border: 1px solid rgba(255, 255, 255, 1); color: rgba(0, 0, 0, 1); text-decoration: none; background-color: rgba(255, 255, 255, 1);
+}
+.tp-caption.Video-Title {
+	padding: 5px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 30px; font-family: Raleway; font-size: 30px; font-style: normal; font-weight: 900; text-decoration: none; background-color: rgba(0, 0, 0, 1);
+}
+.Video-Title {
+	padding: 5px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 30px; font-family: Raleway; font-size: 30px; font-style: normal; font-weight: 900; text-decoration: none; background-color: rgba(0, 0, 0, 1);
+}
+.tp-caption.Video-SubTitle {
+	padding: 5px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 12px; letter-spacing: 2px; font-family: Raleway; font-size: 12px; font-style: normal; font-weight: 600; text-decoration: none; background-color: rgba(0, 0, 0, 0.35);
+}
+.Video-SubTitle {
+	padding: 5px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 12px; letter-spacing: 2px; font-family: Raleway; font-size: 12px; font-style: normal; font-weight: 600; text-decoration: none; background-color: rgba(0, 0, 0, 0.35);
+}
+.tp-caption.NotGeneric-Button {
+	padding: 10px 30px; border-radius: 0px; border: 1px solid rgba(255, 255, 255, 0.5); text-align: left; color: rgba(255, 255, 255, 1); line-height: 14px; letter-spacing: 3px; font-family: Raleway; font-size: 14px; font-style: normal; font-weight: 500; text-decoration: none; background-color: rgba(0, 0, 0, 0);
+}
+.NotGeneric-Button {
+	padding: 10px 30px; border-radius: 0px; border: 1px solid rgba(255, 255, 255, 0.5); text-align: left; color: rgba(255, 255, 255, 1); line-height: 14px; letter-spacing: 3px; font-family: Raleway; font-size: 14px; font-style: normal; font-weight: 500; text-decoration: none; background-color: rgba(0, 0, 0, 0);
+}
+.tp-caption.NotGeneric-Button:hover {
+	border-radius: 0px; border: 1px solid rgba(255, 255, 255, 1); color: rgba(255, 255, 255, 1); text-decoration: none; background-color: transparent;
+}
+.NotGeneric-Button:hover {
+	border-radius: 0px; border: 1px solid rgba(255, 255, 255, 1); color: rgba(255, 255, 255, 1); text-decoration: none; background-color: transparent;
+}
+.tp-caption.NotGeneric-BigButton {
+	padding: 27px 30px; border-radius: 0px; border: 1px solid rgba(255, 255, 255, 0.15); text-align: left; color: rgba(255, 255, 255, 1); line-height: 14px; letter-spacing: 3px; font-family: Raleway; font-size: 14px; font-style: normal; font-weight: 500; text-decoration: none; background-color: rgba(0, 0, 0, 0);
+}
+.NotGeneric-BigButton {
+	padding: 27px 30px; border-radius: 0px; border: 1px solid rgba(255, 255, 255, 0.15); text-align: left; color: rgba(255, 255, 255, 1); line-height: 14px; letter-spacing: 3px; font-family: Raleway; font-size: 14px; font-style: normal; font-weight: 500; text-decoration: none; background-color: rgba(0, 0, 0, 0);
+}
+.tp-caption.NotGeneric-BigButton:hover {
+	border-radius: 0px; border: 1px solid rgba(255, 255, 255, 1); color: rgba(255, 255, 255, 1); text-decoration: none; background-color: rgba(0, 0, 0, 0);
+}
+.NotGeneric-BigButton:hover {
+	border-radius: 0px; border: 1px solid rgba(255, 255, 255, 1); color: rgba(255, 255, 255, 1); text-decoration: none; background-color: rgba(0, 0, 0, 0);
+}
+.tp-caption.WebProduct-Button {
+	padding: 0px 40px; border-radius: 0px; border: 2px rgba(0, 0, 0, 1); text-align: left; color: rgba(255, 255, 255, 1); line-height: 48px; letter-spacing: 1px; font-family: Raleway; font-size: 16px; font-style: normal; font-weight: 600; text-decoration: none; background-color: rgba(51, 51, 51, 1);
+}
+.WebProduct-Button {
+	padding: 0px 40px; border-radius: 0px; border: 2px rgba(0, 0, 0, 1); text-align: left; color: rgba(255, 255, 255, 1); line-height: 48px; letter-spacing: 1px; font-family: Raleway; font-size: 16px; font-style: normal; font-weight: 600; text-decoration: none; background-color: rgba(51, 51, 51, 1);
+}
+.tp-caption.WebProduct-Button:hover {
+	border-radius: 0px; border: 2px rgba(0, 0, 0, 1); color: rgba(51, 51, 51, 1); text-decoration: none; background-color: rgba(255, 255, 255, 1);
+}
+.WebProduct-Button:hover {
+	border-radius: 0px; border: 2px rgba(0, 0, 0, 1); color: rgba(51, 51, 51, 1); text-decoration: none; background-color: rgba(255, 255, 255, 1);
+}
+.tp-caption.Restaurant-Button {
+	padding: 12px 35px; border-radius: 0px; border: 2px solid rgba(255, 255, 255, 0.5); text-align: left; color: rgba(255, 255, 255, 1); line-height: 17px; letter-spacing: 3px; font-family: Roboto; font-size: 17px; font-style: normal; font-weight: 500; text-decoration: none; background-color: rgba(10, 10, 10, 0);
+}
+.Restaurant-Button {
+	padding: 12px 35px; border-radius: 0px; border: 2px solid rgba(255, 255, 255, 0.5); text-align: left; color: rgba(255, 255, 255, 1); line-height: 17px; letter-spacing: 3px; font-family: Roboto; font-size: 17px; font-style: normal; font-weight: 500; text-decoration: none; background-color: rgba(10, 10, 10, 0);
+}
+.tp-caption.Restaurant-Button:hover {
+	border-radius: 0px; border: 2px solid rgba(255, 224, 129, 1); color: rgba(255, 255, 255, 1); text-decoration: none; background-color: rgba(0, 0, 0, 0);
+}
+.Restaurant-Button:hover {
+	border-radius: 0px; border: 2px solid rgba(255, 224, 129, 1); color: rgba(255, 255, 255, 1); text-decoration: none; background-color: rgba(0, 0, 0, 0);
+}
+.tp-caption.Gym-Button {
+	padding: 13px 35px; border-radius: 30px; border: 0px solid rgba(0, 0, 0, 0); text-align: left; color: rgba(255, 255, 255, 1); line-height: 15px; letter-spacing: 1px; font-family: Raleway; font-size: 15px; font-style: normal; font-weight: 600; text-decoration: none; background-color: rgba(139, 192, 39, 1);
+}
+.Gym-Button {
+	padding: 13px 35px; border-radius: 30px; border: 0px solid rgba(0, 0, 0, 0); text-align: left; color: rgba(255, 255, 255, 1); line-height: 15px; letter-spacing: 1px; font-family: Raleway; font-size: 15px; font-style: normal; font-weight: 600; text-decoration: none; background-color: rgba(139, 192, 39, 1);
+}
+.tp-caption.Gym-Button:hover {
+	border-radius: 30px; border: 0px solid rgba(0, 0, 0, 0); color: rgba(255, 255, 255, 1); text-decoration: none; background-color: rgba(114, 168, 0, 1);
+}
+.Gym-Button:hover {
+	border-radius: 30px; border: 0px solid rgba(0, 0, 0, 0); color: rgba(255, 255, 255, 1); text-decoration: none; background-color: rgba(114, 168, 0, 1);
+}
+.tp-caption.Gym-Button-Light {
+	padding: 12px 35px; border-radius: 30px; border: 2px solid rgba(255, 255, 255, 0.25); text-align: left; color: rgba(255, 255, 255, 1); line-height: 15px; font-family: Raleway; font-size: 15px; font-style: normal; font-weight: 600; text-decoration: none; background-color: transparent;
+}
+.Gym-Button-Light {
+	padding: 12px 35px; border-radius: 30px; border: 2px solid rgba(255, 255, 255, 0.25); text-align: left; color: rgba(255, 255, 255, 1); line-height: 15px; font-family: Raleway; font-size: 15px; font-style: normal; font-weight: 600; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Gym-Button-Light:hover {
+	border-radius: 30px; border: 2px solid rgba(139, 192, 39, 1); color: rgba(255, 255, 255, 1); text-decoration: none; background-color: rgba(114, 168, 0, 0);
+}
+.Gym-Button-Light:hover {
+	border-radius: 30px; border: 2px solid rgba(139, 192, 39, 1); color: rgba(255, 255, 255, 1); text-decoration: none; background-color: rgba(114, 168, 0, 0);
+}
+.tp-caption.Sports-Button-Light {
+	padding: 12px 35px; border-radius: 0px; border: 2px solid rgba(255, 255, 255, 0.5); text-align: left; color: rgba(255, 255, 255, 1); line-height: 17px; letter-spacing: 2px; font-family: Raleway; font-size: 17px; font-style: normal; font-weight: 600; text-decoration: none; background-color: rgba(0, 0, 0, 0);
+}
+.Sports-Button-Light {
+	padding: 12px 35px; border-radius: 0px; border: 2px solid rgba(255, 255, 255, 0.5); text-align: left; color: rgba(255, 255, 255, 1); line-height: 17px; letter-spacing: 2px; font-family: Raleway; font-size: 17px; font-style: normal; font-weight: 600; text-decoration: none; background-color: rgba(0, 0, 0, 0);
+}
+.tp-caption.Sports-Button-Light:hover {
+	border-radius: 0px; border: 2px solid rgba(255, 255, 255, 1); color: rgba(255, 255, 255, 1); text-decoration: none; background-color: rgba(0, 0, 0, 0);
+}
+.Sports-Button-Light:hover {
+	border-radius: 0px; border: 2px solid rgba(255, 255, 255, 1); color: rgba(255, 255, 255, 1); text-decoration: none; background-color: rgba(0, 0, 0, 0);
+}
+.tp-caption.Sports-Button-Red {
+	padding: 12px 35px; border-radius: 0px; border: 2px solid rgba(219, 28, 34, 0); text-align: left; color: rgba(255, 255, 255, 1); line-height: 17px; letter-spacing: 2px; font-family: Raleway; font-size: 17px; font-style: normal; font-weight: 600; text-decoration: none; background-color: rgba(219, 28, 34, 1);
+}
+.Sports-Button-Red {
+	padding: 12px 35px; border-radius: 0px; border: 2px solid rgba(219, 28, 34, 0); text-align: left; color: rgba(255, 255, 255, 1); line-height: 17px; letter-spacing: 2px; font-family: Raleway; font-size: 17px; font-style: normal; font-weight: 600; text-decoration: none; background-color: rgba(219, 28, 34, 1);
+}
+.tp-caption.Sports-Button-Red:hover {
+	border-radius: 0px; border: 2px solid rgba(0, 0, 0, 1); color: rgba(255, 255, 255, 1); text-decoration: none; background-color: rgba(0, 0, 0, 1);
+}
+.Sports-Button-Red:hover {
+	border-radius: 0px; border: 2px solid rgba(0, 0, 0, 1); color: rgba(255, 255, 255, 1); text-decoration: none; background-color: rgba(0, 0, 0, 1);
+}
+.tp-caption.Photography-Button {
+	padding: 13px 35px; border-radius: 30px; border: 1px solid rgba(255, 255, 255, 0.25); text-align: left; color: rgba(255, 255, 255, 1); line-height: 15px; letter-spacing: 1px; font-family: Raleway; font-size: 15px; font-style: normal; font-weight: 600; text-decoration: none; background-color: rgba(0, 0, 0, 0);
+}
+.Photography-Button {
+	padding: 13px 35px; border-radius: 30px; border: 1px solid rgba(255, 255, 255, 0.25); text-align: left; color: rgba(255, 255, 255, 1); line-height: 15px; letter-spacing: 1px; font-family: Raleway; font-size: 15px; font-style: normal; font-weight: 600; text-decoration: none; background-color: rgba(0, 0, 0, 0);
+}
+.tp-caption.Photography-Button:hover {
+	border-radius: 30px; border: 1px solid rgba(255, 255, 255, 1); color: rgba(255, 255, 255, 1); text-decoration: none; background-color: rgba(0, 0, 0, 0);
+}
+.Photography-Button:hover {
+	border-radius: 30px; border: 1px solid rgba(255, 255, 255, 1); color: rgba(255, 255, 255, 1); text-decoration: none; background-color: rgba(0, 0, 0, 0);
+}
+.tp-caption.Newspaper-Button-2 {
+	padding: 10px 30px; border-radius: 3px; border: 2px solid rgba(255, 255, 255, 0.5); text-align: left; color: rgba(255, 255, 255, 1); line-height: 15px; font-family: Roboto; font-size: 15px; font-style: normal; font-weight: 900; text-decoration: none; background-color: rgba(0, 0, 0, 0);
+}
+.Newspaper-Button-2 {
+	padding: 10px 30px; border-radius: 3px; border: 2px solid rgba(255, 255, 255, 0.5); text-align: left; color: rgba(255, 255, 255, 1); line-height: 15px; font-family: Roboto; font-size: 15px; font-style: normal; font-weight: 900; text-decoration: none; background-color: rgba(0, 0, 0, 0);
+}
+.tp-caption.Newspaper-Button-2:hover {
+	border-radius: 3px; border: 2px solid rgba(255, 255, 255, 1); color: rgba(255, 255, 255, 1); text-decoration: none; background-color: rgba(0, 0, 0, 0);
+}
+.Newspaper-Button-2:hover {
+	border-radius: 3px; border: 2px solid rgba(255, 255, 255, 1); color: rgba(255, 255, 255, 1); text-decoration: none; background-color: rgba(0, 0, 0, 0);
+}
+.tp-caption.Feature-Tour {
+	padding: 17px 35px; border-radius: 30px; border: 0px solid rgba(0, 0, 0, 0); text-align: left; color: rgba(255, 255, 255, 1); line-height: 17px; font-family: Roboto; font-size: 17px; font-style: normal; font-weight: 700; text-decoration: none; background-color: rgba(139, 192, 39, 1);
+}
+.Feature-Tour {
+	padding: 17px 35px; border-radius: 30px; border: 0px solid rgba(0, 0, 0, 0); text-align: left; color: rgba(255, 255, 255, 1); line-height: 17px; font-family: Roboto; font-size: 17px; font-style: normal; font-weight: 700; text-decoration: none; background-color: rgba(139, 192, 39, 1);
+}
+.tp-caption.Feature-Tour:hover {
+	border-radius: 30px; border: 0px solid rgba(0, 0, 0, 0); color: rgba(255, 255, 255, 1); text-decoration: none; background-color: rgba(114, 168, 0, 1);
+}
+.Feature-Tour:hover {
+	border-radius: 30px; border: 0px solid rgba(0, 0, 0, 0); color: rgba(255, 255, 255, 1); text-decoration: none; background-color: rgba(114, 168, 0, 1);
+}
+.tp-caption.Feature-Examples {
+	padding: 15px 35px; border-radius: 30px; border: 2px solid rgba(33, 42, 64, 0.15); text-align: left; color: rgba(33, 42, 64, 0.5); line-height: 17px; font-family: Roboto; font-size: 17px; font-style: normal; font-weight: 700; text-decoration: none; background-color: transparent;
+}
+.Feature-Examples {
+	padding: 15px 35px; border-radius: 30px; border: 2px solid rgba(33, 42, 64, 0.15); text-align: left; color: rgba(33, 42, 64, 0.5); line-height: 17px; font-family: Roboto; font-size: 17px; font-style: normal; font-weight: 700; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Feature-Examples:hover {
+	border-radius: 30px; border: 2px solid rgba(139, 192, 39, 1); color: rgba(139, 192, 39, 1); text-decoration: none; background-color: transparent;
+}
+.Feature-Examples:hover {
+	border-radius: 30px; border: 2px solid rgba(139, 192, 39, 1); color: rgba(139, 192, 39, 1); text-decoration: none; background-color: transparent;
+}
+.tp-caption.subcaption {
+	padding: 0px; border-radius: 0px; border: 0px rgba(0, 0, 0, 1); text-align: left; color: rgba(111, 124, 130, 1); line-height: 24px; font-family: roboto; font-size: 19px; font-style: normal; font-weight: 400; text-decoration: none; text-shadow: none; background-color: transparent;
+}
+.subcaption {
+	padding: 0px; border-radius: 0px; border: 0px rgba(0, 0, 0, 1); text-align: left; color: rgba(111, 124, 130, 1); line-height: 24px; font-family: roboto; font-size: 19px; font-style: normal; font-weight: 400; text-decoration: none; text-shadow: none; background-color: transparent;
+}
+.tp-caption.menutab {
+	padding: 0px; border-radius: 0px; border: 0px rgba(0, 0, 0, 1); text-align: left; color: rgba(41, 46, 49, 1); line-height: 30px; font-family: roboto; font-size: 25px; font-style: normal; font-weight: 300; text-decoration: none; text-shadow: none; background-color: transparent;
+}
+.menutab {
+	padding: 0px; border-radius: 0px; border: 0px rgba(0, 0, 0, 1); text-align: left; color: rgba(41, 46, 49, 1); line-height: 30px; font-family: roboto; font-size: 25px; font-style: normal; font-weight: 300; text-decoration: none; text-shadow: none; background-color: transparent;
+}
+.tp-caption.menutab:hover {
+	border-radius: 0px; border: 0px transparent; color: rgba(213, 0, 0, 1); text-decoration: none; background-color: transparent;
+}
+.menutab:hover {
+	border-radius: 0px; border: 0px transparent; color: rgba(213, 0, 0, 1); text-decoration: none; background-color: transparent;
+}
+.tp-caption.maincontent {
+	padding: 0px; border-radius: 0px; border: 0px rgba(0, 0, 0, 1); text-align: left; color: rgba(41, 46, 49, 1); line-height: 26px; font-family: roboto; font-size: 21px; font-style: normal; font-weight: 300; text-decoration: none; text-shadow: none; background-color: transparent;
+}
+.maincontent {
+	padding: 0px; border-radius: 0px; border: 0px rgba(0, 0, 0, 1); text-align: left; color: rgba(41, 46, 49, 1); line-height: 26px; font-family: roboto; font-size: 21px; font-style: normal; font-weight: 300; text-decoration: none; text-shadow: none; background-color: transparent;
+}
+.tp-caption.minitext {
+	padding: 0px; border-radius: 0px; border: 0px rgba(0, 0, 0, 1); text-align: left; color: rgba(185, 186, 187, 1); line-height: 20px; font-family: roboto; font-size: 15px; font-style: normal; font-weight: 400; text-decoration: none; text-shadow: none; background-color: transparent;
+}
+.minitext {
+	padding: 0px; border-radius: 0px; border: 0px rgba(0, 0, 0, 1); text-align: left; color: rgba(185, 186, 187, 1); line-height: 20px; font-family: roboto; font-size: 15px; font-style: normal; font-weight: 400; text-decoration: none; text-shadow: none; background-color: transparent;
+}
+.tp-caption.Feature-Buy {
+	padding: 17px 35px; border-radius: 30px; border: 0px solid rgba(0, 0, 0, 0); text-align: left; color: rgba(255, 255, 255, 1); line-height: 17px; font-family: Roboto; font-size: 17px; font-style: normal; font-weight: 700; text-decoration: none; background-color: rgba(0, 154, 238, 1);
+}
+.Feature-Buy {
+	padding: 17px 35px; border-radius: 30px; border: 0px solid rgba(0, 0, 0, 0); text-align: left; color: rgba(255, 255, 255, 1); line-height: 17px; font-family: Roboto; font-size: 17px; font-style: normal; font-weight: 700; text-decoration: none; background-color: rgba(0, 154, 238, 1);
+}
+.tp-caption.Feature-Buy:hover {
+	border-radius: 30px; border: 0px solid rgba(0, 0, 0, 0); color: rgba(255, 255, 255, 1); text-decoration: none; background-color: rgba(0, 133, 214, 1);
+}
+.Feature-Buy:hover {
+	border-radius: 30px; border: 0px solid rgba(0, 0, 0, 0); color: rgba(255, 255, 255, 1); text-decoration: none; background-color: rgba(0, 133, 214, 1);
+}
+.tp-caption.Feature-Examples-Light {
+	padding: 15px 35px; border-radius: 30px; border: 2px solid rgba(255, 255, 255, 0.15); text-align: left; color: rgba(255, 255, 255, 1); line-height: 17px; font-family: Roboto; font-size: 17px; font-style: normal; font-weight: 700; text-decoration: none; background-color: transparent;
+}
+.Feature-Examples-Light {
+	padding: 15px 35px; border-radius: 30px; border: 2px solid rgba(255, 255, 255, 0.15); text-align: left; color: rgba(255, 255, 255, 1); line-height: 17px; font-family: Roboto; font-size: 17px; font-style: normal; font-weight: 700; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Feature-Examples-Light:hover {
+	border-radius: 30px; border: 2px solid rgba(255, 255, 255, 1); color: rgba(255, 255, 255, 1); text-decoration: none; background-color: transparent;
+}
+.Feature-Examples-Light:hover {
+	border-radius: 30px; border: 2px solid rgba(255, 255, 255, 1); color: rgba(255, 255, 255, 1); text-decoration: none; background-color: transparent;
+}
+.tp-caption.Facebook-Likes {
+	padding: 5px 15px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 22px; font-family: Roboto; font-size: 15px; font-style: normal; font-weight: 500; text-decoration: none; background-color: rgba(59, 89, 153, 1);
+}
+.Facebook-Likes {
+	padding: 5px 15px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 22px; font-family: Roboto; font-size: 15px; font-style: normal; font-weight: 500; text-decoration: none; background-color: rgba(59, 89, 153, 1);
+}
+.tp-caption.Twitter-Favorites {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(136, 153, 166, 1); line-height: 22px; font-family: Roboto; font-size: 15px; font-style: normal; font-weight: 500; text-decoration: none; background-color: rgba(255, 255, 255, 0);
+}
+.Twitter-Favorites {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(136, 153, 166, 1); line-height: 22px; font-family: Roboto; font-size: 15px; font-style: normal; font-weight: 500; text-decoration: none; background-color: rgba(255, 255, 255, 0);
+}
+.tp-caption.Twitter-Link {
+	padding: 11px 11px 9px; border-radius: 30px; border: 0px transparent; text-align: left; color: rgba(135, 153, 165, 1); line-height: 15px; font-family: Roboto; font-size: 15px; font-style: normal; font-weight: 500; text-decoration: none; background-color: rgba(255, 255, 255, 1);
+}
+.Twitter-Link {
+	padding: 11px 11px 9px; border-radius: 30px; border: 0px transparent; text-align: left; color: rgba(135, 153, 165, 1); line-height: 15px; font-family: Roboto; font-size: 15px; font-style: normal; font-weight: 500; text-decoration: none; background-color: rgba(255, 255, 255, 1);
+}
+.tp-caption.Twitter-Link:hover {
+	border-radius: 30px; border: 0px transparent; color: rgba(255, 255, 255, 1); text-decoration: none; background-color: rgba(0, 132, 180, 1);
+}
+.Twitter-Link:hover {
+	border-radius: 30px; border: 0px transparent; color: rgba(255, 255, 255, 1); text-decoration: none; background-color: rgba(0, 132, 180, 1);
+}
+.tp-caption.Twitter-Retweet {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(136, 153, 166, 1); line-height: 22px; font-family: Roboto; font-size: 15px; font-style: normal; font-weight: 500; text-decoration: none; background-color: rgba(255, 255, 255, 0);
+}
+.Twitter-Retweet {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(136, 153, 166, 1); line-height: 22px; font-family: Roboto; font-size: 15px; font-style: normal; font-weight: 500; text-decoration: none; background-color: rgba(255, 255, 255, 0);
+}
+.tp-caption.Twitter-Content {
+	padding: 30px 30px 70px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(41, 47, 51, 1); line-height: 28px; font-family: Roboto; font-size: 20px; font-style: normal; font-weight: 500; text-decoration: none; background-color: rgba(255, 255, 255, 1);
+}
+.Twitter-Content {
+	padding: 30px 30px 70px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(41, 47, 51, 1); line-height: 28px; font-family: Roboto; font-size: 20px; font-style: normal; font-weight: 500; text-decoration: none; background-color: rgba(255, 255, 255, 1);
+}
+.revtp-searchform input[type='text'] {
+	padding: 0px 20px; border-radius: 0px; border: 0px currentColor; transition:background-color 0.5s; border-image: none; width: 400px; color: rgb(0, 0, 0); line-height: 46px; font-family: "Arial", sans-serif; font-size: 15px; margin-bottom: 0px; cursor: text; background-color: rgb(255, 255, 255); -webkit-transition: background-color 0.5s; -o-transition: background-color 0.5s; -moz-transition: background-color 0.5s;
+}
+.revtp-searchform input[type='email'] {
+	padding: 0px 20px; border-radius: 0px; border: 0px currentColor; transition:background-color 0.5s; border-image: none; width: 400px; color: rgb(0, 0, 0); line-height: 46px; font-family: "Arial", sans-serif; font-size: 15px; margin-bottom: 0px; cursor: text; background-color: rgb(255, 255, 255); -webkit-transition: background-color 0.5s; -o-transition: background-color 0.5s; -moz-transition: background-color 0.5s;
+}
+.revtp-form input[type='text'] {
+	padding: 0px 20px; border-radius: 0px; border: 0px currentColor; transition:background-color 0.5s; border-image: none; width: 400px; color: rgb(0, 0, 0); line-height: 46px; font-family: "Arial", sans-serif; font-size: 15px; margin-bottom: 0px; cursor: text; background-color: rgb(255, 255, 255); -webkit-transition: background-color 0.5s; -o-transition: background-color 0.5s; -moz-transition: background-color 0.5s;
+}
+.revtp-form input[type='email'] {
+	padding: 0px 20px; border-radius: 0px; border: 0px currentColor; transition:background-color 0.5s; border-image: none; width: 400px; color: rgb(0, 0, 0); line-height: 46px; font-family: "Arial", sans-serif; font-size: 15px; margin-bottom: 0px; cursor: text; background-color: rgb(255, 255, 255); -webkit-transition: background-color 0.5s; -o-transition: background-color 0.5s; -moz-transition: background-color 0.5s;
+}
+.tp-caption.BigBold-Title {
+	padding: 10px 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 100px; font-family: Raleway; font-size: 110px; font-style: normal; font-weight: 800; text-decoration: none; background-color: transparent;
+}
+.BigBold-Title {
+	padding: 10px 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 100px; font-family: Raleway; font-size: 110px; font-style: normal; font-weight: 800; text-decoration: none; background-color: transparent;
+}
+.tp-caption.BigBold-SubTitle {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 0.5); line-height: 24px; letter-spacing: 1px; font-family: Raleway; font-size: 15px; font-style: normal; font-weight: 500; text-decoration: none; background-color: transparent;
+}
+.BigBold-SubTitle {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 0.5); line-height: 24px; letter-spacing: 1px; font-family: Raleway; font-size: 15px; font-style: normal; font-weight: 500; text-decoration: none; background-color: transparent;
+}
+.tp-caption.BigBold-Button {
+	padding: 15px 50px; border-radius: 0px; border: 1px solid rgba(255, 255, 255, 0.5); text-align: left; color: rgba(255, 255, 255, 1); line-height: 13px; letter-spacing: 1px; font-family: Raleway; font-size: 13px; font-style: normal; font-weight: 500; text-decoration: none; background-color: rgba(0, 0, 0, 0);
+}
+.BigBold-Button {
+	padding: 15px 50px; border-radius: 0px; border: 1px solid rgba(255, 255, 255, 0.5); text-align: left; color: rgba(255, 255, 255, 1); line-height: 13px; letter-spacing: 1px; font-family: Raleway; font-size: 13px; font-style: normal; font-weight: 500; text-decoration: none; background-color: rgba(0, 0, 0, 0);
+}
+.tp-caption.BigBold-Button:hover {
+	border-radius: 0px; border: 1px solid rgba(255, 255, 255, 1); color: rgba(255, 255, 255, 1); text-decoration: none; background-color: transparent;
+}
+.BigBold-Button:hover {
+	border-radius: 0px; border: 1px solid rgba(255, 255, 255, 1); color: rgba(255, 255, 255, 1); text-decoration: none; background-color: transparent;
+}
+.tp-caption.FoodCarousel-Content {
+	padding: 30px; border-radius: 0px; border: 1px solid rgba(41, 46, 49, 1); text-align: left; color: rgba(41, 46, 49, 1); line-height: 28px; font-family: Raleway; font-size: 17px; font-style: normal; font-weight: 500; text-decoration: none; background-color: rgba(255, 255, 255, 1);
+}
+.FoodCarousel-Content {
+	padding: 30px; border-radius: 0px; border: 1px solid rgba(41, 46, 49, 1); text-align: left; color: rgba(41, 46, 49, 1); line-height: 28px; font-family: Raleway; font-size: 17px; font-style: normal; font-weight: 500; text-decoration: none; background-color: rgba(255, 255, 255, 1);
+}
+.tp-caption.FoodCarousel-Button {
+	padding: 15px 70px 15px 50px; border-radius: 0px; border: 1px solid rgba(41, 46, 49, 1); text-align: left; color: rgba(41, 46, 49, 1); line-height: 13px; letter-spacing: 1px; font-family: Raleway; font-size: 13px; font-style: normal; font-weight: 700; text-decoration: none; background-color: rgba(255, 255, 255, 1);
+}
+.FoodCarousel-Button {
+	padding: 15px 70px 15px 50px; border-radius: 0px; border: 1px solid rgba(41, 46, 49, 1); text-align: left; color: rgba(41, 46, 49, 1); line-height: 13px; letter-spacing: 1px; font-family: Raleway; font-size: 13px; font-style: normal; font-weight: 700; text-decoration: none; background-color: rgba(255, 255, 255, 1);
+}
+.tp-caption.FoodCarousel-Button:hover {
+	border-radius: 0px; border: 1px solid rgba(41, 46, 49, 1); color: rgba(255, 255, 255, 1); text-decoration: none; background-color: rgba(41, 46, 49, 1);
+}
+.FoodCarousel-Button:hover {
+	border-radius: 0px; border: 1px solid rgba(41, 46, 49, 1); color: rgba(255, 255, 255, 1); text-decoration: none; background-color: rgba(41, 46, 49, 1);
+}
+.tp-caption.FoodCarousel-CloseButton {
+	padding: 14px 14px 14px 16px; border-radius: 30px; border: 1px solid rgba(41, 46, 49, 0); text-align: left; color: rgba(41, 46, 49, 1); line-height: 20px; letter-spacing: 1px; font-family: Raleway; font-size: 20px; font-style: normal; font-weight: 700; text-decoration: none; background-color: rgba(0, 0, 0, 0);
+}
+.FoodCarousel-CloseButton {
+	padding: 14px 14px 14px 16px; border-radius: 30px; border: 1px solid rgba(41, 46, 49, 0); text-align: left; color: rgba(41, 46, 49, 1); line-height: 20px; letter-spacing: 1px; font-family: Raleway; font-size: 20px; font-style: normal; font-weight: 700; text-decoration: none; background-color: rgba(0, 0, 0, 0);
+}
+.tp-caption.FoodCarousel-CloseButton:hover {
+	border-radius: 30px; border: 1px solid rgba(41, 46, 49, 0); color: rgba(255, 255, 255, 1); text-decoration: none; background-color: rgba(41, 46, 49, 1);
+}
+.FoodCarousel-CloseButton:hover {
+	border-radius: 30px; border: 1px solid rgba(41, 46, 49, 0); color: rgba(255, 255, 255, 1); text-decoration: none; background-color: rgba(41, 46, 49, 1);
+}
+.tp-caption.Video-SubTitle {
+	padding: 5px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 12px; letter-spacing: 2px; font-family: Raleway; font-size: 12px; font-style: normal; font-weight: 600; text-decoration: none; background-color: rgba(0, 0, 0, 0.35);
+}
+.Video-SubTitle {
+	padding: 5px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 12px; letter-spacing: 2px; font-family: Raleway; font-size: 12px; font-style: normal; font-weight: 600; text-decoration: none; background-color: rgba(0, 0, 0, 0.35);
+}
+.tp-caption.Video-Title {
+	padding: 5px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 30px; font-family: Raleway; font-size: 30px; font-style: normal; font-weight: 900; text-decoration: none; background-color: rgba(0, 0, 0, 1);
+}
+.Video-Title {
+	padding: 5px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 30px; font-family: Raleway; font-size: 30px; font-style: normal; font-weight: 900; text-decoration: none; background-color: rgba(0, 0, 0, 1);
+}
+.tp-caption.Travel-BigCaption {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 50px; font-family: Roboto; font-size: 50px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.Travel-BigCaption {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 50px; font-family: Roboto; font-size: 50px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Travel-SmallCaption {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 30px; font-family: Roboto; font-size: 25px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.Travel-SmallCaption {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 30px; font-family: Roboto; font-size: 25px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Travel-CallToAction {
+	padding: 12px 20px; border-radius: 5px; border: 2px solid rgba(255, 255, 255, 1); text-align: left; color: rgba(255, 255, 255, 1); line-height: 25px; letter-spacing: 1px; font-family: Roboto; font-size: 25px; font-style: normal; font-weight: 500; text-decoration: none; background-color: rgba(255, 255, 255, 0.05);
+}
+.Travel-CallToAction {
+	padding: 12px 20px; border-radius: 5px; border: 2px solid rgba(255, 255, 255, 1); text-align: left; color: rgba(255, 255, 255, 1); line-height: 25px; letter-spacing: 1px; font-family: Roboto; font-size: 25px; font-style: normal; font-weight: 500; text-decoration: none; background-color: rgba(255, 255, 255, 0.05);
+}
+.tp-caption.Travel-CallToAction:hover {
+	border-radius: 5px; border: 2px solid rgba(255, 255, 255, 1); color: rgba(255, 255, 255, 1); text-decoration: none; background-color: rgba(255, 255, 255, 0.15);
+}
+.Travel-CallToAction:hover {
+	border-radius: 5px; border: 2px solid rgba(255, 255, 255, 1); color: rgba(255, 255, 255, 1); text-decoration: none; background-color: rgba(255, 255, 255, 0.15);
+}
+.tp-caption.RotatingWords-TitleWhite {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 70px; font-family: Raleway; font-size: 70px; font-style: normal; font-weight: 800; text-decoration: none; background-color: transparent;
+}
+.RotatingWords-TitleWhite {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 70px; font-family: Raleway; font-size: 70px; font-style: normal; font-weight: 800; text-decoration: none; background-color: transparent;
+}
+.tp-caption.RotatingWords-Button {
+	padding: 20px 50px; border-radius: 0px; border: 2px solid rgba(255, 255, 255, 0.15); text-align: left; color: rgba(255, 255, 255, 1); line-height: 20px; letter-spacing: 3px; font-family: Raleway; font-size: 20px; font-style: normal; font-weight: 700; text-decoration: none; background-color: rgba(0, 0, 0, 0);
+}
+.RotatingWords-Button {
+	padding: 20px 50px; border-radius: 0px; border: 2px solid rgba(255, 255, 255, 0.15); text-align: left; color: rgba(255, 255, 255, 1); line-height: 20px; letter-spacing: 3px; font-family: Raleway; font-size: 20px; font-style: normal; font-weight: 700; text-decoration: none; background-color: rgba(0, 0, 0, 0);
+}
+.tp-caption.RotatingWords-Button:hover {
+	border-radius: 0px; border: 2px solid rgba(255, 255, 255, 1); color: rgba(255, 255, 255, 1); text-decoration: none; background-color: transparent;
+}
+.RotatingWords-Button:hover {
+	border-radius: 0px; border: 2px solid rgba(255, 255, 255, 1); color: rgba(255, 255, 255, 1); text-decoration: none; background-color: transparent;
+}
+.tp-caption.RotatingWords-SmallText {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 20px; font-family: Raleway; font-size: 14px; font-style: normal; font-weight: 400; text-decoration: none; text-shadow: none; background-color: transparent;
+}
+.RotatingWords-SmallText {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 20px; font-family: Raleway; font-size: 14px; font-style: normal; font-weight: 400; text-decoration: none; text-shadow: none; background-color: transparent;
+}
+.tp-caption.ContentZoom-SmallTitle {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(41, 46, 49, 1); line-height: 45px; font-family: Raleway; font-size: 33px; font-style: normal; font-weight: 600; text-decoration: none; background-color: transparent;
+}
+.ContentZoom-SmallTitle {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(41, 46, 49, 1); line-height: 45px; font-family: Raleway; font-size: 33px; font-style: normal; font-weight: 600; text-decoration: none; background-color: transparent;
+}
+.tp-caption.ContentZoom-SmallSubtitle {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(111, 124, 130, 1); line-height: 24px; font-family: Raleway; font-size: 16px; font-style: normal; font-weight: 600; text-decoration: none; background-color: transparent;
+}
+.ContentZoom-SmallSubtitle {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(111, 124, 130, 1); line-height: 24px; font-family: Raleway; font-size: 16px; font-style: normal; font-weight: 600; text-decoration: none; background-color: transparent;
+}
+.tp-caption.ContentZoom-SmallIcon {
+	padding: 10px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(41, 46, 49, 1); line-height: 20px; font-family: Raleway; font-size: 20px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.ContentZoom-SmallIcon {
+	padding: 10px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(41, 46, 49, 1); line-height: 20px; font-family: Raleway; font-size: 20px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.tp-caption.ContentZoom-SmallIcon:hover {
+	border-radius: 0px; border: 0px transparent; color: rgba(111, 124, 130, 1); text-decoration: none; background-color: transparent;
+}
+.ContentZoom-SmallIcon:hover {
+	border-radius: 0px; border: 0px transparent; color: rgba(111, 124, 130, 1); text-decoration: none; background-color: transparent;
+}
+.tp-caption.ContentZoom-DetailTitle {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(41, 46, 49, 1); line-height: 70px; font-family: Raleway; font-size: 70px; font-style: normal; font-weight: 500; text-decoration: none; background-color: transparent;
+}
+.ContentZoom-DetailTitle {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(41, 46, 49, 1); line-height: 70px; font-family: Raleway; font-size: 70px; font-style: normal; font-weight: 500; text-decoration: none; background-color: transparent;
+}
+.tp-caption.ContentZoom-DetailSubTitle {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(111, 124, 130, 1); line-height: 25px; font-family: Raleway; font-size: 25px; font-style: normal; font-weight: 500; text-decoration: none; background-color: transparent;
+}
+.ContentZoom-DetailSubTitle {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(111, 124, 130, 1); line-height: 25px; font-family: Raleway; font-size: 25px; font-style: normal; font-weight: 500; text-decoration: none; background-color: transparent;
+}
+.tp-caption.ContentZoom-DetailContent {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(111, 124, 130, 1); line-height: 28px; font-family: Raleway; font-size: 17px; font-style: normal; font-weight: 500; text-decoration: none; background-color: transparent;
+}
+.ContentZoom-DetailContent {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(111, 124, 130, 1); line-height: 28px; font-family: Raleway; font-size: 17px; font-style: normal; font-weight: 500; text-decoration: none; background-color: transparent;
+}
+.tp-caption.ContentZoom-Button {
+	padding: 15px 50px; border-radius: 0px; border: 1px solid rgba(41, 46, 49, 0.5); text-align: left; color: rgba(41, 46, 49, 1); line-height: 13px; letter-spacing: 1px; font-family: Raleway; font-size: 13px; font-style: normal; font-weight: 700; text-decoration: none; background-color: rgba(0, 0, 0, 0);
+}
+.ContentZoom-Button {
+	padding: 15px 50px; border-radius: 0px; border: 1px solid rgba(41, 46, 49, 0.5); text-align: left; color: rgba(41, 46, 49, 1); line-height: 13px; letter-spacing: 1px; font-family: Raleway; font-size: 13px; font-style: normal; font-weight: 700; text-decoration: none; background-color: rgba(0, 0, 0, 0);
+}
+.tp-caption.ContentZoom-Button:hover {
+	border-radius: 0px; border: 1px solid rgba(41, 46, 49, 1); color: rgba(255, 255, 255, 1); text-decoration: none; background-color: rgba(41, 46, 49, 1);
+}
+.ContentZoom-Button:hover {
+	border-radius: 0px; border: 1px solid rgba(41, 46, 49, 1); color: rgba(255, 255, 255, 1); text-decoration: none; background-color: rgba(41, 46, 49, 1);
+}
+.tp-caption.ContentZoom-ButtonClose {
+	padding: 14px 14px 14px 16px; border-radius: 30px; border: 1px solid rgba(41, 46, 49, 0.5); text-align: left; color: rgba(41, 46, 49, 1); line-height: 13px; letter-spacing: 1px; font-family: Raleway; font-size: 13px; font-style: normal; font-weight: 700; text-decoration: none; background-color: rgba(0, 0, 0, 0);
+}
+.ContentZoom-ButtonClose {
+	padding: 14px 14px 14px 16px; border-radius: 30px; border: 1px solid rgba(41, 46, 49, 0.5); text-align: left; color: rgba(41, 46, 49, 1); line-height: 13px; letter-spacing: 1px; font-family: Raleway; font-size: 13px; font-style: normal; font-weight: 700; text-decoration: none; background-color: rgba(0, 0, 0, 0);
+}
+.tp-caption.ContentZoom-ButtonClose:hover {
+	border-radius: 30px; border: 1px solid rgba(41, 46, 49, 1); color: rgba(255, 255, 255, 1); text-decoration: none; background-color: rgba(41, 46, 49, 1);
+}
+.ContentZoom-ButtonClose:hover {
+	border-radius: 30px; border: 1px solid rgba(41, 46, 49, 1); color: rgba(255, 255, 255, 1); text-decoration: none; background-color: rgba(41, 46, 49, 1);
+}
+.tp-caption.Newspaper-Title {
+	padding: 0px 0px 10px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 55px; font-family: "Roboto Slab"; font-size: 50px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.Newspaper-Title {
+	padding: 0px 0px 10px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 55px; font-family: "Roboto Slab"; font-size: 50px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Newspaper-Subtitle {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(168, 216, 238, 1); line-height: 20px; font-family: Roboto; font-size: 15px; font-style: normal; font-weight: 900; text-decoration: none; background-color: transparent;
+}
+.Newspaper-Subtitle {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(168, 216, 238, 1); line-height: 20px; font-family: Roboto; font-size: 15px; font-style: normal; font-weight: 900; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Newspaper-Button {
+	padding: 12px 35px; border-radius: 0px; border: 1px solid rgba(255, 255, 255, 0.25); text-align: left; color: rgba(255, 255, 255, 1); line-height: 17px; letter-spacing: 2px; font-family: Roboto; font-size: 13px; font-style: normal; font-weight: 700; text-decoration: none; background-color: rgba(255, 255, 255, 0);
+}
+.Newspaper-Button {
+	padding: 12px 35px; border-radius: 0px; border: 1px solid rgba(255, 255, 255, 0.25); text-align: left; color: rgba(255, 255, 255, 1); line-height: 17px; letter-spacing: 2px; font-family: Roboto; font-size: 13px; font-style: normal; font-weight: 700; text-decoration: none; background-color: rgba(255, 255, 255, 0);
+}
+.tp-caption.Newspaper-Button:hover {
+	border-radius: 0px; border: 1px solid rgba(255, 255, 255, 1); color: rgba(0, 0, 0, 1); text-decoration: none; background-color: rgba(255, 255, 255, 1);
+}
+.Newspaper-Button:hover {
+	border-radius: 0px; border: 1px solid rgba(255, 255, 255, 1); color: rgba(0, 0, 0, 1); text-decoration: none; background-color: rgba(255, 255, 255, 1);
+}
+.tp-caption.rtwhitemedium {
+	border: 0px rgb(0, 0, 0); color: rgb(255, 255, 255); line-height: 26px; font-size: 22px; text-decoration: none; text-shadow: none; background-color: transparent;
+}
+.rtwhitemedium {
+	border: 0px rgb(0, 0, 0); color: rgb(255, 255, 255); line-height: 26px; font-size: 22px; text-decoration: none; text-shadow: none; background-color: transparent;
+}
+@media only screen and (max-width:767px)
+{
+.revtp-searchform input[type='text'] {
+	width: 200px !important;
+}
+.revtp-searchform input[type='email'] {
+	width: 200px !important;
+}
+.revtp-form input[type='text'] {
+	width: 200px !important;
+}
+.revtp-form input[type='email'] {
+	width: 200px !important;
+}
+}
+.revtp-searchform input[type='submit'] {
+	background: rgb(0, 154, 238); padding: 0px 20px; border-radius: 0px; border: 0px currentColor; border-image: none; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 46px; letter-spacing: 1px; font-family: "Arial", sans-serif; font-size: 15px; font-weight: 700;
+}
+.revtp-form input[type='submit'] {
+	background: rgb(0, 154, 238); padding: 0px 20px; border-radius: 0px; border: 0px currentColor; border-image: none; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 46px; letter-spacing: 1px; font-family: "Arial", sans-serif; font-size: 15px; font-weight: 700;
+}
+.tp-caption.Twitter-Content a {
+	color: rgb(0, 132, 180) !important;
+}
+.tp-caption.Twitter-Content a:visited {
+	color: rgb(0, 132, 180) !important;
+}
+.tp-caption.Twitter-Content a:hover {
+	color: rgb(0, 132, 180) !important; text-decoration: underline !important;
+}
+.tp-caption.Concept-Title {
+	padding: 0px 0px 10px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 70px; letter-spacing: 5px; font-family: "Roboto Condensed"; font-size: 70px; font-style: normal; font-weight: 700; text-decoration: none; background-color: transparent;
+}
+.Concept-Title {
+	padding: 0px 0px 10px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 70px; letter-spacing: 5px; font-family: "Roboto Condensed"; font-size: 70px; font-style: normal; font-weight: 700; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Concept-SubTitle {
+	padding: 0px 0px 10px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 0.65); line-height: 25px; font-size: 25px; font-style: italic; font-weight: 700; text-decoration: none; background-color: transparent;
+}
+.Concept-SubTitle {
+	padding: 0px 0px 10px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 0.65); line-height: 25px; font-size: 25px; font-style: italic; font-weight: 700; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Concept-Content {
+	padding: 0px; border-radius: 0px; border: 2px rgba(255, 255, 255, 1); text-align: center; color: rgba(255, 255, 255, 1); line-height: 30px; font-family: "Roboto Condensed"; font-size: 20px; font-style: normal; font-weight: 400; text-decoration: none; background-color: rgba(0, 0, 0, 0);
+}
+.Concept-Content {
+	padding: 0px; border-radius: 0px; border: 2px rgba(255, 255, 255, 1); text-align: center; color: rgba(255, 255, 255, 1); line-height: 30px; font-family: "Roboto Condensed"; font-size: 20px; font-style: normal; font-weight: 400; text-decoration: none; background-color: rgba(0, 0, 0, 0);
+}
+.tp-caption.Concept-MoreBtn {
+	padding: 10px 8px 7px 10px; border-radius: 50px; border: 0px solid rgba(255, 255, 255, 0); text-align: left; color: rgba(255, 255, 255, 1); line-height: 30px; letter-spacing: 1px; font-family: Roboto; font-size: 30px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.Concept-MoreBtn {
+	padding: 10px 8px 7px 10px; border-radius: 50px; border: 0px solid rgba(255, 255, 255, 0); text-align: left; color: rgba(255, 255, 255, 1); line-height: 30px; letter-spacing: 1px; font-family: Roboto; font-size: 30px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Concept-MoreBtn:hover {
+	border-radius: 50px; border: 0px solid rgba(255, 255, 255, 0); color: rgba(255, 255, 255, 1); text-decoration: none; background-color: rgba(255, 255, 255, 0.15);
+}
+.Concept-MoreBtn:hover {
+	border-radius: 50px; border: 0px solid rgba(255, 255, 255, 0); color: rgba(255, 255, 255, 1); text-decoration: none; background-color: rgba(255, 255, 255, 0.15);
+}
+.tp-caption.Concept-LessBtn {
+	padding: 10px 8px 7px 10px; border-radius: 50px; border: 0px solid rgba(255, 255, 255, 0); text-align: left; color: rgba(255, 255, 255, 1); line-height: 30px; letter-spacing: 1px; font-family: Roboto; font-size: 30px; font-style: normal; font-weight: 300; text-decoration: none; background-color: rgba(0, 0, 0, 1);
+}
+.Concept-LessBtn {
+	padding: 10px 8px 7px 10px; border-radius: 50px; border: 0px solid rgba(255, 255, 255, 0); text-align: left; color: rgba(255, 255, 255, 1); line-height: 30px; letter-spacing: 1px; font-family: Roboto; font-size: 30px; font-style: normal; font-weight: 300; text-decoration: none; background-color: rgba(0, 0, 0, 1);
+}
+.tp-caption.Concept-LessBtn:hover {
+	border-radius: 50px; border: 0px solid rgba(255, 255, 255, 0); color: rgba(0, 0, 0, 1); text-decoration: none; background-color: rgba(255, 255, 255, 1);
+}
+.Concept-LessBtn:hover {
+	border-radius: 50px; border: 0px solid rgba(255, 255, 255, 0); color: rgba(0, 0, 0, 1); text-decoration: none; background-color: rgba(255, 255, 255, 1);
+}
+.tp-caption.Concept-SubTitle-Dark {
+	padding: 0px 0px 10px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(0, 0, 0, 0.65); line-height: 25px; font-family: "Playfair Display"; font-size: 25px; font-style: italic; font-weight: 700; text-decoration: none; background-color: transparent;
+}
+.Concept-SubTitle-Dark {
+	padding: 0px 0px 10px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(0, 0, 0, 0.65); line-height: 25px; font-family: "Playfair Display"; font-size: 25px; font-style: italic; font-weight: 700; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Concept-Title-Dark {
+	padding: 0px 0px 10px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(0, 0, 0, 1); line-height: 70px; letter-spacing: 5px; font-family: "Roboto Condensed"; font-size: 70px; font-style: normal; font-weight: 700; text-decoration: none; background-color: transparent;
+}
+.Concept-Title-Dark {
+	padding: 0px 0px 10px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(0, 0, 0, 1); line-height: 70px; letter-spacing: 5px; font-family: "Roboto Condensed"; font-size: 70px; font-style: normal; font-weight: 700; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Concept-MoreBtn-Dark {
+	padding: 10px 8px 7px 10px; border-radius: 50px; border: 0px solid rgba(255, 255, 255, 0); text-align: left; color: rgba(0, 0, 0, 1); line-height: 30px; letter-spacing: 1px; font-family: Roboto; font-size: 30px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.Concept-MoreBtn-Dark {
+	padding: 10px 8px 7px 10px; border-radius: 50px; border: 0px solid rgba(255, 255, 255, 0); text-align: left; color: rgba(0, 0, 0, 1); line-height: 30px; letter-spacing: 1px; font-family: Roboto; font-size: 30px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Concept-MoreBtn-Dark:hover {
+	border-radius: 50px; border: 0px solid rgba(255, 255, 255, 0); color: rgba(255, 255, 255, 1); text-decoration: none; background-color: rgba(0, 0, 0, 1);
+}
+.Concept-MoreBtn-Dark:hover {
+	border-radius: 50px; border: 0px solid rgba(255, 255, 255, 0); color: rgba(255, 255, 255, 1); text-decoration: none; background-color: rgba(0, 0, 0, 1);
+}
+.tp-caption.Concept-Content-Dark {
+	padding: 0px; border-radius: 0px; border: 2px rgba(255, 255, 255, 1); text-align: center; color: rgba(0, 0, 0, 1); line-height: 30px; font-family: "Roboto Condensed"; font-size: 20px; font-style: normal; font-weight: 400; text-decoration: none; background-color: rgba(0, 0, 0, 0);
+}
+.Concept-Content-Dark {
+	padding: 0px; border-radius: 0px; border: 2px rgba(255, 255, 255, 1); text-align: center; color: rgba(0, 0, 0, 1); line-height: 30px; font-family: "Roboto Condensed"; font-size: 20px; font-style: normal; font-weight: 400; text-decoration: none; background-color: rgba(0, 0, 0, 0);
+}
+.tp-caption.Concept-Notice {
+	padding: 0px; border-radius: 0px; border: 2px rgba(255, 255, 255, 1); text-align: center; color: rgba(255, 255, 255, 1); line-height: 15px; letter-spacing: 2px; font-family: "Roboto Condensed"; font-size: 15px; font-style: normal; font-weight: 400; text-decoration: none; background-color: rgba(0, 0, 0, 0);
+}
+.Concept-Notice {
+	padding: 0px; border-radius: 0px; border: 2px rgba(255, 255, 255, 1); text-align: center; color: rgba(255, 255, 255, 1); line-height: 15px; letter-spacing: 2px; font-family: "Roboto Condensed"; font-size: 15px; font-style: normal; font-weight: 400; text-decoration: none; background-color: rgba(0, 0, 0, 0);
+}
+.tp-caption.Concept-Content a {
+	color: rgb(255, 255, 255) !important; font-weight: 700 !important; border-bottom-color: rgb(255, 255, 255) !important; border-bottom-width: 1px !important; border-bottom-style: solid !important;
+}
+.tp-caption.Concept-Content a:visited {
+	color: rgb(255, 255, 255) !important; font-weight: 700 !important; border-bottom-color: rgb(255, 255, 255) !important; border-bottom-width: 1px !important; border-bottom-style: solid !important;
+}
+.tp-caption.Concept-Content a:hover {
+	border-bottom-color: transparent !important; border-bottom-width: 1px !important; border-bottom-style: solid !important;
+}
+.tp-caption.Concept-Content-Dark a {
+	color: rgb(0, 0, 0) !important; font-weight: 700 !important; border-bottom-color: rgb(0, 0, 0) !important; border-bottom-width: 1px !important; border-bottom-style: solid !important;
+}
+.tp-caption.Concept-Content-Dark a:visited {
+	color: rgb(0, 0, 0) !important; font-weight: 700 !important; border-bottom-color: rgb(0, 0, 0) !important; border-bottom-width: 1px !important; border-bottom-style: solid !important;
+}
+.tp-caption.Concept-Content-Dark a:hover {
+	border-bottom-color: transparent !important; border-bottom-width: 1px !important; border-bottom-style: solid !important;
+}
+.tp-caption.Twitter-Content a {
+	color: rgb(0, 132, 180) !important;
+}
+.tp-caption.Twitter-Content a:visited {
+	color: rgb(0, 132, 180) !important;
+}
+.tp-caption.Twitter-Content a:hover {
+	color: rgb(0, 132, 180) !important; text-decoration: underline !important;
+}
+.tp-caption.Creative-Title {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(255, 255, 255, 1); line-height: 70px; font-family: "Playfair Display"; font-size: 70px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.Creative-Title {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(255, 255, 255, 1); line-height: 70px; font-family: "Playfair Display"; font-size: 70px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Creative-SubTitle {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(205, 176, 131, 1); line-height: 14px; letter-spacing: 2px; font-family: Lato; font-size: 14px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.Creative-SubTitle {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(205, 176, 131, 1); line-height: 14px; letter-spacing: 2px; font-family: Lato; font-size: 14px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Creative-Button {
+	padding: 15px 50px; border-radius: 0px; border: 1px solid rgba(205, 176, 131, 0.25); text-align: left; color: rgba(205, 176, 131, 1); line-height: 13px; letter-spacing: 2px; font-family: Lato; font-size: 13px; font-style: normal; font-weight: 400; text-decoration: none; background-color: rgba(0, 0, 0, 0);
+}
+.Creative-Button {
+	padding: 15px 50px; border-radius: 0px; border: 1px solid rgba(205, 176, 131, 0.25); text-align: left; color: rgba(205, 176, 131, 1); line-height: 13px; letter-spacing: 2px; font-family: Lato; font-size: 13px; font-style: normal; font-weight: 400; text-decoration: none; background-color: rgba(0, 0, 0, 0);
+}
+.tp-caption.Creative-Button:hover {
+	border-radius: 0px; border: 1px solid rgba(205, 176, 131, 1); color: rgba(205, 176, 131, 1); text-decoration: none; background-color: rgba(0, 0, 0, 0);
+}
+.Creative-Button:hover {
+	border-radius: 0px; border: 1px solid rgba(205, 176, 131, 1); color: rgba(205, 176, 131, 1); text-decoration: none; background-color: rgba(0, 0, 0, 0);
+}
+.tp-caption.subcaption {
+	padding: 0px; border-radius: 0px; border: 0px rgba(0, 0, 0, 1); text-align: left; color: rgba(111, 124, 130, 1); line-height: 24px; font-family: roboto; font-size: 19px; font-style: normal; font-weight: 400; text-decoration: none; text-shadow: none; background-color: transparent;
+}
+.subcaption {
+	padding: 0px; border-radius: 0px; border: 0px rgba(0, 0, 0, 1); text-align: left; color: rgba(111, 124, 130, 1); line-height: 24px; font-family: roboto; font-size: 19px; font-style: normal; font-weight: 400; text-decoration: none; text-shadow: none; background-color: transparent;
+}
+.tp-caption.RedDot {
+	padding: 0px; border-radius: 50px; border: 5px solid rgba(255, 255, 255, 1); text-align: left; color: rgba(0, 0, 0, 1); font-style: normal; font-weight: 400; text-decoration: none; background-color: rgba(213, 0, 0, 1);
+}
+.RedDot {
+	padding: 0px; border-radius: 50px; border: 5px solid rgba(255, 255, 255, 1); text-align: left; color: rgba(0, 0, 0, 1); font-style: normal; font-weight: 400; text-decoration: none; background-color: rgba(213, 0, 0, 1);
+}
+.tp-caption.RedDot:hover {
+	border-radius: 50px; border: 5px solid rgba(213, 0, 0, 1); color: rgba(0, 0, 0, 1); text-decoration: none; background-color: rgba(255, 255, 255, 0.75);
+}
+.RedDot:hover {
+	border-radius: 50px; border: 5px solid rgba(213, 0, 0, 1); color: rgba(0, 0, 0, 1); text-decoration: none; background-color: rgba(255, 255, 255, 0.75);
+}
+.tp-caption.SlidingOverlays-Title {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 50px; font-family: "Playfair Display"; font-size: 50px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.SlidingOverlays-Title {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 50px; font-family: "Playfair Display"; font-size: 50px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.tp-caption.SlidingOverlays-Title {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 50px; font-family: "Playfair Display"; font-size: 50px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.SlidingOverlays-Title {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 50px; font-family: "Playfair Display"; font-size: 50px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Woo-TitleLarge {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(0, 0, 0, 1); line-height: 40px; font-family: "Playfair Display"; font-size: 40px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.Woo-TitleLarge {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(0, 0, 0, 1); line-height: 40px; font-family: "Playfair Display"; font-size: 40px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Woo-Rating {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(0, 0, 0, 1); line-height: 30px; font-family: Roboto; font-size: 14px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.Woo-Rating {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(0, 0, 0, 1); line-height: 30px; font-family: Roboto; font-size: 14px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Woo-SubTitle {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(0, 0, 0, 1); line-height: 18px; letter-spacing: 2px; font-family: Roboto; font-size: 18px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.Woo-SubTitle {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(0, 0, 0, 1); line-height: 18px; letter-spacing: 2px; font-family: Roboto; font-size: 18px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Woo-PriceLarge {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(0, 0, 0, 1); line-height: 60px; font-family: Roboto; font-size: 60px; font-style: normal; font-weight: 700; text-decoration: none; background-color: transparent;
+}
+.Woo-PriceLarge {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(0, 0, 0, 1); line-height: 60px; font-family: Roboto; font-size: 60px; font-style: normal; font-weight: 700; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Woo-ProductInfo {
+	padding: 12px 75px 12px 50px; border-radius: 4px; border: 1px solid rgba(0, 0, 0, 1); text-align: left; color: rgba(0, 0, 0, 1); line-height: 15px; font-family: Roboto; font-size: 15px; font-style: normal; font-weight: 500; text-decoration: none; background-color: rgba(254, 207, 114, 1);
+}
+.Woo-ProductInfo {
+	padding: 12px 75px 12px 50px; border-radius: 4px; border: 1px solid rgba(0, 0, 0, 1); text-align: left; color: rgba(0, 0, 0, 1); line-height: 15px; font-family: Roboto; font-size: 15px; font-style: normal; font-weight: 500; text-decoration: none; background-color: rgba(254, 207, 114, 1);
+}
+.tp-caption.Woo-ProductInfo:hover {
+	border-radius: 4px; border: 1px solid rgba(0, 0, 0, 1); color: rgba(0, 0, 0, 1); text-decoration: none; background-color: rgba(243, 168, 71, 1);
+}
+.Woo-ProductInfo:hover {
+	border-radius: 4px; border: 1px solid rgba(0, 0, 0, 1); color: rgba(0, 0, 0, 1); text-decoration: none; background-color: rgba(243, 168, 71, 1);
+}
+.tp-caption.Woo-AddToCart {
+	padding: 12px 35px; border-radius: 4px; border: 1px solid rgba(0, 0, 0, 1); text-align: left; color: rgba(0, 0, 0, 1); line-height: 15px; font-family: Roboto; font-size: 15px; font-style: normal; font-weight: 500; text-decoration: none; background-color: rgba(254, 207, 114, 1);
+}
+.Woo-AddToCart {
+	padding: 12px 35px; border-radius: 4px; border: 1px solid rgba(0, 0, 0, 1); text-align: left; color: rgba(0, 0, 0, 1); line-height: 15px; font-family: Roboto; font-size: 15px; font-style: normal; font-weight: 500; text-decoration: none; background-color: rgba(254, 207, 114, 1);
+}
+.tp-caption.Woo-AddToCart:hover {
+	border-radius: 4px; border: 1px solid rgba(0, 0, 0, 1); color: rgba(0, 0, 0, 1); text-decoration: none; background-color: rgba(243, 168, 71, 1);
+}
+.Woo-AddToCart:hover {
+	border-radius: 4px; border: 1px solid rgba(0, 0, 0, 1); color: rgba(0, 0, 0, 1); text-decoration: none; background-color: rgba(243, 168, 71, 1);
+}
+.tp-caption.Woo-TitleLarge {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(0, 0, 0, 1); line-height: 40px; font-family: "Playfair Display"; font-size: 40px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.Woo-TitleLarge {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(0, 0, 0, 1); line-height: 40px; font-family: "Playfair Display"; font-size: 40px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Woo-SubTitle {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(0, 0, 0, 1); line-height: 18px; letter-spacing: 2px; font-family: Roboto; font-size: 18px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.Woo-SubTitle {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(0, 0, 0, 1); line-height: 18px; letter-spacing: 2px; font-family: Roboto; font-size: 18px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Woo-PriceLarge {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(0, 0, 0, 1); line-height: 60px; font-family: Roboto; font-size: 60px; font-style: normal; font-weight: 700; text-decoration: none; background-color: transparent;
+}
+.Woo-PriceLarge {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(0, 0, 0, 1); line-height: 60px; font-family: Roboto; font-size: 60px; font-style: normal; font-weight: 700; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Woo-ProductInfo {
+	padding: 12px 75px 12px 50px; border-radius: 4px; border: 1px solid rgba(0, 0, 0, 1); text-align: left; color: rgba(0, 0, 0, 1); line-height: 15px; font-family: Roboto; font-size: 15px; font-style: normal; font-weight: 500; text-decoration: none; background-color: rgba(254, 207, 114, 1);
+}
+.Woo-ProductInfo {
+	padding: 12px 75px 12px 50px; border-radius: 4px; border: 1px solid rgba(0, 0, 0, 1); text-align: left; color: rgba(0, 0, 0, 1); line-height: 15px; font-family: Roboto; font-size: 15px; font-style: normal; font-weight: 500; text-decoration: none; background-color: rgba(254, 207, 114, 1);
+}
+.tp-caption.Woo-ProductInfo:hover {
+	border-radius: 4px; border: 1px solid rgba(0, 0, 0, 1); color: rgba(0, 0, 0, 1); text-decoration: none; background-color: rgba(243, 168, 71, 1);
+}
+.Woo-ProductInfo:hover {
+	border-radius: 4px; border: 1px solid rgba(0, 0, 0, 1); color: rgba(0, 0, 0, 1); text-decoration: none; background-color: rgba(243, 168, 71, 1);
+}
+.tp-caption.Woo-AddToCart {
+	padding: 12px 35px; border-radius: 4px; border: 1px solid rgba(0, 0, 0, 1); text-align: left; color: rgba(0, 0, 0, 1); line-height: 15px; font-family: Roboto; font-size: 15px; font-style: normal; font-weight: 500; text-decoration: none; background-color: rgba(254, 207, 114, 1);
+}
+.Woo-AddToCart {
+	padding: 12px 35px; border-radius: 4px; border: 1px solid rgba(0, 0, 0, 1); text-align: left; color: rgba(0, 0, 0, 1); line-height: 15px; font-family: Roboto; font-size: 15px; font-style: normal; font-weight: 500; text-decoration: none; background-color: rgba(254, 207, 114, 1);
+}
+.tp-caption.Woo-AddToCart:hover {
+	border-radius: 4px; border: 1px solid rgba(0, 0, 0, 1); color: rgba(0, 0, 0, 1); text-decoration: none; background-color: rgba(243, 168, 71, 1);
+}
+.Woo-AddToCart:hover {
+	border-radius: 4px; border: 1px solid rgba(0, 0, 0, 1); color: rgba(0, 0, 0, 1); text-decoration: none; background-color: rgba(243, 168, 71, 1);
+}
+.tp-caption.FullScreen-Toggle {
+	padding: 11px 8px 11px 12px; border-radius: 0px; border: 0px solid rgba(255, 255, 255, 0); text-align: left; color: rgba(255, 255, 255, 1); line-height: 20px; letter-spacing: 3px; font-family: Raleway; font-size: 20px; font-style: normal; font-weight: 400; text-decoration: none; background-color: rgba(0, 0, 0, 0.5);
+}
+.FullScreen-Toggle {
+	padding: 11px 8px 11px 12px; border-radius: 0px; border: 0px solid rgba(255, 255, 255, 0); text-align: left; color: rgba(255, 255, 255, 1); line-height: 20px; letter-spacing: 3px; font-family: Raleway; font-size: 20px; font-style: normal; font-weight: 400; text-decoration: none; background-color: rgba(0, 0, 0, 0.5);
+}
+.tp-caption.FullScreen-Toggle:hover {
+	border-radius: 0px; border: 0px solid rgba(255, 255, 255, 0); color: rgba(255, 255, 255, 1); text-decoration: none; background-color: rgba(0, 0, 0, 1);
+}
+.FullScreen-Toggle:hover {
+	border-radius: 0px; border: 0px solid rgba(255, 255, 255, 0); color: rgba(255, 255, 255, 1); text-decoration: none; background-color: rgba(0, 0, 0, 1);
+}
+.tp-caption.Agency-Title {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 70px; letter-spacing: 10px; font-family: lato; font-size: 70px; font-style: normal; font-weight: 900; text-decoration: none; background-color: transparent;
+}
+.Agency-Title {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 70px; letter-spacing: 10px; font-family: lato; font-size: 70px; font-style: normal; font-weight: 900; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Agency-SubTitle {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(255, 255, 255, 1); line-height: 20px; font-family: Georgia, serif; font-size: 20px; font-style: italic; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.Agency-SubTitle {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(255, 255, 255, 1); line-height: 20px; font-family: Georgia, serif; font-size: 20px; font-style: italic; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Agency-PlayBtn {
+	padding: 0px; border-radius: 100px; border: 2px solid rgba(255, 255, 255, 1); text-align: center; color: rgba(255, 255, 255, 1); line-height: 71px; font-family: Roboto; font-size: 30px; font-style: normal; font-weight: 500; text-decoration: none; background-color: transparent;
+}
+.Agency-PlayBtn {
+	padding: 0px; border-radius: 100px; border: 2px solid rgba(255, 255, 255, 1); text-align: center; color: rgba(255, 255, 255, 1); line-height: 71px; font-family: Roboto; font-size: 30px; font-style: normal; font-weight: 500; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Agency-PlayBtn:hover {
+	border-radius: 100px; border: 2px solid rgba(255, 255, 255, 1); color: rgba(255, 255, 255, 1); text-decoration: none; cursor: pointer; background-color: transparent;
+}
+.Agency-PlayBtn:hover {
+	border-radius: 100px; border: 2px solid rgba(255, 255, 255, 1); color: rgba(255, 255, 255, 1); text-decoration: none; cursor: pointer; background-color: transparent;
+}
+.tp-caption.Agency-SmallText {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 12px; letter-spacing: 5px; font-family: lato; font-size: 12px; font-style: normal; font-weight: 900; text-decoration: none; background-color: transparent;
+}
+.Agency-SmallText {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 12px; letter-spacing: 5px; font-family: lato; font-size: 12px; font-style: normal; font-weight: 900; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Agency-Social {
+	padding: 0px; border-radius: 30px; border: 2px solid rgba(51, 51, 51, 1); text-align: center; color: rgba(51, 51, 51, 1); line-height: 50px; font-family: Georgia, serif; font-size: 25px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.Agency-Social {
+	padding: 0px; border-radius: 30px; border: 2px solid rgba(51, 51, 51, 1); text-align: center; color: rgba(51, 51, 51, 1); line-height: 50px; font-family: Georgia, serif; font-size: 25px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Agency-Social:hover {
+	border-radius: 30px; border: 2px solid rgba(51, 51, 51, 1); color: rgba(255, 255, 255, 1); text-decoration: none; cursor: pointer; background-color: rgba(51, 51, 51, 1);
+}
+.Agency-Social:hover {
+	border-radius: 30px; border: 2px solid rgba(51, 51, 51, 1); color: rgba(255, 255, 255, 1); text-decoration: none; cursor: pointer; background-color: rgba(51, 51, 51, 1);
+}
+.tp-caption.Agency-CloseBtn {
+	padding: 0px; border-radius: 100px; border: 0px rgba(255, 255, 255, 0); text-align: center; color: rgba(255, 255, 255, 1); line-height: 50px; font-family: Roboto; font-size: 50px; font-style: normal; font-weight: 500; text-decoration: none; background-color: transparent;
+}
+.Agency-CloseBtn {
+	padding: 0px; border-radius: 100px; border: 0px rgba(255, 255, 255, 0); text-align: center; color: rgba(255, 255, 255, 1); line-height: 50px; font-family: Roboto; font-size: 50px; font-style: normal; font-weight: 500; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Agency-CloseBtn:hover {
+	border-radius: 100px; border: 0px rgba(255, 255, 255, 0); color: rgba(255, 255, 255, 1); text-decoration: none; cursor: pointer; background-color: transparent;
+}
+.Agency-CloseBtn:hover {
+	border-radius: 100px; border: 0px rgba(255, 255, 255, 0); color: rgba(255, 255, 255, 1); text-decoration: none; cursor: pointer; background-color: transparent;
+}
+.tp-caption.Dining-Title {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 70px; letter-spacing: 10px; font-family: Georgia, serif; font-size: 70px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.Dining-Title {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 70px; letter-spacing: 10px; font-family: Georgia, serif; font-size: 70px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Dining-SubTitle {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 20px; font-family: Georgia, serif; font-size: 20px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.Dining-SubTitle {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 20px; font-family: Georgia, serif; font-size: 20px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Dining-BtnLight {
+	padding: 17px 73px 17px 50px; border-radius: 0px; border: 1px solid rgba(255, 255, 255, 0.25); text-align: left; color: rgba(255, 255, 255, 0.5); line-height: 15px; letter-spacing: 2px; font-family: Lato; font-size: 15px; font-style: normal; font-weight: 700; text-decoration: none; background-color: rgba(0, 0, 0, 0);
+}
+.Dining-BtnLight {
+	padding: 17px 73px 17px 50px; border-radius: 0px; border: 1px solid rgba(255, 255, 255, 0.25); text-align: left; color: rgba(255, 255, 255, 0.5); line-height: 15px; letter-spacing: 2px; font-family: Lato; font-size: 15px; font-style: normal; font-weight: 700; text-decoration: none; background-color: rgba(0, 0, 0, 0);
+}
+.tp-caption.Dining-BtnLight:hover {
+	border-radius: 0px; border: 1px solid rgba(255, 255, 255, 1); color: rgba(255, 255, 255, 1); text-decoration: none; background-color: rgba(0, 0, 0, 0);
+}
+.Dining-BtnLight:hover {
+	border-radius: 0px; border: 1px solid rgba(255, 255, 255, 1); color: rgba(255, 255, 255, 1); text-decoration: none; background-color: rgba(0, 0, 0, 0);
+}
+.tp-caption.Dining-Social {
+	padding: 0px; border-radius: 30px; border: 1px solid rgba(255, 255, 255, 0.25); text-align: center; color: rgba(255, 255, 255, 1); line-height: 50px; font-family: Georgia, serif; font-size: 25px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.Dining-Social {
+	padding: 0px; border-radius: 30px; border: 1px solid rgba(255, 255, 255, 0.25); text-align: center; color: rgba(255, 255, 255, 1); line-height: 50px; font-family: Georgia, serif; font-size: 25px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Dining-Social:hover {
+	border-radius: 30px; border: 1px solid rgba(255, 255, 255, 1); color: rgba(255, 255, 255, 1); text-decoration: none; cursor: pointer; background-color: transparent;
+}
+.Dining-Social:hover {
+	border-radius: 30px; border: 1px solid rgba(255, 255, 255, 1); color: rgba(255, 255, 255, 1); text-decoration: none; cursor: pointer; background-color: transparent;
+}
+tp-caption.Team-Thumb {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 22px; font-family: Arial; font-size: 20px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.Team-Thumb {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 22px; font-family: Arial; font-size: 20px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Team-Thumb:hover {
+	border-radius: 0px; border: 0px transparent; color: rgba(255, 255, 255, 1); text-decoration: none; cursor: pointer; background-color: transparent;
+}
+.Team-Thumb:hover {
+	border-radius: 0px; border: 0px transparent; color: rgba(255, 255, 255, 1); text-decoration: none; cursor: pointer; background-color: transparent;
+}
+.tp-caption.Team-Name {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 70px; font-family: Roboto; font-size: 70px; font-style: normal; font-weight: 900; text-decoration: none; background-color: transparent;
+}
+.Team-Name {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 70px; font-family: Roboto; font-size: 70px; font-style: normal; font-weight: 900; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Team-Position {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 30px; font-family: Georgia, serif; font-size: 30px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.Team-Position {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 30px; font-family: Georgia, serif; font-size: 30px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Team-Description {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 28px; font-family: Roboto; font-size: 18px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.Team-Description {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 28px; font-family: Roboto; font-size: 18px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Team-Social {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(255, 255, 255, 1); line-height: 50px; font-family: Arial; font-size: 50px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.Team-Social {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(255, 255, 255, 1); line-height: 50px; font-family: Arial; font-size: 50px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Team-Social:hover {
+	border-radius: 0px; border: 0px transparent; color: rgba(255, 255, 255, 1); text-decoration: none; cursor: pointer; background-color: transparent;
+}
+.Team-Social:hover {
+	border-radius: 0px; border: 0px transparent; color: rgba(255, 255, 255, 1); text-decoration: none; cursor: pointer; background-color: transparent;
+}
+.tp-caption.VideoControls-Play {
+	padding: 0px 0px 0px 7px; border-radius: 100px; border: 0px solid rgba(0, 0, 0, 1); text-align: center; color: rgba(0, 0, 0, 1); line-height: 120px; font-family: Roboto; font-size: 50px; font-style: normal; font-weight: 500; text-decoration: none; background-color: rgba(255, 255, 255, 1);
+}
+.VideoControls-Play {
+	padding: 0px 0px 0px 7px; border-radius: 100px; border: 0px solid rgba(0, 0, 0, 1); text-align: center; color: rgba(0, 0, 0, 1); line-height: 120px; font-family: Roboto; font-size: 50px; font-style: normal; font-weight: 500; text-decoration: none; background-color: rgba(255, 255, 255, 1);
+}
+.tp-caption.VideoControls-Play:hover {
+	border-radius: 100px; border: 0px solid rgba(0, 0, 0, 1); color: rgba(0, 0, 0, 1); text-decoration: none; cursor: pointer; background-color: rgba(255, 255, 255, 1);
+}
+.VideoControls-Play:hover {
+	border-radius: 100px; border: 0px solid rgba(0, 0, 0, 1); color: rgba(0, 0, 0, 1); text-decoration: none; cursor: pointer; background-color: rgba(255, 255, 255, 1);
+}
+.tp-caption.VideoPlayer-Title {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 40px; letter-spacing: 10px; font-family: Lato; font-size: 40px; font-style: normal; font-weight: 900; text-decoration: none; background-color: transparent;
+}
+.VideoPlayer-Title {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 40px; letter-spacing: 10px; font-family: Lato; font-size: 40px; font-style: normal; font-weight: 900; text-decoration: none; background-color: transparent;
+}
+.tp-caption.VideoPlayer-SubTitle {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(255, 255, 255, 1); line-height: 20px; font-family: Georgia, serif; font-size: 20px; font-style: italic; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.VideoPlayer-SubTitle {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(255, 255, 255, 1); line-height: 20px; font-family: Georgia, serif; font-size: 20px; font-style: italic; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.tp-caption.VideoPlayer-Social {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(255, 255, 255, 1); line-height: 50px; font-family: Arial; font-size: 50px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.VideoPlayer-Social {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(255, 255, 255, 1); line-height: 50px; font-family: Arial; font-size: 50px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.tp-caption.VideoPlayer-Social:hover {
+	border-radius: 0px; border: 0px transparent; color: rgba(255, 255, 255, 1); text-decoration: none; cursor: pointer; background-color: transparent;
+}
+.VideoPlayer-Social:hover {
+	border-radius: 0px; border: 0px transparent; color: rgba(255, 255, 255, 1); text-decoration: none; cursor: pointer; background-color: transparent;
+}
+.tp-caption.VideoControls-Mute {
+	padding: 0px; border-radius: 100px; border: 0px solid rgba(0, 0, 0, 1); text-align: center; color: rgba(0, 0, 0, 1); line-height: 50px; font-family: Roboto; font-size: 20px; font-style: normal; font-weight: 500; text-decoration: none; background-color: rgba(255, 255, 255, 1);
+}
+.VideoControls-Mute {
+	padding: 0px; border-radius: 100px; border: 0px solid rgba(0, 0, 0, 1); text-align: center; color: rgba(0, 0, 0, 1); line-height: 50px; font-family: Roboto; font-size: 20px; font-style: normal; font-weight: 500; text-decoration: none; background-color: rgba(255, 255, 255, 1);
+}
+.tp-caption.VideoControls-Mute:hover {
+	border-radius: 100px; border: 0px solid rgba(0, 0, 0, 1); color: rgba(0, 0, 0, 1); text-decoration: none; cursor: pointer; background-color: rgba(255, 255, 255, 1);
+}
+.VideoControls-Mute:hover {
+	border-radius: 100px; border: 0px solid rgba(0, 0, 0, 1); color: rgba(0, 0, 0, 1); text-decoration: none; cursor: pointer; background-color: rgba(255, 255, 255, 1);
+}
+.tp-caption.VideoControls-Pause {
+	padding: 0px; border-radius: 100px; border: 0px solid rgba(0, 0, 0, 1); text-align: center; color: rgba(0, 0, 0, 1); line-height: 50px; font-family: Roboto; font-size: 20px; font-style: normal; font-weight: 500; text-decoration: none; background-color: rgba(255, 255, 255, 1);
+}
+.VideoControls-Pause {
+	padding: 0px; border-radius: 100px; border: 0px solid rgba(0, 0, 0, 1); text-align: center; color: rgba(0, 0, 0, 1); line-height: 50px; font-family: Roboto; font-size: 20px; font-style: normal; font-weight: 500; text-decoration: none; background-color: rgba(255, 255, 255, 1);
+}
+.tp-caption.VideoControls-Pause:hover {
+	border-radius: 100px; border: 0px solid rgba(0, 0, 0, 1); color: rgba(0, 0, 0, 1); text-decoration: none; cursor: pointer; background-color: rgba(255, 255, 255, 1);
+}
+.VideoControls-Pause:hover {
+	border-radius: 100px; border: 0px solid rgba(0, 0, 0, 1); color: rgba(0, 0, 0, 1); text-decoration: none; cursor: pointer; background-color: rgba(255, 255, 255, 1);
+}
+.soundcloudwrapper iframe {
+	width: 100% !important;
+}
+.tp-caption.SleekLanding-Title {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 40px; letter-spacing: 5px; font-family: Lato; font-size: 35px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.SleekLanding-Title {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 40px; letter-spacing: 5px; font-family: Lato; font-size: 35px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.tp-caption.SleekLanding-ButtonBG {
+	padding: 0px; border-radius: 5px; border: 0px solid rgba(0, 0, 0, 0); text-align: left; color: rgba(0, 0, 0, 1); font-style: normal; font-weight: 700; text-decoration: none; box-shadow: inset 0px 2px 0px 0px rgba(0,0,0,0.15); background-color: rgba(255, 255, 255, 0.1);
+}
+.SleekLanding-ButtonBG {
+	padding: 0px; border-radius: 5px; border: 0px solid rgba(0, 0, 0, 0); text-align: left; color: rgba(0, 0, 0, 1); font-style: normal; font-weight: 700; text-decoration: none; box-shadow: inset 0px 2px 0px 0px rgba(0,0,0,0.15); background-color: rgba(255, 255, 255, 0.1);
+}
+.tp-caption.SleekLanding-SmallTitle {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 50px; letter-spacing: 2px; font-family: Lato; font-size: 13px; font-style: normal; font-weight: 900; text-decoration: none; background-color: transparent;
+}
+.SleekLanding-SmallTitle {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 50px; letter-spacing: 2px; font-family: Lato; font-size: 13px; font-style: normal; font-weight: 900; text-decoration: none; background-color: transparent;
+}
+.tp-caption.SleekLanding-BottomText {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 24px; font-family: Lato; font-size: 15px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.SleekLanding-BottomText {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 24px; font-family: Lato; font-size: 15px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.tp-caption.SleekLanding-Social {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(255, 255, 255, 1); line-height: 30px; font-family: Arial; font-size: 22px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.SleekLanding-Social {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(255, 255, 255, 1); line-height: 30px; font-family: Arial; font-size: 22px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.tp-caption.SleekLanding-Social:hover {
+	border-radius: 0px; border: 0px transparent; color: rgba(0, 0, 0, 0.25); text-decoration: none; cursor: pointer; background-color: transparent;
+}
+.SleekLanding-Social:hover {
+	border-radius: 0px; border: 0px transparent; color: rgba(0, 0, 0, 0.25); text-decoration: none; cursor: pointer; background-color: transparent;
+}
+#rev_slider_429_1_wrapper .tp-loader.spinner2 {
+	background-color: rgb(85, 85, 85) !important;
+}
+.tp-fat {
+	font-weight: 900 !important;
+}
+.tp-caption.PostSlider-Category {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(0, 0, 0, 1); line-height: 15px; letter-spacing: 3px; font-family: Roboto; font-size: 15px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.PostSlider-Category {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(0, 0, 0, 1); line-height: 15px; letter-spacing: 3px; font-family: Roboto; font-size: 15px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.tp-caption.PostSlider-Title {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(0, 0, 0, 1); line-height: 40px; font-family: "Playfair Display"; font-size: 40px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.PostSlider-Title {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(0, 0, 0, 1); line-height: 40px; font-family: "Playfair Display"; font-size: 40px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.tp-caption.PostSlider-Content {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(119, 119, 119, 1); line-height: 23px; font-family: Roboto; font-size: 15px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.PostSlider-Content {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(119, 119, 119, 1); line-height: 23px; font-family: Roboto; font-size: 15px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.tp-caption.PostSlider-Button {
+	padding: 1px 56px 1px 32px; border-radius: 0px; border: 1px solid rgba(0, 0, 0, 1); text-align: left; color: rgba(0, 0, 0, 1); line-height: 40px; font-family: Roboto; font-size: 15px; font-style: normal; font-weight: 500; text-decoration: none; background-color: rgba(255, 255, 255, 1);
+}
+.PostSlider-Button {
+	padding: 1px 56px 1px 32px; border-radius: 0px; border: 1px solid rgba(0, 0, 0, 1); text-align: left; color: rgba(0, 0, 0, 1); line-height: 40px; font-family: Roboto; font-size: 15px; font-style: normal; font-weight: 500; text-decoration: none; background-color: rgba(255, 255, 255, 1);
+}
+.tp-caption.PostSlider-Button:hover {
+	border-radius: 0px; border: 1px solid rgba(0, 0, 0, 1); color: rgba(0, 0, 0, 1); text-decoration: none; cursor: pointer; background-color: rgba(238, 238, 238, 1);
+}
+.PostSlider-Button:hover {
+	border-radius: 0px; border: 1px solid rgba(0, 0, 0, 1); color: rgba(0, 0, 0, 1); text-decoration: none; cursor: pointer; background-color: rgba(238, 238, 238, 1);
+}
+.tp-caption.LandingPage-Title {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 80px; letter-spacing: 10px; font-family: Lato; font-size: 70px; font-style: normal; font-weight: 900; text-decoration: none; background-color: transparent;
+}
+.LandingPage-Title {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 80px; letter-spacing: 10px; font-family: Lato; font-size: 70px; font-style: normal; font-weight: 900; text-decoration: none; background-color: transparent;
+}
+.tp-caption.LandingPage-SubTitle {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 30px; font-family: Georgia, serif; font-size: 20px; font-style: italic; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.LandingPage-SubTitle {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 30px; font-family: Georgia, serif; font-size: 20px; font-style: italic; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.tp-caption.LandingPage-Button {
+	padding: 0px 35px; border-radius: 0px; border: 0px solid rgba(0, 0, 0, 1); text-align: left; color: rgba(0, 0, 0, 1); line-height: 54px; letter-spacing: 3px; font-family: Roboto; font-size: 15px; font-style: normal; font-weight: 500; text-decoration: none; background-color: rgba(255, 255, 255, 1);
+}
+.LandingPage-Button {
+	padding: 0px 35px; border-radius: 0px; border: 0px solid rgba(0, 0, 0, 1); text-align: left; color: rgba(0, 0, 0, 1); line-height: 54px; letter-spacing: 3px; font-family: Roboto; font-size: 15px; font-style: normal; font-weight: 500; text-decoration: none; background-color: rgba(255, 255, 255, 1);
+}
+.tp-caption.LandingPage-Button:hover {
+	border-radius: 0px; border: 0px solid rgba(0, 0, 0, 1); color: rgba(0, 0, 0, 1); text-decoration: none; cursor: pointer; background-color: rgba(255, 255, 255, 1);
+}
+.LandingPage-Button:hover {
+	border-radius: 0px; border: 0px solid rgba(0, 0, 0, 1); color: rgba(0, 0, 0, 1); text-decoration: none; cursor: pointer; background-color: rgba(255, 255, 255, 1);
+}
+.tp-caption.App-Content a {
+	color: rgb(137, 18, 78) !important; font-weight: bold !important; border-bottom-color: transparent !important; border-bottom-width: 1px !important; border-bottom-style: solid !important;
+}
+.tp-caption.App-Content a:visited {
+	color: rgb(137, 18, 78) !important; font-weight: bold !important; border-bottom-color: transparent !important; border-bottom-width: 1px !important; border-bottom-style: solid !important;
+}
+.tp-caption.App-Content a:hover {
+	border-bottom-color: rgb(137, 18, 78) !important; border-bottom-width: 1px !important; border-bottom-style: solid !important;
+}
+.tp-caption.RockBand-LogoText {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 60px; font-family: Oswald; font-size: 60px; font-style: normal; font-weight: 700; text-decoration: none; background-color: transparent;
+}
+.RockBand-LogoText {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 60px; font-family: Oswald; font-size: 60px; font-style: normal; font-weight: 700; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Twitter-Content a {
+	color: rgb(255, 255, 255) !important; text-decoration: underline !important;
+}
+.tp-caption.Twitter-Content a:visited {
+	color: rgb(255, 255, 255) !important; text-decoration: underline !important;
+}
+.tp-caption.Twitter-Content a:hover {
+	color: rgb(255, 255, 255) !important; text-decoration: none !important;
+}
+.soundcloudwrapper iframe {
+	width: 100% !important;
+}
+.tp-caption.Agency-LogoText {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(255, 255, 255, 1); line-height: 20px; letter-spacing: 1px; font-family: Lato; font-size: 12px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.Agency-LogoText {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(255, 255, 255, 1); line-height: 20px; letter-spacing: 1px; font-family: Lato; font-size: 12px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.tp-caption.ComingSoon-Highlight {
+	padding: 0px 20px 3px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 37px; font-family: Lato; font-size: 20px; font-style: normal; font-weight: 400; text-decoration: none; background-color: rgba(0, 154, 238, 1);
+}
+.ComingSoon-Highlight {
+	padding: 0px 20px 3px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 37px; font-family: Lato; font-size: 20px; font-style: normal; font-weight: 400; text-decoration: none; background-color: rgba(0, 154, 238, 1);
+}
+.tp-caption.ComingSoon-Count {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 50px; font-family: Lato; font-size: 50px; font-style: normal; font-weight: 900; text-decoration: none; background-color: transparent;
+}
+.ComingSoon-Count {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 50px; font-family: Lato; font-size: 50px; font-style: normal; font-weight: 900; text-decoration: none; background-color: transparent;
+}
+.tp-caption.ComingSoon-CountUnit {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(255, 255, 255, 1); line-height: 20px; font-family: Lato; font-size: 20px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.ComingSoon-CountUnit {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(255, 255, 255, 1); line-height: 20px; font-family: Lato; font-size: 20px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.tp-caption.ComingSoon-NotifyMe {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(164, 157, 143, 1); line-height: 35px; font-family: Lato; font-size: 27px; font-style: normal; font-weight: 600; text-decoration: none; background-color: transparent;
+}
+.ComingSoon-NotifyMe {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(164, 157, 143, 1); line-height: 35px; font-family: Lato; font-size: 27px; font-style: normal; font-weight: 600; text-decoration: none; background-color: transparent;
+}
+#mc_embed_signup input#mce-EMAIL {
+	padding: 0px 20px; border-radius: 0px; border: 1px solid rgb(255, 255, 255); transition:background-color 0.5s; border-image: none; width: 400px; color: rgb(0, 0, 0); line-height: 46px; font-family: "Lato", sans-serif; font-size: 15px; margin-bottom: 0px; cursor: text; background-color: rgb(255, 255, 255); -webkit-transition: background-color 0.5s; -o-transition: background-color 0.5s; -moz-transition: background-color 0.5s;
+}
+#mc_embed_signup input[type='email']#mce-EMAIL:focus {
+	border-width: 1px 0px 1px 1px; border-style: solid none solid solid; border-color: rgb(102, 102, 102) currentColor rgb(102, 102, 102) rgb(102, 102, 102); border-image: none; background-color: rgb(255, 255, 255);
+}
+#mc_embed_signup input#mc-embedded-subscribe {
+	background: rgb(0, 154, 238); padding: 0px 20px; border-radius: 0px; border: 1px solid rgb(0, 154, 238); border-image: none; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 46px; letter-spacing: 1px; font-family: "Lato", sans-serif; font-size: 13px; font-weight: 900;
+}
+#mc_embed_signup input#mc-embedded-subscribe:focus {
+	background: rgb(0, 154, 238); padding: 0px 20px; border-radius: 0px; border: 1px solid rgb(0, 154, 238); border-image: none; color: rgb(255, 255, 255); text-transform: uppercase; line-height: 46px; letter-spacing: 1px; font-family: "Lato", sans-serif; font-size: 13px; font-weight: 900;
+}
+#mc_embed_signup input#mc-embedded-subscribe:hover {
+	background: rgb(0, 131, 212);
+}
+@media only screen and (max-width:767px)
+{
+#mc_embed_signup input#mce-EMAIL {
+	width: 200px;
+}
+}
+.tp-caption.Agency-SmallTitle {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(255, 255, 255, 1); line-height: 22px; letter-spacing: 6px; font-family: lato; font-size: 15px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.Agency-SmallTitle {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(255, 255, 255, 1); line-height: 22px; letter-spacing: 6px; font-family: lato; font-size: 15px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Agency-SmallContent {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(255, 255, 255, 1); line-height: 24px; font-family: lato; font-size: 15px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.Agency-SmallContent {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(255, 255, 255, 1); line-height: 24px; font-family: lato; font-size: 15px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Agency-SmallLink {
+	padding: 0px; border-radius: 0px; text-align: center; color: rgba(248, 124, 9, 1); line-height: 22px; letter-spacing: 2px; font-family: lato; font-size: 12px; font-style: normal; font-weight: 700; text-decoration: none; border-top-color: transparent; border-right-color: transparent; border-bottom-color: rgb(248, 124, 9) !important; border-left-color: transparent; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 1px !important; border-left-width: 0px; border-top-style: none; border-right-style: none; border-bottom-style: solid !important; border-left-style: none; background-color: transparent;
+}
+.Agency-SmallLink {
+	padding: 0px; border-radius: 0px; text-align: center; color: rgba(248, 124, 9, 1); line-height: 22px; letter-spacing: 2px; font-family: lato; font-size: 12px; font-style: normal; font-weight: 700; text-decoration: none; border-top-color: transparent; border-right-color: transparent; border-bottom-color: rgb(248, 124, 9) !important; border-left-color: transparent; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 1px !important; border-left-width: 0px; border-top-style: none; border-right-style: none; border-bottom-style: solid !important; border-left-style: none; background-color: transparent;
+}
+.tp-caption.Agency-SmallLink:hover {
+	border-radius: 0px; border: 0px transparent; color: rgba(255, 255, 255, 1); text-decoration: none; cursor: pointer; background-color: transparent;
+}
+.Agency-SmallLink:hover {
+	border-radius: 0px; border: 0px transparent; color: rgba(255, 255, 255, 1); text-decoration: none; cursor: pointer; background-color: transparent;
+}
+.tp-caption.Agency-NavButton {
+	padding: 0px; border-radius: 0px; border: 0px solid rgba(0, 0, 0, 1); text-align: center; color: rgba(51, 51, 51, 1); line-height: 50px; font-family: Roboto; font-size: 17px; font-style: normal; font-weight: 500; text-decoration: none; background-color: rgba(255, 255, 255, 1);
+}
+.Agency-NavButton {
+	padding: 0px; border-radius: 0px; border: 0px solid rgba(0, 0, 0, 1); text-align: center; color: rgba(51, 51, 51, 1); line-height: 50px; font-family: Roboto; font-size: 17px; font-style: normal; font-weight: 500; text-decoration: none; background-color: rgba(255, 255, 255, 1);
+}
+.tp-caption.Agency-NavButton:hover {
+	border-radius: 0px; border: 0px solid rgba(0, 0, 0, 1); color: rgba(255, 255, 255, 1); text-decoration: none; cursor: pointer; background-color: rgba(51, 51, 51, 1);
+}
+.Agency-NavButton:hover {
+	border-radius: 0px; border: 0px solid rgba(0, 0, 0, 1); color: rgba(255, 255, 255, 1); text-decoration: none; cursor: pointer; background-color: rgba(51, 51, 51, 1);
+}
+.tp-caption.Agency-SmallLinkGreen {
+	padding: 0px; border-radius: 0px; text-align: center; color: rgba(109, 177, 155, 1); line-height: 22px; letter-spacing: 2px; font-family: lato; font-size: 12px; font-style: normal; font-weight: 700; text-decoration: none; border-top-color: transparent; border-right-color: transparent; border-bottom-color: rgb(109, 177, 155) !important; border-left-color: transparent; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 1px !important; border-left-width: 0px; border-top-style: none; border-right-style: none; border-bottom-style: solid !important; border-left-style: none; background-color: transparent;
+}
+.Agency-SmallLinkGreen {
+	padding: 0px; border-radius: 0px; text-align: center; color: rgba(109, 177, 155, 1); line-height: 22px; letter-spacing: 2px; font-family: lato; font-size: 12px; font-style: normal; font-weight: 700; text-decoration: none; border-top-color: transparent; border-right-color: transparent; border-bottom-color: rgb(109, 177, 155) !important; border-left-color: transparent; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 1px !important; border-left-width: 0px; border-top-style: none; border-right-style: none; border-bottom-style: solid !important; border-left-style: none; background-color: transparent;
+}
+.tp-caption.Agency-SmallLinkGreen:hover {
+	border-radius: 0px; border: 0px transparent; color: rgba(255, 255, 255, 1); text-decoration: none; cursor: pointer; background-color: transparent;
+}
+.Agency-SmallLinkGreen:hover {
+	border-radius: 0px; border: 0px transparent; color: rgba(255, 255, 255, 1); text-decoration: none; cursor: pointer; background-color: transparent;
+}
+.tp-caption.Agency-SmallLinkBlue {
+	padding: 0px; border-radius: 0px; text-align: center; color: rgba(153, 153, 153, 1); line-height: 22px; letter-spacing: 2px; font-family: lato; font-size: 12px; font-style: normal; font-weight: 700; text-decoration: none; border-top-color: transparent; border-right-color: transparent; border-bottom-color: rgb(153, 153, 153) !important; border-left-color: transparent; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 1px !important; border-left-width: 0px; border-top-style: none; border-right-style: none; border-bottom-style: solid !important; border-left-style: none; background-color: transparent;
+}
+.Agency-SmallLinkBlue {
+	padding: 0px; border-radius: 0px; text-align: center; color: rgba(153, 153, 153, 1); line-height: 22px; letter-spacing: 2px; font-family: lato; font-size: 12px; font-style: normal; font-weight: 700; text-decoration: none; border-top-color: transparent; border-right-color: transparent; border-bottom-color: rgb(153, 153, 153) !important; border-left-color: transparent; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 1px !important; border-left-width: 0px; border-top-style: none; border-right-style: none; border-bottom-style: solid !important; border-left-style: none; background-color: transparent;
+}
+.tp-caption.Agency-SmallLinkBlue:hover {
+	border-radius: 0px; border: 0px transparent; color: rgba(255, 255, 255, 1); text-decoration: none; cursor: pointer; background-color: transparent;
+}
+.Agency-SmallLinkBlue:hover {
+	border-radius: 0px; border: 0px transparent; color: rgba(255, 255, 255, 1); text-decoration: none; cursor: pointer; background-color: transparent;
+}
+.tp-caption.Agency-LogoText {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(255, 255, 255, 1); line-height: 20px; letter-spacing: 1px; font-family: Lato; font-size: 12px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.Agency-LogoText {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(255, 255, 255, 1); line-height: 20px; letter-spacing: 1px; font-family: Lato; font-size: 12px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Agency-ArrowTooltip {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(51, 51, 51, 1); line-height: 20px; font-family: "Permanent Marker"; font-size: 15px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.Agency-ArrowTooltip {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(51, 51, 51, 1); line-height: 20px; font-family: "Permanent Marker"; font-size: 15px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Agency-SmallSocial {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(255, 255, 255, 1); line-height: 30px; font-family: Arial; font-size: 30px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.Agency-SmallSocial {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(255, 255, 255, 1); line-height: 30px; font-family: Arial; font-size: 30px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.tp-caption.Agency-SmallSocial:hover {
+	border-radius: 0px; border: 0px transparent; color: rgba(51, 51, 51, 1); text-decoration: none; cursor: pointer; background-color: transparent;
+}
+.Agency-SmallSocial:hover {
+	border-radius: 0px; border: 0px transparent; color: rgba(51, 51, 51, 1); text-decoration: none; cursor: pointer; background-color: transparent;
+}
+.tp-caption.Twitter-Content a {
+	color: rgb(0, 132, 180) !important;
+}
+.tp-caption.Twitter-Content a:visited {
+	color: rgb(0, 132, 180) !important;
+}
+.tp-caption.Twitter-Content a:hover {
+	color: rgb(0, 132, 180) !important; text-decoration: underline !important;
+}
+.tp-caption.CreativeFrontPage-Btn {
+	padding: 0px 50px; border-radius: 4px; border: 0px solid rgba(0, 0, 0, 1); text-align: left; color: rgba(255, 255, 255, 1); line-height: 60px; letter-spacing: 2px; font-family: Roboto; font-size: 14px; font-style: normal; font-weight: 900; text-decoration: none; background-color: rgba(0, 104, 92, 1);
+}
+.CreativeFrontPage-Btn {
+	padding: 0px 50px; border-radius: 4px; border: 0px solid rgba(0, 0, 0, 1); text-align: left; color: rgba(255, 255, 255, 1); line-height: 60px; letter-spacing: 2px; font-family: Roboto; font-size: 14px; font-style: normal; font-weight: 900; text-decoration: none; background-color: rgba(0, 104, 92, 1);
+}
+.tp-caption.CreativeFrontPage-Btn:hover {
+	border-radius: 4px; border: 0px solid rgba(0, 0, 0, 1); color: rgba(255, 255, 255, 1); text-decoration: none; cursor: pointer; background-color: rgba(0, 0, 0, 0.25);
+}
+.CreativeFrontPage-Btn:hover {
+	border-radius: 4px; border: 0px solid rgba(0, 0, 0, 1); color: rgba(255, 255, 255, 1); text-decoration: none; cursor: pointer; background-color: rgba(0, 0, 0, 0.25);
+}
+.tp-caption.CreativeFrontPage-Menu {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 14px; letter-spacing: 2px; font-family: roboto; font-size: 14px; font-style: normal; font-weight: 500; text-decoration: none; background-color: transparent;
+}
+.CreativeFrontPage-Menu {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 14px; letter-spacing: 2px; font-family: roboto; font-size: 14px; font-style: normal; font-weight: 500; text-decoration: none; background-color: transparent;
+}
+.tp-flip-index {
+	z-index: 1000 !important;
+}
+.tp-caption.Twitter-Content a {
+	color: rgb(0, 132, 180) !important;
+}
+.tp-caption.Twitter-Content a:visited {
+	color: rgb(0, 132, 180) !important;
+}
+.tp-caption.Twitter-Content a:hover {
+	color: rgb(0, 132, 180) !important; text-decoration: underline !important;
+}
+.tp-caption.FullScreenMenu-Category {
+	padding: 21px 30px 16px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(17, 17, 17, 1); line-height: 20px; letter-spacing: 3px; font-family: BenchNine; font-size: 20px; font-style: normal; font-weight: 700; text-decoration: none; background-color: rgba(255, 255, 255, 0.9);
+}
+.FullScreenMenu-Category {
+	padding: 21px 30px 16px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(17, 17, 17, 1); line-height: 20px; letter-spacing: 3px; font-family: BenchNine; font-size: 20px; font-style: normal; font-weight: 700; text-decoration: none; background-color: rgba(255, 255, 255, 0.9);
+}
+.tp-caption.FullScreenMenu-Title {
+	padding: 21px 30px 16px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 70px; font-family: BenchNine; font-size: 65px; font-style: normal; font-weight: 700; text-decoration: none; background-color: rgba(17, 17, 17, 0.9);
+}
+.FullScreenMenu-Title {
+	padding: 21px 30px 16px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 70px; font-family: BenchNine; font-size: 65px; font-style: normal; font-weight: 700; text-decoration: none; background-color: rgba(17, 17, 17, 0.9);
+}
+.tp-caption.Twitter-Content a {
+	color: rgb(0, 132, 180) !important;
+}
+.tp-caption.Twitter-Content a:visited {
+	color: rgb(0, 132, 180) !important;
+}
+.tp-caption.Twitter-Content a:hover {
+	color: rgb(0, 132, 180) !important; text-decoration: underline !important;
+}
+.tp-caption.TechJournal-Button {
+	padding: 1px 30px; border-radius: 0px; border: 0px solid rgba(0, 0, 0, 1); text-align: left; color: rgba(255, 255, 255, 1); line-height: 40px; letter-spacing: 3px; font-family: Raleway; font-size: 13px; font-style: normal; font-weight: 900; text-decoration: none; background-color: rgba(138, 0, 255, 1);
+}
+.TechJournal-Button {
+	padding: 1px 30px; border-radius: 0px; border: 0px solid rgba(0, 0, 0, 1); text-align: left; color: rgba(255, 255, 255, 1); line-height: 40px; letter-spacing: 3px; font-family: Raleway; font-size: 13px; font-style: normal; font-weight: 900; text-decoration: none; background-color: rgba(138, 0, 255, 1);
+}
+.tp-caption.TechJournal-Button:hover {
+	border-radius: 0px; border: 0px solid rgba(0, 0, 0, 1); color: rgba(0, 0, 0, 1); text-decoration: none; cursor: pointer; background-color: rgba(255, 255, 255, 1);
+}
+.TechJournal-Button:hover {
+	border-radius: 0px; border: 0px solid rgba(0, 0, 0, 1); color: rgba(0, 0, 0, 1); text-decoration: none; cursor: pointer; background-color: rgba(255, 255, 255, 1);
+}
+.tp-caption.TechJournal-Big {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 120px; letter-spacing: 0px; font-family: Raleway; font-size: 120px; font-style: normal; font-weight: 900; text-decoration: none; background-color: transparent;
+}
+.TechJournal-Big {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 1); line-height: 120px; letter-spacing: 0px; font-family: Raleway; font-size: 120px; font-style: normal; font-weight: 900; text-decoration: none; background-color: transparent;
+}
+.rev_slider {
+	overflow: hidden;
+}
+.effect_layer {
+	left: 0px; top: 0px; width: 100%; height: 100%; position: absolute;
+}
+.tp-caption.Twitter-Content a {
+	color: rgb(0, 132, 180) !important;
+}
+.tp-caption.Twitter-Content a:visited {
+	color: rgb(0, 132, 180) !important;
+}
+.tp-caption.Twitter-Content a:hover {
+	color: rgb(0, 132, 180) !important; text-decoration: underline !important;
+}
+#menu_forcefullwidth {
+	left: 0px; top: 0px; width: 100%; position: fixed !important; z-index: 5000;
+}
+.tp-caption.FullSiteBlock-Title {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(51, 51, 51, 1); line-height: 65px; font-family: Lato; font-size: 55px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.FullSiteBlock-Title {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(51, 51, 51, 1); line-height: 65px; font-family: Lato; font-size: 55px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.tp-caption.FullSiteBlock-SubTitle {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(51, 51, 51, 1); line-height: 34px; font-family: Lato; font-size: 25px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.FullSiteBlock-SubTitle {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(51, 51, 51, 1); line-height: 34px; font-family: Lato; font-size: 25px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.tp-caption.FullSiteBlock-Link {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(0, 150, 255, 1); line-height: 24px; font-family: Lato; font-size: 25px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.FullSiteBlock-Link {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(0, 150, 255, 1); line-height: 24px; font-family: Lato; font-size: 25px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.tp-caption.FullSiteBlock-Link:hover {
+	border-radius: 0px; border: 0px transparent; color: rgba(51, 51, 51, 1); text-decoration: none; cursor: pointer; background-color: transparent;
+}
+.FullSiteBlock-Link:hover {
+	border-radius: 0px; border: 0px transparent; color: rgba(51, 51, 51, 1); text-decoration: none; cursor: pointer; background-color: transparent;
+}
+.tp-caption.FullSiteBlock-DownButton {
+	padding: 1px; border-radius: 30px; border: 1px solid rgba(51, 51, 51, 1); text-align: center; color: rgba(51, 51, 51, 1); line-height: 32px; font-family: Roboto; font-size: 25px; font-style: normal; font-weight: 500; text-decoration: none; background-color: transparent;
+}
+.FullSiteBlock-DownButton {
+	padding: 1px; border-radius: 30px; border: 1px solid rgba(51, 51, 51, 1); text-align: center; color: rgba(51, 51, 51, 1); line-height: 32px; font-family: Roboto; font-size: 25px; font-style: normal; font-weight: 500; text-decoration: none; background-color: transparent;
+}
+.tp-caption.FullSiteBlock-DownButton:hover {
+	border-radius: 30px; border: 1px solid rgba(0, 150, 255, 1); color: rgba(0, 150, 255, 1); text-decoration: none; cursor: pointer; background-color: transparent;
+}
+.FullSiteBlock-DownButton:hover {
+	border-radius: 30px; border: 1px solid rgba(0, 150, 255, 1); color: rgba(0, 150, 255, 1); text-decoration: none; cursor: pointer; background-color: transparent;
+}
+.tp-caption.FullSiteBlock-Title {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(51, 51, 51, 1); line-height: 65px; font-family: Lato; font-size: 55px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.FullSiteBlock-Title {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(51, 51, 51, 1); line-height: 65px; font-family: Lato; font-size: 55px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.tp-caption.FullSiteBlock-SubTitle {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(51, 51, 51, 1); line-height: 34px; font-family: Lato; font-size: 25px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.FullSiteBlock-SubTitle {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(51, 51, 51, 1); line-height: 34px; font-family: Lato; font-size: 25px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.tp-caption.FullSiteBlock-Link {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(0, 150, 255, 1); line-height: 24px; font-family: Lato; font-size: 25px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.FullSiteBlock-Link {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(0, 150, 255, 1); line-height: 24px; font-family: Lato; font-size: 25px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.tp-caption.FullSiteBlock-Link:hover {
+	border-radius: 0px; border: 0px transparent; color: rgba(51, 51, 51, 1); text-decoration: none; cursor: pointer; background-color: transparent;
+}
+.FullSiteBlock-Link:hover {
+	border-radius: 0px; border: 0px transparent; color: rgba(51, 51, 51, 1); text-decoration: none; cursor: pointer; background-color: transparent;
+}
+.tp-caption.FullSiteBlock-DownButton {
+	padding: 1px; border-radius: 30px; border: 1px solid rgba(51, 51, 51, 1); text-align: center; color: rgba(51, 51, 51, 1); line-height: 32px; font-family: Roboto; font-size: 25px; font-style: normal; font-weight: 500; text-decoration: none; background-color: transparent;
+}
+.FullSiteBlock-DownButton {
+	padding: 1px; border-radius: 30px; border: 1px solid rgba(51, 51, 51, 1); text-align: center; color: rgba(51, 51, 51, 1); line-height: 32px; font-family: Roboto; font-size: 25px; font-style: normal; font-weight: 500; text-decoration: none; background-color: transparent;
+}
+.tp-caption.FullSiteBlock-DownButton:hover {
+	border-radius: 30px; border: 1px solid rgba(0, 150, 255, 1); color: rgba(0, 150, 255, 1); text-decoration: none; cursor: pointer; background-color: transparent;
+}
+.FullSiteBlock-DownButton:hover {
+	border-radius: 30px; border: 1px solid rgba(0, 150, 255, 1); color: rgba(0, 150, 255, 1); text-decoration: none; cursor: pointer; background-color: transparent;
+}
+.tp-caption.FullSiteBlock-Title {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(51, 51, 51, 1); line-height: 65px; font-family: Lato; font-size: 55px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.FullSiteBlock-Title {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(51, 51, 51, 1); line-height: 65px; font-family: Lato; font-size: 55px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.tp-caption.FullSiteBlock-SubTitle {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(51, 51, 51, 1); line-height: 34px; font-family: Lato; font-size: 25px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.FullSiteBlock-SubTitle {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(51, 51, 51, 1); line-height: 34px; font-family: Lato; font-size: 25px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.tp-caption.FullSiteBlock-DownButton {
+	padding: 1px; border-radius: 30px; border: 1px solid rgba(51, 51, 51, 1); text-align: center; color: rgba(51, 51, 51, 1); line-height: 32px; font-family: Roboto; font-size: 25px; font-style: normal; font-weight: 500; text-decoration: none; background-color: transparent;
+}
+.FullSiteBlock-DownButton {
+	padding: 1px; border-radius: 30px; border: 1px solid rgba(51, 51, 51, 1); text-align: center; color: rgba(51, 51, 51, 1); line-height: 32px; font-family: Roboto; font-size: 25px; font-style: normal; font-weight: 500; text-decoration: none; background-color: transparent;
+}
+.tp-caption.FullSiteBlock-DownButton:hover {
+	border-radius: 30px; border: 1px solid rgba(0, 150, 255, 1); color: rgba(0, 150, 255, 1); text-decoration: none; cursor: pointer; background-color: transparent;
+}
+.FullSiteBlock-DownButton:hover {
+	border-radius: 30px; border: 1px solid rgba(0, 150, 255, 1); color: rgba(0, 150, 255, 1); text-decoration: none; cursor: pointer; background-color: transparent;
+}
+.tp-caption.FullSiteBlock-Title {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(51, 51, 51, 1); line-height: 65px; font-family: Lato; font-size: 55px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.FullSiteBlock-Title {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(51, 51, 51, 1); line-height: 65px; font-family: Lato; font-size: 55px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.tp-caption.FullSiteBlock-SubTitle {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(51, 51, 51, 1); line-height: 34px; font-family: Lato; font-size: 25px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.FullSiteBlock-SubTitle {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(51, 51, 51, 1); line-height: 34px; font-family: Lato; font-size: 25px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.tp-caption.FullSiteBlock-Link {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(0, 150, 255, 1); line-height: 24px; font-family: Lato; font-size: 25px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.FullSiteBlock-Link {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(0, 150, 255, 1); line-height: 24px; font-family: Lato; font-size: 25px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.tp-caption.FullSiteBlock-Link:hover {
+	border-radius: 0px; border: 0px transparent; color: rgba(51, 51, 51, 1); text-decoration: none; cursor: pointer; background-color: transparent;
+}
+.FullSiteBlock-Link:hover {
+	border-radius: 0px; border: 0px transparent; color: rgba(51, 51, 51, 1); text-decoration: none; cursor: pointer; background-color: transparent;
+}
+.tp-caption.FullSiteBlock-DownButton {
+	padding: 1px; border-radius: 30px; border: 1px solid rgba(51, 51, 51, 1); text-align: center; color: rgba(51, 51, 51, 1); line-height: 32px; font-family: Roboto; font-size: 25px; font-style: normal; font-weight: 500; text-decoration: none; background-color: transparent;
+}
+.FullSiteBlock-DownButton {
+	padding: 1px; border-radius: 30px; border: 1px solid rgba(51, 51, 51, 1); text-align: center; color: rgba(51, 51, 51, 1); line-height: 32px; font-family: Roboto; font-size: 25px; font-style: normal; font-weight: 500; text-decoration: none; background-color: transparent;
+}
+.tp-caption.FullSiteBlock-DownButton:hover {
+	border-radius: 30px; border: 1px solid rgba(0, 150, 255, 1); color: rgba(0, 150, 255, 1); text-decoration: none; cursor: pointer; background-color: transparent;
+}
+.FullSiteBlock-DownButton:hover {
+	border-radius: 30px; border: 1px solid rgba(0, 150, 255, 1); color: rgba(0, 150, 255, 1); text-decoration: none; cursor: pointer; background-color: transparent;
+}
+.rev_slider {
+	overflow: hidden;
+}
+.effect_layer {
+	left: 0px; top: 0px; width: 100%; height: 100%; position: absolute;
+}
+.gyges .tp-thumb {
+	opacity: 1;
+}
+.gyges .tp-thumb-img-wrap {
+	margin: 0px; padding: 3px; transition:0.3s; width: 100%; height: 100%; display: inline-block; position: relative; box-sizing: border-box; background-color: rgba(0, 0, 0, 0.25); -webkit-transition: all 0.3s;
+}
+.gyges .tp-thumb-image {
+	padding: 3px; display: block; position: relative; box-sizing: border-box; box-shadow: inset 5px 5px 10px 0px rgba(0,0,0,0.25); -webkit-box-shadow: inset 5px 5px 10px 0px rgba(0, 0, 0, 0.25); -moz-box-shadow: inset 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
+}
+.gyges .tp-thumb:hover .tp-thumb-img-wrap {
+	background: linear-gradient(rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 100%);
+}
+.gyges .tp-thumb.selected .tp-thumb-img-wrap {
+	background: linear-gradient(rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 100%);
+}
+.tp-caption.FullSiteBlock-Title {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(51, 51, 51, 1); line-height: 65px; font-family: Lato; font-size: 55px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.FullSiteBlock-Title {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(51, 51, 51, 1); line-height: 65px; font-family: Lato; font-size: 55px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.tp-caption.FullSiteBlock-SubTitle {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(51, 51, 51, 1); line-height: 34px; font-family: Lato; font-size: 25px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.FullSiteBlock-SubTitle {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(51, 51, 51, 1); line-height: 34px; font-family: Lato; font-size: 25px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.tp-caption.FullSiteBlock-Link {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(0, 150, 255, 1); line-height: 24px; font-family: Lato; font-size: 25px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.FullSiteBlock-Link {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(0, 150, 255, 1); line-height: 24px; font-family: Lato; font-size: 25px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.tp-caption.FullSiteBlock-Link:hover {
+	border-radius: 0px; border: 0px transparent; color: rgba(51, 51, 51, 1); text-decoration: none; cursor: pointer; background-color: transparent;
+}
+.FullSiteBlock-Link:hover {
+	border-radius: 0px; border: 0px transparent; color: rgba(51, 51, 51, 1); text-decoration: none; cursor: pointer; background-color: transparent;
+}
+.tp-caption.FullSiteBlock-SubTitle {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(51, 51, 51, 1); line-height: 34px; font-family: Lato; font-size: 25px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.FullSiteBlock-SubTitle {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(51, 51, 51, 1); line-height: 34px; font-family: Lato; font-size: 25px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.tp-caption.FullSiteBlock-SubTitle {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(51, 51, 51, 1); line-height: 34px; font-family: Lato; font-size: 25px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.FullSiteBlock-SubTitle {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(51, 51, 51, 1); line-height: 34px; font-family: Lato; font-size: 25px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.tp-caption.FullSiteBlock-FooterLink {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(85, 85, 85, 1); line-height: 20px; font-family: Lato; font-size: 15px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.FullSiteBlock-FooterLink {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(85, 85, 85, 1); line-height: 20px; font-family: Lato; font-size: 15px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.tp-caption.FullSiteBlock-FooterLink:hover {
+	border-radius: 0px; border: 0px transparent; color: rgba(0, 150, 255, 1); text-decoration: none; cursor: pointer; background-color: transparent;
+}
+.FullSiteBlock-FooterLink:hover {
+	border-radius: 0px; border: 0px transparent; color: rgba(0, 150, 255, 1); text-decoration: none; cursor: pointer; background-color: transparent;
+}
+.fb-share-button.fb_iframe_widget iframe {
+	width: 115px !important;
+}
+#tp-socialwrapper {
+	opacity: 0;
+}
+.tp-caption.Twitter-Content a {
+	color: rgb(0, 132, 180) !important;
+}
+.tp-caption.Twitter-Content a:visited {
+	color: rgb(0, 132, 180) !important;
+}
+.tp-caption.Twitter-Content a:hover {
+	color: rgb(0, 132, 180) !important; text-decoration: underline !important;
+}
+#menu_forcefullwidth {
+	left: 0px; top: 0px; width: 100%; position: fixed !important; z-index: 5000;
+}
+#tp-menubg {
+	background: linear-gradient(rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0) 100%);
+}
+#mc_embed_signup input[type='email'] {
+	padding: 0px 20px; border-radius: 3px; border: 0px currentColor; transition:background-color 0.5s; border-image: none; width: 400px; color: rgb(136, 136, 136) !important; line-height: 46px; font-family: "Lato", sans-serif; font-size: 16px; font-weight: 400; margin-bottom: 0px; cursor: text; background-color: rgb(255, 255, 255); -webkit-transition: background-color 0.5s; -o-transition: background-color 0.5s; -moz-transition: background-color 0.5s; -webkit-border-radius: 3px; -moz-border-radius: 3px;
+}
+#mc_embed_signup input[type='email']:-ms-input-placeholder {
+	color: rgb(136, 136, 136) !important;
+}
+#mc_embed_signup input[type='email']:focus {
+	color: rgb(69, 69, 69); background-color: rgb(245, 245, 245);
+}
+#mc_embed_signup input#mc-embedded-subscribe {
+	background: rgb(240, 69, 49); padding: 0px 30px; border-radius: 3px; border: 0px currentColor; border-image: none; color: rgb(255, 255, 255); text-transform: none; line-height: 46px; font-family: "Lato", sans-serif; font-size: 16px; font-weight: 700; -webkit-border-radius: 3px; -moz-border-radius: 3px;
+}
+#mc_embed_signup input#mc-embedded-subscribe:focus {
+	background: rgb(240, 69, 49); padding: 0px 30px; border-radius: 3px; border: 0px currentColor; border-image: none; color: rgb(255, 255, 255); text-transform: none; line-height: 46px; font-family: "Lato", sans-serif; font-size: 16px; font-weight: 700; -webkit-border-radius: 3px; -moz-border-radius: 3px;
+}
+#mc_embed_signup input#mc-embedded-subscribe:hover {
+	background: rgb(224, 55, 39);
+}
+@media only screen and (max-width:767px)
+{
+#mc_embed_signup input[type='email'] {
+	width: 260px;
+}
+}
+@media only screen and (max-width:480px)
+{
+#mc_embed_signup input[type='email'] {
+	width: 160px;
+}
+}
+#rev_slider_167_6 .uranus.tparrows {
+	background: rgba(255, 255, 255, 0); width: 50px; height: 50px;
+}
+#rev_slider_167_6 .uranus.tparrows::before {
+	transition:0.3s; width: 50px; height: 50px; line-height: 50px; font-size: 40px; -webkit-transition: all 0.3s;
+}
+#rev_slider_167_6 .uranus.tparrows:hover::before {
+	opacity: 0.75;
+}
+.tp-caption.FullSiteBlock-SubTitle {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(51, 51, 51, 1); line-height: 34px; font-family: Lato; font-size: 25px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.FullSiteBlock-SubTitle {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(51, 51, 51, 1); line-height: 34px; font-family: Lato; font-size: 25px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.tp-caption.ParallaxWebsite-FooterItem {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 0.5); line-height: 24px; font-family: Lato; font-size: 16px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.ParallaxWebsite-FooterItem {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: left; color: rgba(255, 255, 255, 0.5); line-height: 24px; font-family: Lato; font-size: 16px; font-style: normal; font-weight: 400; text-decoration: none; background-color: transparent;
+}
+.tp-caption.ParallaxWebsite-FooterItem:hover {
+	border-radius: 0px; border: 0px transparent; color: rgba(255, 255, 255, 1); text-decoration: none; cursor: pointer; background-color: transparent;
+}
+.ParallaxWebsite-FooterItem:hover {
+	border-radius: 0px; border: 0px transparent; color: rgba(255, 255, 255, 1); text-decoration: none; cursor: pointer; background-color: transparent;
+}
+.fb-share-button.fb_iframe_widget iframe {
+	width: 115px !important;
+}
+iframe.twitter-share-button {
+	display: none;
+}
+.fb-share-button.fb_iframe_widget iframe {
+	display: none;
+}
+.tp-caption.FullSiteBlock-Link {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(0, 150, 255, 1); line-height: 24px; font-family: Lato; font-size: 25px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
+.FullSiteBlock-Link {
+	padding: 0px; border-radius: 0px; border: 0px transparent; text-align: center; color: rgba(0, 150, 255, 1); line-height: 24px; font-family: Lato; font-size: 25px; font-style: normal; font-weight: 300; text-decoration: none; background-color: transparent;
+}
