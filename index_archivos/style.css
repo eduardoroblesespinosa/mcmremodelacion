@@ -10,7 +10,7 @@
 	margin: 0px; padding: 0px; border: currentColor; border-image: none;
 }
 body {
-	background: no-repeat top / cover rgb(255, 255, 255); color: rgb(119, 119, 119); line-height: 1.8em; font-family: "Open Sans", sans-serif; font-size: 15px; font-weight: 400; -webkit-font-smoothing: antialiased;
+	background: no-repeat top / cover rgb(255, 255, 255); color: rgb(119, 119, 119); line-height: 1.8em; font-family: "arial", sans-serif; font-size: 15px; font-weight: 400; -webkit-font-smoothing: antialiased;
 }
 a {
 	color: rgb(231, 71, 12); text-decoration: none; cursor: pointer;
