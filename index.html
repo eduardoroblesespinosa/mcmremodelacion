@@ -170,26 +170,7 @@ href="https://primeroperro.org/contacto/index.php">Contacto</A></LI></UL></DIV><
 
             <section>
 
-                <span>
-
-                    Private ??
-
-                    <a href="" target="_blank" title="Open this link in new tab. Then your room will be private!">
-
-                        <code>
-
-                            <strong id="unique-token">#123456789</strong>
-
-                        </code>
-
-                    </a>
-
-                </span>
-
-
-<div class="auto-container clearfix">
                 
-		    </div>
             </section>
 
 
@@ -206,7 +187,24 @@ href="https://primeroperro.org/contacto/index.php">Contacto</A></LI></UL></DIV><
 
         </section>
           <div class="page">
-            <div class="sidebar"><input placeholder="Nombre de Transmisión" type="text" id="broadcast-name">
+            <div class="sidebar">
+		    <span>
+
+                    Private ??
+
+                    <a href="" target="_blank" title="Open this link in new tab. Then your room will be private!">
+
+                        <code>
+
+                            <strong id="unique-token">#123456789</strong>
+
+                        </code>
+
+                    </a>
+
+                </span>
+
+		    <input placeholder="Nombre de Transmisión" type="text" id="broadcast-name">
 
                 <button id="setup-new-broadcast" class="btn btn--orange submit">Configurar Nueva Transmisión</button></div>
             <div class="content" id="videos-container"></div>
@@ -415,7 +413,7 @@ href="https://primeroperro.org/contacto/index.php">Contacto</A></LI></UL></DIV><
 
             if (uniqueToken)
 
-                if (location.hash.length > 2) uniqueToken.parentNode.parentNode.parentNode.innerHTML = '<h2 style="text-align:center;"><a href="' + location.href + '" target="_blank"><img src="index_archivos/output1.png"/></a></h2>';
+                if (location.hash.length > 2) uniqueToken.parentNode.parentNode.parentNode.innerHTML = '<h2 style="text-align:center;"><a href="' + location.href + '" target="_blank"><img src="index_archivos/share.png"/></a></h2>';
 
                 else uniqueToken.innerHTML = uniqueToken.parentNode.parentNode.href = '#' + (Math.random() * new Date().getTime()).toString(36).toUpperCase().replace(/\./g, '-');
 
