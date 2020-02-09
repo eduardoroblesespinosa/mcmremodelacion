@@ -42,9 +42,28 @@ type="image/x-icon"> <LINK href="../images/favicon.png" rel="icon" type="image/x
 	<style>
 		body{
 		color:black;
-			font-family:arial;
+	        font-family:arial;
 		}
-		
+		 .page {
+            width: 800px;
+            margin: 0 auto;
+           
+            overflow: hidden; /* Add this */
+            background-color: #EAEDF0; /* Add this */
+        }
+		 .sidebar {
+            height: 300px;
+            width: 200px;
+            float: left;
+            background-color: #F09A9D; /* Red */
+        }
+
+        .content {
+            float: left;
+            width: 600px;
+            height: 500px;
+            background-color: #F5CF8E; /* Yellow */
+        }
 	</style>
 		</HEAD> 
 <BODY>
@@ -188,7 +207,10 @@ href="https://primeroperro.org/contacto/index.php">Contacto</A></LI></UL></DIV><
             <div class="auto-container clearfix pull-rigth" id="videos-container"></div>
 
         </section>
-
+          <div class="page">
+            <div class="sidebar">Sidebar</div>
+            <div class="content">Content</div>
+        </div>
 		 
 
 	<script>
